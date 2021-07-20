@@ -1,0 +1,79 @@
+[{
+    "start": 1,
+    "end": null,
+    "id": "all",
+    "items": [
+        {
+            "bubble_id": "7",
+            "duration": 10
+        },
+        {
+            "bubble_id": "7",
+            "duration": 10
+        },
+        {
+            "bubble_id": "8",
+            "duration": 10
+        },
+        {
+            "bubble_id": "8",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        },
+        {
+            "bubble_id": "8",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        },
+        {
+            "bubble_id": "8",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        },
+        {
+            "bubble_id": "9",
+            "duration": 10
+        },
+        {
+            "bubble_id": "8",
+            "duration": 10
+        },
+        {
+            "bubble_id": "7",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        },
+        {
+            "bubble_id": "9",
+            "duration": 10
+        },
+        {
+            "bubble_id": "8",
+            "duration": 10
+        },
+        {
+            "bubble_id": "7",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        }
+    ]
+}]

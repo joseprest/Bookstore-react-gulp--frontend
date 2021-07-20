@@ -1,0 +1,53 @@
+.modal-bubbles-list
+{
+    @extend %fullscreen;
+
+    .list-container
+    {
+        overflow-y: auto;
+        height: 100%;
+
+        .list-gradient
+        {
+            display: none;
+        }
+    }
+
+    .bubble
+    {
+
+    }
+
+    .gradients-container
+    {
+        @extend %fullscreen;
+        box-sizing: border-box;
+        padding-left: $modal-border-radius;
+        padding-right: $modal-border-radius;
+        pointer-events: none;
+    }
+
+    .gradients-container-inner
+    {
+        position: relative;
+        height: 100%;
+    }
+
+    .gradient
+    {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: $modal-bubbles-covers-list-margins;
+
+        &.gradient-top
+        {
+            top: -1px;
+        }
+
+        &.gradient-bottom
+        {
+            bottom: -1px;
+        }
+    }
+}

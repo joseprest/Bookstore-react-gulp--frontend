@@ -1,0 +1,76 @@
+.debug-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:auto;
+    z-index:9999;
+    background: rgba(255,255,255, 0.2);
+    padding:0px 10px;
+    box-sizing: border-box;
+    color: $color_black;
+    font-size: 10px;
+
+    @include screen-small {
+        font-size: 12px;
+    }
+
+    @include screen-medium {
+        font-size: 14px;
+    }
+
+    @include screen-large {
+        font-size: 30px;
+    }
+
+    @include screen-ultra {
+        font-size: 60px;
+    }
+
+    button
+    {
+        background: $color_white;
+        margin-right: 20px;
+        padding: 4px;
+    }
+
+    input, label
+    {
+        color: #fff;
+        text-shadow: 0 0 4px #000;
+    }
+
+    .manivelle-buttons
+    {
+        display: inline-block;
+
+        button
+        {
+            min-width: 200px;
+
+            @include screen-small {
+                min-width: 300px;
+            }
+
+            @include screen-medium {
+                min-width: 400px;
+            }
+
+            @include screen-large {
+                min-width: 500px;
+            }
+        }
+
+        input
+        {
+            margin-left: 10px;
+            margin-right: 2px;
+        }
+    }
+
+    .slideshow-buttons
+    {
+        margin-left: 10px;
+        display: inline-block;
+    }
+}

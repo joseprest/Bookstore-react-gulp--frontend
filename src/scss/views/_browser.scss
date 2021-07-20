@@ -1,0 +1,129 @@
+.browser-container
+{
+    @extend %fullscreen;
+    overflow:hidden;
+    transform-origin: top left;
+}
+
+.browser-scale {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.browser
+{
+    @extend %fullscreen;
+    transition: background-color .4s;
+    background-color: $color_browser;
+
+    .browser-top-bar
+    {
+        transition: background-color .4s;
+        background-color: $color_browser;
+        position: absolute;
+        width: 100%;
+        height: 20px;
+
+        &:before
+        {
+            content: "";
+            display: block;
+            @extend %fullscreen;
+            background-color: rgba(0,0,0,0.3);
+        }
+    }
+
+    .browser-footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transition: background-color 0.8s ease-out;
+    }
+
+    .browser-close
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 100%;
+        background-image: url("#{$images-path}/ui/btn/icon-close-browser.svg");
+        background-color: $color_close_browser;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 33% 33%;
+        transition: background-color .4s;
+    }
+
+    .browser-content
+    {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+
+        & > .transitionable-views > .transitionable-view
+        {
+            @extend %fullscreen;
+        }
+    }
+
+    /* Small devices */
+    @include screen-small('both', false)
+    {
+        .browser-top-bar
+        {
+            height: $browser-top-bar-height-small;
+        }
+
+        .browser-close
+        {
+            width: $browser-top-bar-height-small;
+        }
+    }
+
+    /* Medium devices */
+    @include screen-medium('both', false)
+    {
+        .browser-top-bar
+        {
+            height: $browser-top-bar-height-medium;
+        }
+
+        .browser-close
+        {
+            width: $browser-top-bar-height-medium;
+        }
+    }
+
+    /* Large devices */
+    @include screen-large('both', false)
+    {
+        .browser-top-bar
+        {
+            height: $browser-top-bar-height-large;
+        }
+
+        .browser-close
+        {
+            width: $browser-top-bar-height-large;
+        }
+    }
+
+    /* Ultra devices */
+    @include screen-ultra('both', false)
+    {
+        .browser-top-bar
+        {
+            height: $browser-top-bar-height-ultra;
+        }
+
+        .browser-close
+        {
+            width: $browser-top-bar-height-ultra;
+        }
+    }
+}

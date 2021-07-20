@@ -1,0 +1,11 @@
+.slide
+{
+    @extend %fullscreen;
+    /*background:#000;*/
+    overflow: hidden;
+}
+
+.slide-content
+{
+    @extend %fullscreen;
+}

@@ -1,0 +1,11 @@
+.browser-zones
+{
+    @extend %fullscreen;
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 1;
+
+    .browser-zone {
+        @extend %fullscreen;
+    }
+}

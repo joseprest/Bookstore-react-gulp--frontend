@@ -1,0 +1,11 @@
+.slides {
+    @extend %fullscreen;
+
+    .slide-container {
+        position: absolute;
+    }
+
+    .slide-container-inner {
+        position: absolute;
+    }
+}

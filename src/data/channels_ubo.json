@@ -1,0 +1,1680 @@
+[
+  {
+    "id": "8",
+    "type": "publications",
+    "snippet": {
+      "title": "ebooks Cairn",
+      "description": "",
+      "summary": null,
+      "picture": {
+        "link": "http://cdn.manivelle.io/assets/image/2019-03-22/491865-034356.svg"
+      }
+    },
+    "fields": {
+      "theme": {
+        "color_light": "#D23A26",
+        "color_medium": "#551109",
+        "color_normal": "#65150B",
+        "color_dark": "#3E0C06",
+        "color_darker": "#2B0804",
+        "color_shadow": "#9B1F14",
+        "color_shadow_darker": "#98221B"
+      },
+      "settings": {
+        "channelView": "filters_circles",
+        "colorPalette": "skittles",
+        "channelFilterName": null,
+        "slideshowInfosView": null,
+        "slideshowImageMaxWidth": null,
+        "slidesHeightRatio": 0.35,
+        "slidesMarginRatio": 0.05,
+        "slidesWidthRatio": null,
+        "slidesSlideView": "thumbnail",
+        "slideMenuDestinationView": null,
+        "modalBubblesListView": "cover",
+        "modalSendBubbleHasMessage": false,
+        "modalSendBubbleDefaultMessage": null,
+        "bubbleDetailsShowTypeName": true,
+        "bubbleDetailsShowTitle": true,
+        "bubbleDetailsContentView": "columns",
+        "bubbleDetailsExcludedButtons": null,
+        "bubbleDetailsContentColumns": [
+          {
+            "column": 0,
+            "type": "description",
+            "value": "snippet.description"
+          },
+          {
+            "column": 1,
+            "type": "fields",
+            "value": "fields.authors,fields.publisher,fields.date,fields.collection,fields.categories"
+          },
+          { "column": 1, "type": "buttons", "value": "send-bubble" }
+        ],
+        "bubbleSuggestionView": null
+      }
+    },
+    "filters": [
+      {
+        "name": "collection",
+        "type": "values",
+        "label": "Collections",
+        "values": [
+          { "value": "1001-bebes", "label": "1001 b\u00e9b\u00e9s" },
+          { "value": "1001-et", "label": "1001 et +" },
+          { "value": "69", "label": "69" },
+          { "value": "a-contrario-campus", "label": "A contrario Campus" },
+          { "value": "a-laube-de-la-vie", "label": "\u00c0 l'Aube de la vie" },
+          { "value": "academique", "label": "Acad\u00e9mique " },
+          {
+            "value": "accompagnement-a-la-parentalite",
+            "label": "Accompagnement \u00e0 la Parentalit\u00e9"
+          },
+          { "value": "accompagner-partager", "label": "Accompagner-Partager" },
+          {
+            "value": "actes-de-la-recherche-a-lens",
+            "label": "Actes de la recherche \u00e0 l'Ens"
+          },
+          {
+            "value": "actes-et-memoires-du-peuple",
+            "label": "Actes et m\u00e9moires du peuple"
+          },
+          { "value": "acteurs-sociaux", "label": "Acteurs sociaux" },
+          { "value": "action-sante", "label": "Action sant\u00e9" },
+          {
+            "value": "actualite-de-la-psychanalyse",
+            "label": "Actualit\u00e9 de la psychanalyse"
+          },
+          {
+            "value": "actualite-de-la-psychiatrie",
+            "label": "Actualit\u00e9 de la psychiatrie"
+          },
+          {
+            "value": "actualites-en-sciences-sociales",
+            "label": "Actualit\u00e9s en sciences sociales"
+          },
+          {
+            "value": "actualites-pedagogiques-et-psychologiques",
+            "label": "Actualit\u00e9s p\u00e9dagogiques et psychologiques"
+          },
+          {
+            "value": "actuel-marx-confrontations",
+            "label": "Actuel Marx Confrontations"
+          },
+          { "value": "adolescence", "label": "Adolescence" },
+          {
+            "value": "agricultures-et-defis-du-monde",
+            "label": "Agricultures et d\u00e9fis du monde"
+          },
+          {
+            "value": "agricultures-tropicales-en-poche",
+            "label": "Agricultures tropicales en poche"
+          },
+          { "value": "aide-memoire", "label": "Aide-M\u00e9moire" },
+          {
+            "value": "aire-la-recherche-en-itep",
+            "label": "AIRe / La recherche en ITEP"
+          },
+          { "value": "algorithme", "label": "Algorithme" },
+          {
+            "value": "alternatives-sociales",
+            "label": "Alternatives sociales"
+          },
+          { "value": "amstramram", "label": "Amstramram" },
+          { "value": "analyse-laique", "label": "Analyse la\u00efque" },
+          { "value": "annuels", "label": "Annuels" },
+          { "value": "anthropologie", "label": "Anthropologie" },
+          { "value": "apprendre", "label": "Apprendre" },
+          {
+            "value": "apprendre-comprendre",
+            "label": "Apprendre - Comprendre"
+          },
+          {
+            "value": "archives-des-sciences-sociales",
+            "label": "Archives des sciences sociales"
+          },
+          { "value": "argumentation", "label": "Argumentation" },
+          {
+            "value": "argumentation-sciences-du-langage",
+            "label": "Argumentation, sciences du langage"
+          },
+          { "value": "armillaire", "label": "Armillaire" },
+          { "value": "art-et-litterature", "label": "Art et litt\u00e9rature" },
+          { "value": "arts-cinema", "label": "Arts  Cin\u00e9ma" },
+          {
+            "value": "aspects-internationaux-pedagogie-comparee",
+            "label": "Aspects internationaux - P\u00e9dagogie compar\u00e9e"
+          },
+          { "value": "au-vif", "label": "Au vif" },
+          { "value": "bacchus", "label": "Bacchus" },
+          { "value": "banc-dessais", "label": "Banc d\u2019essais" },
+          { "value": "beaux-livres", "label": "Beaux livres" },
+          { "value": "belfond-sciences", "label": "Belfond Sciences" },
+          {
+            "value": "bibliotheque-de-la-mediterranee",
+            "label": "Biblioth\u00e8que de la M\u00e9diterran\u00e9e"
+          },
+          {
+            "value": "bibliotheque-de-psychanalyse",
+            "label": "Biblioth\u00e8que de psychanalyse"
+          },
+          {
+            "value": "bibliotheque-des-fondations",
+            "label": "Biblioth\u00e8que des fondations"
+          },
+          {
+            "value": "bibliotheque-des-sciences-humaines",
+            "label": "Biblioth\u00e8que des sciences humaines"
+          },
+          {
+            "value": "bibliotheque-geopolitique",
+            "label": "Biblioth\u00e8que g\u00e9opolitique"
+          },
+          {
+            "value": "bibliotheque-napoleonienne",
+            "label": "Biblioth\u00e8que napol\u00e9onienne"
+          },
+          { "value": "biographie", "label": "Biographie" },
+          { "value": "biographies", "label": "Biographies" },
+          {
+            "value": "cahiers-de-lacademie-des-sciences-morales-et-politiques",
+            "label": "Cahiers de l'acad\u00e9mie des sciences morales et politiques"
+          },
+          {
+            "value": "cahiers-de-sainte-anne",
+            "label": "Cahiers de Sainte-Anne"
+          },
+          {
+            "value": "cahiers-du-cercle-des-economistes",
+            "label": "Cahiers du Cercle des \u00e9conomistes"
+          },
+          { "value": "cahiers-du-cresm", "label": "Cahiers du CRESM" },
+          { "value": "cahiers-libres", "label": "Cahiers libres" },
+          { "value": "cancers-psys", "label": "Cancers  psys" },
+          { "value": "care-studies", "label": "Care studies" },
+          { "value": "carre-histoire", "label": "Carr\u00e9 Histoire" },
+          {
+            "value": "carrefour-des-psychotherapies",
+            "label": "Carrefour des psychoth\u00e9rapies"
+          },
+          {
+            "value": "centre-dhistoire-du-syndicalisme",
+            "label": "Centre d'histoire du syndicalisme"
+          },
+          { "value": "centre-primo-levi", "label": "Centre Primo Levi" },
+          {
+            "value": "chaire-etienne-gilson",
+            "label": "Chaire Etienne Gilson"
+          },
+          { "value": "champs-linguistiques", "label": "Champs linguistiques" },
+          {
+            "value": "champs-psychanalytiques",
+            "label": "Champs psychanalytiques"
+          },
+          {
+            "value": "chiffres-cles-statistiques-de-la-culture",
+            "label": "Chiffres cl\u00e9s statistiques de la culture"
+          },
+          {
+            "value": "chroniques-electorales",
+            "label": "Chroniques \u00e9lectorales "
+          },
+          {
+            "value": "civilisations-et-mentalites",
+            "label": "Civilisations et Mentalit\u00e9s"
+          },
+          { "value": "clinique-du-travail", "label": "Clinique du travail" },
+          { "value": "cned", "label": "CNED" },
+          { "value": "cnrs-ethnologie", "label": "CNRS Ethnologie" },
+          { "value": "cnrs-histoire", "label": "CNRS Histoire" },
+          { "value": "cnrs-philosophie", "label": "CNRS Philosophie" },
+          { "value": "cnrs-plus", "label": "CNRS Plus" },
+          {
+            "value": "collection-de-la-maison-des-pays-iberiques",
+            "label": "Collection de la Maison des pays ib\u00e9riques"
+          },
+          {
+            "value": "collection-historique",
+            "label": "Collection historique"
+          },
+          {
+            "value": "college-international-de-philosophie",
+            "label": "Coll\u00e8ge international de philosophie"
+          },
+          { "value": "colloque", "label": "Colloque" },
+          {
+            "value": "colloques-internationaux-du-cnrs",
+            "label": "Colloques internationaux du CNRS"
+          },
+          { "value": "comment", "label": "Comment\u00a0?" },
+          { "value": "comprendre", "label": "Comprendre" },
+          {
+            "value": "comprendre-le-handicap-psychique",
+            "label": "Comprendre le handicap psychique"
+          },
+          {
+            "value": "comptabilite-controle-finance",
+            "label": "Comptabilit\u00e9, Contr\u00f4le  Finance"
+          },
+          {
+            "value": "connaissances-de-la-diversite",
+            "label": "Connaissances de la diversit\u00e9"
+          },
+          { "value": "contemporaine", "label": "Contemporaine" },
+          { "value": "contester", "label": "Contester" },
+          { "value": "contre-feux", "label": "Contre-feux" },
+          {
+            "value": "couples-famille-et-metamorphoses",
+            "label": "Couples, famille et m\u00e9tamorphoses"
+          },
+          { "value": "crescendo", "label": "Crescendo" },
+          { "value": "creusets", "label": "Creusets" },
+          {
+            "value": "criminalite-internationale",
+            "label": "Criminalit\u00e9 internationale"
+          },
+          {
+            "value": "criminologie-et-sciences-de-lhomme",
+            "label": "Criminologie et sciences de l'homme"
+          },
+          { "value": "crisis", "label": "Crisis" },
+          {
+            "value": "critiques-de-leconomie-politique",
+            "label": "Critiques de l'\u00e9conomie politique"
+          },
+          { "value": "croisees", "label": "Crois\u00e9es" },
+          {
+            "value": "croissance-de-lenfant-genese-de-lhomme",
+            "label": "Croissance de l'enfant gen\u00e8se de l'homme"
+          },
+          {
+            "value": "culture-communication",
+            "label": "Culture  Communication"
+          },
+          {
+            "value": "culture-et-societe",
+            "label": "Culture et Soci\u00e9t\u00e9"
+          },
+          { "value": "culture-guides", "label": "Culture guides" },
+          { "value": "de-lallemagne", "label": "De l'Allemagne" },
+          { "value": "debats", "label": "D\u00e9bats" },
+          { "value": "debats-communistes", "label": "D\u00e9bats communistes" },
+          {
+            "value": "debats-de-psychanalyse-monographies",
+            "label": "D\u00e9bats de psychanalyse monographies"
+          },
+          {
+            "value": "debats-philosophiques",
+            "label": "D\u00e9bats philosophiques"
+          },
+          {
+            "value": "des-travaux-et-des-jours",
+            "label": "Des Travaux et des Jours"
+          },
+          { "value": "design-innovation", "label": "Design  Innovation" },
+          {
+            "value": "detours-litteraires",
+            "label": "D\u00e9tours litt\u00e9raires"
+          },
+          {
+            "value": "developpement-durable-et-innovation-institutionnelle",
+            "label": "D\u00e9veloppement durable et innovation institutionnelle"
+          },
+          {
+            "value": "developpement-et-civilisations",
+            "label": "D\u00e9veloppement et Civilisations"
+          },
+          { "value": "dialectiques", "label": "Dialectiques" },
+          {
+            "value": "dialectiques-interventions",
+            "label": "Dialectiques-interventions"
+          },
+          { "value": "dialogue", "label": "Dialogue" },
+          { "value": "diaspora", "label": "Diaspora" },
+          {
+            "value": "dictionnaire-de-curiosites",
+            "label": "Dictionnaire de curiosit\u00e9s"
+          },
+          { "value": "dito", "label": "Dito" },
+          { "value": "divers-faits", "label": "Divers faits" },
+          { "value": "documents", "label": "Documents " },
+          { "value": "documents-et-essais", "label": "Documents et Essais" },
+          {
+            "value": "documents-et-temoignages",
+            "label": "Documents et t\u00e9moignages"
+          },
+          { "value": "dominos", "label": "Dominos" },
+          { "value": "dossiers-noirs", "label": "Dossiers noirs" },
+          { "value": "droit-et-justice", "label": "Droit et justice" },
+          { "value": "droit-et-sante", "label": "Droit et sant\u00e9" },
+          { "value": "e-conomiques", "label": "E-conomiques" },
+          {
+            "value": "ecologie-en-questions-l",
+            "label": "Ecologie en questions (L')"
+          },
+          { "value": "economie", "label": "Economie" },
+          {
+            "value": "economie-et-humanisme",
+            "label": "Economie et humanisme"
+          },
+          {
+            "value": "economie-et-societe",
+            "label": "Economie et soci\u00e9t\u00e9"
+          },
+          {
+            "value": "economie-societe-region",
+            "label": "\u00c9conomie, Soci\u00e9t\u00e9, R\u00e9gion"
+          },
+          { "value": "ecriture", "label": "\u00c9criture" },
+          { "value": "ecrivains", "label": "\u00c9crivains" },
+          {
+            "value": "ecrivains-de-toujours",
+            "label": "Ecrivains de toujours"
+          },
+          {
+            "value": "education-et-formation",
+            "label": "Education et formation"
+          },
+          {
+            "value": "education-et-formation-biennales-de-leducation-et-de-la-formation",
+            "label": "Education et formation / Biennales de l'\u00e9ducation et de la formation"
+          },
+          {
+            "value": "education-et-formation-formation-permanente-education-des-adultes",
+            "label": "Education et formation / Formation permanente ? \u00c9ducation des adultes"
+          },
+          {
+            "value": "education-et-formation-leducateur",
+            "label": "Education et formation / L'\u00c9ducateur"
+          },
+          {
+            "value": "education-et-formation-pedagogie-theorique-et-critique",
+            "label": "Education et formation / P\u00e9dagogie th\u00e9orique et critique"
+          },
+          {
+            "value": "education-et-formation-pedagogues-et-pedagogies",
+            "label": "Education et formation / P\u00e9dagogues et p\u00e9dagogies"
+          },
+          {
+            "value": "education-et-formation-recherches-scientifiques",
+            "label": "Education et formation / Recherches scientifiques "
+          },
+          {
+            "value": "education-et-formation-technologies-de-leducation-et-de-la-formation",
+            "label": "Education et formation / Technologies de l'\u00e9ducation et de la formation"
+          },
+          {
+            "value": "education-et-societe",
+            "label": "\u00c9ducation et soci\u00e9t\u00e9"
+          },
+          {
+            "value": "education-formation",
+            "label": "\u00c9ducation - Formation"
+          },
+          { "value": "elements", "label": "\u00c9l\u00e9ments" },
+          { "value": "empan", "label": "Empan" },
+          { "value": "enfance-adolescence", "label": "Enfance  adolescence" },
+          {
+            "value": "enfance-adolescence-et-ses-troubles",
+            "label": "Enfance / adolescence et ses troubles"
+          },
+          {
+            "value": "enfance-amp-adolescence",
+            "label": "Enfance &amp; adolescence"
+          },
+          {
+            "value": "enfance-parentalite",
+            "label": "Enfance  parentalit\u00e9"
+          },
+          { "value": "enfances", "label": "Enfances" },
+          { "value": "enfances-psy", "label": "Enfances  PSY" },
+          {
+            "value": "enjeux-de-societe",
+            "label": "Enjeux de soci\u00e9t\u00e9"
+          },
+          {
+            "value": "enjeux-et-strategies",
+            "label": "Enjeux et Strat\u00e9gies"
+          },
+          {
+            "value": "enjeux-internationaux",
+            "label": "Enjeux Internationaux"
+          },
+          { "value": "enjeux-sciences", "label": "Enjeux sciences" },
+          { "value": "enquetes", "label": "Enqu\u00eates" },
+          { "value": "entre-guillemets", "label": "Entre guillemets" },
+          {
+            "value": "entreprise-et-societe",
+            "label": "Entreprise et Soci\u00e9t\u00e9"
+          },
+          { "value": "epimethee", "label": "\u00c9pim\u00e9th\u00e9e" },
+          { "value": "epitres", "label": "\u00c9p\u00eetres" },
+          { "value": "esclavages", "label": "Esclavages" },
+          { "value": "espace-de-lhistoire", "label": "Espace de l'histoire" },
+          { "value": "espace-et-liberte", "label": "Espace et libert\u00e9" },
+          { "value": "espace-international", "label": "Espace international" },
+          { "value": "espaces-libres", "label": "Espaces libres" },
+          { "value": "espoir", "label": "Espoir" },
+          { "value": "esprit", "label": "Esprit" },
+          { "value": "essai", "label": "Essai" },
+          { "value": "essais", "label": "Essais" },
+          { "value": "essais-et-savoirs", "label": "Essais et savoirs" },
+          { "value": "essais-hc", "label": "Essais (H.C.)" },
+          {
+            "value": "essaisdocs-societe",
+            "label": "Essais/Docs Soci\u00e9t\u00e9"
+          },
+          {
+            "value": "esthetiques-hors-cadre",
+            "label": "Esth\u00e9tiques hors cadre"
+          },
+          {
+            "value": "ethique-en-contextes",
+            "label": "\u00c9thique en contextes"
+          },
+          {
+            "value": "ethique-et-philosophie-morale",
+            "label": "\u00c9thique et philosophie morale"
+          },
+          { "value": "ethnologies", "label": "Ethnologies" },
+          {
+            "value": "ethnologies-controverses",
+            "label": "Ethnologies - Controverses"
+          },
+          {
+            "value": "etudes-dhistoire-et-de-philosophie-religieuses",
+            "label": "\u00c9tudes d'histoire et de philosophie religieuses"
+          },
+          {
+            "value": "etudes-litteraires",
+            "label": "\u00c9tudes litt\u00e9raires"
+          },
+          {
+            "value": "etudes-recherches-actions-en-sante-mentale-en-europe",
+            "label": "\u00c9tudes, recherches, actions en sant\u00e9 mentale en Europe"
+          },
+          { "value": "evaluer-leurope", "label": "\u00c9valuer l'Europe" },
+          {
+            "value": "expertises-collectives",
+            "label": "Expertises collectives"
+          },
+          { "value": "fiction-cie", "label": "Fiction  Cie" },
+          { "value": "finance", "label": "Finance" },
+          { "value": "floreal", "label": "Flor\u00e9al" },
+          { "value": "fondation-nestle", "label": "Fondation Nestl\u00e9" },
+          {
+            "value": "fondation-pour-lenfance",
+            "label": "Fondation pour l'Enfance"
+          },
+          {
+            "value": "fondation-saint-simon",
+            "label": "Fondation Saint-Simon"
+          },
+          { "value": "fondations", "label": "Fondations" },
+          {
+            "value": "fondements-de-la-politique",
+            "label": "Fondements de la politique"
+          },
+          { "value": "fonds-psychanalyse", "label": "Fonds psychanalyse" },
+          {
+            "value": "formation-et-pratiques-professionnelles",
+            "label": "Formation et pratiques professionnelles"
+          },
+          { "value": "formes-semiotiques", "label": "Formes s\u00e9miotiques" },
+          { "value": "forum-diderot", "label": "Forum Diderot" },
+          {
+            "value": "francais-dailleurs-peuple-dici",
+            "label": "Fran\u00e7ais d'ailleurs, peuple d'ici"
+          },
+          { "value": "frontieres", "label": "Fronti\u00e8res" },
+          { "value": "geographies", "label": "G\u00e9ographies" },
+          { "value": "grands-leaders", "label": "Grands leaders" },
+          {
+            "value": "groupes-therapeutiques",
+            "label": "Groupes th\u00e9rapeutiques"
+          },
+          {
+            "value": "guides-sante-social",
+            "label": "Guides Sant\u00e9 Social"
+          },
+          { "value": "herodote", "label": "H\u00e9rodote" },
+          { "value": "hier", "label": "Hier" },
+          {
+            "value": "histoire-contemporaine",
+            "label": "Histoire contemporaine"
+          },
+          { "value": "histoire-de", "label": "Histoire de..." },
+          {
+            "value": "histoire-de-la-psychanalyse",
+            "label": "Histoire de la psychanalyse"
+          },
+          { "value": "histoire-des-hommes", "label": "Histoire des Hommes" },
+          { "value": "histoire-des-idees", "label": "Histoire des id\u00e9es" },
+          {
+            "value": "histoire-du-20e-siecle",
+            "label": "Histoire du 20e si\u00e8cle"
+          },
+          { "value": "histoire-du-maghreb", "label": "Histoire du Maghreb" },
+          {
+            "value": "histoire-et-decadence",
+            "label": "Histoire et d\u00e9cadence"
+          },
+          { "value": "histoire-et-fortunes", "label": "Histoire et fortunes" },
+          {
+            "value": "histoire-generale-systemes-politiques",
+            "label": "Histoire g\u00e9n\u00e9rale syst\u00e8mes politiques"
+          },
+          {
+            "value": "histoire-industrielle-et-societe",
+            "label": "Histoire industrielle et soci\u00e9t\u00e9"
+          },
+          { "value": "histoires", "label": "Histoires" },
+          { "value": "historique", "label": "Historique" },
+          { "value": "historiques", "label": "Historiques" },
+          { "value": "hors-collection", "label": "Hors collection" },
+          {
+            "value": "hors-collection-arthaud",
+            "label": "Hors collection Arthaud"
+          },
+          {
+            "value": "hors-collection-belfond",
+            "label": "Hors collection - Belfond"
+          },
+          {
+            "value": "hors-collection-fayard",
+            "label": "Hors collection - Fayard"
+          },
+          {
+            "value": "hors-collection-sciences-humaines",
+            "label": "Hors collection Sciences Humaines"
+          },
+          {
+            "value": "hors-collection-social",
+            "label": "Hors Collection Social"
+          },
+          { "value": "hu", "label": "HU" },
+          { "value": "humanite", "label": "Humanit\u00e9" },
+          {
+            "value": "humus-le-desir-de-lanalyste-en-acte",
+            "label": "Humus, le d\u00e9sir de l'analyste en acte"
+          },
+          { "value": "humus-philo", "label": "Humus-philo" },
+          {
+            "value": "humus-subjectivite-et-lien-social",
+            "label": "Humus - subjectivit\u00e9 et lien social"
+          },
+          { "value": "hypotheses", "label": "Hypoth\u00e8ses" },
+          { "value": "idees", "label": "Id\u00e9es" },
+          {
+            "value": "inconscient-et-culture",
+            "label": "Inconscient et culture"
+          },
+          {
+            "value": "inconscient-et-spiritualite",
+            "label": "Inconscient et spiritualit\u00e9"
+          },
+          { "value": "indisciplines", "label": "Indisciplines" },
+          { "value": "info", "label": "INFO" },
+          { "value": "intempestives", "label": "Intempestives" },
+          {
+            "value": "interieurs-du-maghreb",
+            "label": "Int\u00e9rieurs du Maghreb"
+          },
+          { "value": "intervention", "label": "Intervention" },
+          {
+            "value": "intervention-en-economie-politique",
+            "label": "Intervention en \u00e9conomie politique"
+          },
+          {
+            "value": "intervention-philosophique",
+            "label": "Intervention philosophique"
+          },
+          { "value": "interventions", "label": "Interventions" },
+          { "value": "islamiques", "label": "Islamiques" },
+          { "value": "jacques-ellul", "label": "Jacques-Ellul" },
+          { "value": "jeunes-talents", "label": "Jeunes talents" },
+          {
+            "value": "la-bibliotheque-du-citoyen",
+            "label": "La Biblioth\u00e8que du citoyen"
+          },
+          {
+            "value": "la-clinique-du-transfert",
+            "label": "La clinique du transfert"
+          },
+          {
+            "value": "la-couleur-des-idees",
+            "label": "La Couleur des id\u00e9es"
+          },
+          {
+            "value": "la-decouverte-illustree",
+            "label": "La D\u00e9couverte illustr\u00e9e"
+          },
+          {
+            "value": "la-femme-au-temps-de",
+            "label": "La Femme au temps de..."
+          },
+          { "value": "la-force-des-idees", "label": "La Force des id\u00e9es" },
+          {
+            "value": "la-librairie-du-xxe-siecle",
+            "label": "La librairie du XXe si\u00e8cle"
+          },
+          { "value": "la-maison-jaune", "label": "La Maison jaune" },
+          {
+            "value": "la-memoire-des-lieux",
+            "label": "La m\u00e9moire des lieux"
+          },
+          {
+            "value": "la-memoire-du-siecle",
+            "label": "La m\u00e9moire du si\u00e8cle"
+          },
+          { "value": "la-nature-humaine", "label": "La Nature humaine" },
+          {
+            "value": "la-philosophie-hors-de-soi",
+            "label": "La Philosophie hors de soi"
+          },
+          {
+            "value": "la-politique-eclatee",
+            "label": "La Politique \u00e9clat\u00e9e"
+          },
+          {
+            "value": "la-psychanalyse-a-louvrage",
+            "label": "La psychanalyse \u00e0 l'ouvrage"
+          },
+          {
+            "value": "la-psychanalyse-prise-au-mot",
+            "label": "La Psychanalyse prise au mot"
+          },
+          { "value": "la-rue-parlons-en", "label": "La Rue ? Parlons-en !" },
+          { "value": "la-vie-de-lenfant", "label": "La vie de l'enfant" },
+          { "value": "la-vie-devant-eux", "label": "La vie devant eux" },
+          { "value": "la-vie-quotidienne", "label": "La vie quotidienne" },
+          { "value": "la-ville-en-debat", "label": "La Ville en d\u00e9bat" },
+          {
+            "value": "laboratoire-des-sciences-sociales",
+            "label": "Laboratoire des sciences sociales"
+          },
+          {
+            "value": "lage-et-la-vie-prendre-soin-des-personnes-agees",
+            "label": "L'\u00c2ge et la vie - Prendre soin des personnes \u00e2g\u00e9es"
+          },
+          { "value": "lailleurs-du-corps", "label": "L'Ailleurs du corps" },
+          {
+            "value": "lanalyse-au-singulier",
+            "label": "L'analyse au singulier"
+          },
+          {
+            "value": "lanalyse-au-singulier-intereditions",
+            "label": "L'analyse au singulier InterEditions"
+          },
+          {
+            "value": "langue-et-civilisation-anglo-americaines",
+            "label": "Langue et civilisation anglo-am\u00e9ricaines"
+          },
+          { "value": "lart-de-la-guerre", "label": "L'art de la guerre" },
+          { "value": "lautre-et-lailleurs", "label": "L'Autre et l'ailleurs" },
+          { "value": "le-bachelier", "label": "Le Bachelier" },
+          { "value": "le-carnet-psy", "label": "Le Carnet psy" },
+          {
+            "value": "le-changement-est-dans-lr",
+            "label": "Le changement est dans l'R !"
+          },
+          { "value": "le-chemin", "label": "Le chemin" },
+          {
+            "value": "le-corps-plus-que-jamais",
+            "label": "Le corps plus que jamais"
+          },
+          {
+            "value": "le-fait-psychanalytique",
+            "label": "Le Fait psychanalytique"
+          },
+          { "value": "le-fil-rouge", "label": "Le fil rouge" },
+          {
+            "value": "le-journal-des-psychologues",
+            "label": "Le Journal des psychologues"
+          },
+          { "value": "le-lien-social", "label": "Le Lien social" },
+          { "value": "le-linguiste", "label": "Le Linguiste" },
+          {
+            "value": "le-management-en-pratique",
+            "label": "Le management en pratique"
+          },
+          { "value": "le-monde-psy", "label": "Le Monde Psy" },
+          { "value": "le-noeud-gordien", "label": "Le Noeud Gordien" },
+          {
+            "value": "le-passe-recompose",
+            "label": "Le Pass\u00e9 recompos\u00e9"
+          },
+          { "value": "le-poids-des-mots", "label": "Le poids des mots" },
+          {
+            "value": "le-point-philosophique",
+            "label": "Le Point philosophique"
+          },
+          {
+            "value": "le-point-sur-economie",
+            "label": "Le point sur... \u00c9conomie"
+          },
+          {
+            "value": "le-point-sur-economie-musulmane",
+            "label": "Le point sur... \u00c9conomie musulmane"
+          },
+          {
+            "value": "le-point-sur-marketing",
+            "label": "Le point sur... Marketing"
+          },
+          {
+            "value": "le-point-sur-politique",
+            "label": "Le point sur... Politique"
+          },
+          {
+            "value": "le-point-sur-psychologie",
+            "label": "Le point sur... Psychologie"
+          },
+          { "value": "le-psychologue", "label": "Le Psychologue" },
+          { "value": "le-regard-qui-bat", "label": "Le regard qui bat" },
+          {
+            "value": "le-sens-de-la-recherche",
+            "label": "Le sens de la recherche"
+          },
+          { "value": "le-sens-de-lhistoire", "label": "Le sens de l'histoire" },
+          { "value": "le-sociologue", "label": "Le sociologue" },
+          {
+            "value": "le-temps-et-les-hommes",
+            "label": "Le Temps et les hommes"
+          },
+          { "value": "le-texte-reve", "label": "Le texte r\u00eave" },
+          { "value": "le-travail-humain", "label": "Le Travail humain" },
+          { "value": "lecons-de-choses", "label": "Le\u00e7ons De Choses" },
+          {
+            "value": "lectures-du-judaisme",
+            "label": "Lectures du juda\u00efsme"
+          },
+          {
+            "value": "leducation-specialisee-au-quotidien",
+            "label": "L'\u00e9ducation sp\u00e9cialis\u00e9e au quotidien"
+          },
+          {
+            "value": "lepopee-napoleonienne",
+            "label": "L'Epop\u00e9e napol\u00e9onienne"
+          },
+          { "value": "lepreuve-des-faits", "label": "L'Epreuve des faits" },
+          {
+            "value": "les-besoins-educatifs-et-pedagogiques-particuliers",
+            "label": "Les besoins \u00e9ducatifs et p\u00e9dagogiques particuliers"
+          },
+          {
+            "value": "les-chemins-de-lhistoire",
+            "label": "Les Chemins de l'histoire"
+          },
+          {
+            "value": "les-dossiers-de-spirale",
+            "label": "Les Dossiers de Spirale"
+          },
+          { "value": "les-dossiers-du-jfp", "label": "Les dossiers du JFP" },
+          {
+            "value": "les-enjeux-de-lepoque",
+            "label": "Les enjeux de l'\u00e9poque"
+          },
+          {
+            "value": "les-familles-et-le-droit",
+            "label": "Les familles et le droit"
+          },
+          { "value": "les-fondamentaux", "label": "Les Fondamentaux" },
+          { "value": "les-grands-auteurs", "label": "Les grands auteurs" },
+          {
+            "value": "les-hommes-et-lhistoire",
+            "label": "Les Hommes et l'Histoire"
+          },
+          {
+            "value": "les-intelligences-citoyennes",
+            "label": "Les intelligences citoyennes"
+          },
+          { "value": "les-litteraires", "label": "Les litt\u00e9raires" },
+          {
+            "value": "les-manuels-de-sciences-po",
+            "label": "Les Manuels de Sciences Po"
+          },
+          {
+            "value": "les-medievistes-francais",
+            "label": "Les m\u00e9di\u00e9vistes fran\u00e7ais"
+          },
+          {
+            "value": "les-metiers-du-tourisme",
+            "label": "Les m\u00e9tiers du tourisme"
+          },
+          {
+            "value": "les-recherches-du-grape",
+            "label": "Les recherches du Grape"
+          },
+          {
+            "value": "les-rencontres-de-normale-sup",
+            "label": "Les Rencontres de Normale sup'"
+          },
+          { "value": "les-voies-du-droit", "label": "Les voies du droit" },
+          {
+            "value": "lesprit-economique",
+            "label": "L'esprit \u00e9conomique"
+          },
+          { "value": "lettres-du-sud", "label": "Lettres du Sud" },
+          { "value": "leviathan", "label": "L\u00e9viathan" },
+          { "value": "lexiques", "label": "Lexiques" },
+          {
+            "value": "lhistoire-en-batailles",
+            "label": "L'Histoire en batailles"
+          },
+          {
+            "value": "lhistoire-immediate",
+            "label": "L'Histoire imm\u00e9diate"
+          },
+          { "value": "lhistorien", "label": "L'Historien" },
+          {
+            "value": "lhomme-et-ses-problemes",
+            "label": "L'Homme et ses probl\u00e8mes"
+          },
+          { "value": "libelles", "label": "Libelles" },
+          {
+            "value": "liberte-de-lesprit",
+            "label": "Libert\u00e9 de l'esprit"
+          },
+          { "value": "libre-cours", "label": "Libre cours" },
+          { "value": "licence", "label": "Licence" },
+          {
+            "value": "lien-social-et-politiques",
+            "label": "Lien social et politiques"
+          },
+          { "value": "lignes-dart", "label": "Lignes d'art" },
+          { "value": "limaginaire-du-texte", "label": "L'imaginaire du Texte" },
+          { "value": "linguistique", "label": "Linguistique" },
+          {
+            "value": "linguistique-nouvelle",
+            "label": "Linguistique nouvelle"
+          },
+          {
+            "value": "linnovation-politique",
+            "label": "L'innovation politique"
+          },
+          {
+            "value": "linterrogation-philosophique",
+            "label": "L'Interrogation philosophique"
+          },
+          {
+            "value": "lire-les-philosophies",
+            "label": "Lire les philosophies"
+          },
+          {
+            "value": "litterature-hors-frontiere",
+            "label": "Litt\u00e9rature Hors Fronti\u00e8re"
+          },
+          { "value": "litteratures", "label": "Litt\u00e9ratures" },
+          {
+            "value": "litteratures-europeennes",
+            "label": "Litt\u00e9ratures europ\u00e9ennes"
+          },
+          {
+            "value": "litteratures-modernes",
+            "label": "Litt\u00e9ratures modernes"
+          },
+          { "value": "logique-hegelienne", "label": "Logique hegelienne" },
+          { "value": "lordre-des-choses", "label": "L'Ordre des choses" },
+          { "value": "lunivers-historique", "label": "L'Univers historique" },
+          { "value": "lutter", "label": "Lutter" },
+          { "value": "luttes-sociales", "label": "Luttes sociales" },
+          {
+            "value": "maison-des-droits-des-enfants-et-des-jeunes",
+            "label": "Maison des droits des enfants et des jeunes"
+          },
+          { "value": "major", "label": "Major" },
+          { "value": "malgre-tout", "label": "Malgr\u00e9 tout" },
+          { "value": "management", "label": "Management" },
+          { "value": "management-sport", "label": "Management  Sport" },
+          { "value": "manager-rh", "label": "Manager RH" },
+          {
+            "value": "manuels-visuels-de-licence",
+            "label": "Manuels visuels de Licence"
+          },
+          { "value": "manuscrits-modernes", "label": "Manuscrits Modernes" },
+          {
+            "value": "matiere-a-debattre-et-decider",
+            "label": "Mati\u00e8re \u00e0 d\u00e9battre et d\u00e9cider"
+          },
+          {
+            "value": "medecine-et-psychotherapie",
+            "label": "M\u00e9decine et psychoth\u00e9rapie"
+          },
+          {
+            "value": "medecine-et-societe",
+            "label": "M\u00e9decine et soci\u00e9t\u00e9"
+          },
+          { "value": "medecine-sciences", "label": "M\u00e9decine Sciences" },
+          { "value": "medias", "label": "M\u00e9dias" },
+          { "value": "medias-recherches", "label": "M\u00e9dias-Recherches" },
+          { "value": "mediterranee", "label": "M\u00e9diterran\u00e9e" },
+          { "value": "meme-pas-vrai", "label": "M\u00eame pas vrai !" },
+          { "value": "memoires-du-futur", "label": "M\u00e9moires du futur" },
+          {
+            "value": "memoires-et-documents-de-geographie",
+            "label": "M\u00e9moires et documents de g\u00e9ographie"
+          },
+          { "value": "memoires-sociales", "label": "M\u00e9moires sociales" },
+          { "value": "memoiresculture", "label": "M\u00e9moires/Culture" },
+          { "value": "memoireshistoire", "label": "M\u00e9moires/Histoire" },
+          { "value": "memoiresvilles", "label": "M\u00e9moires/Villes" },
+          { "value": "metaphysiques", "label": "M\u00e9taphysiqueS" },
+          {
+            "value": "methodes-en-sciences-humaines",
+            "label": "M\u00e9thodes en sciences humaines"
+          },
+          {
+            "value": "methodes-recherches",
+            "label": "M\u00e9thodes  Recherches"
+          },
+          {
+            "value": "metiers-et-formations",
+            "label": "M\u00e9tiers et formations"
+          },
+          {
+            "value": "metiers-sante-social",
+            "label": "M\u00e9tiers Sant\u00e9 Social"
+          },
+          { "value": "mieux-comprendre", "label": "Mieux comprendre" },
+          {
+            "value": "mission-historique-de-la-banque-de-france",
+            "label": "Mission historique de la Banque de France"
+          },
+          {
+            "value": "modelisations-simulations-systemes-complexes",
+            "label": "Mod\u00e9lisations, simulations, syst\u00e8mes complexes"
+          },
+          { "value": "mondes-et-nations", "label": "Mondes et Nations" },
+          {
+            "value": "monographies-de-la-psychiatrie-enfant",
+            "label": "Monographies de la psychiatrie enfant"
+          },
+          {
+            "value": "monographies-de-psychanalyse",
+            "label": "Monographies de psychanalyse"
+          },
+          {
+            "value": "monographies-de-psychopathologie",
+            "label": "Monographies de psychopathologie"
+          },
+          {
+            "value": "monographies-et-debats-de-psychanalyse",
+            "label": "Monographies et d\u00e9bats de psychanalyse"
+          },
+          {
+            "value": "monographies-francaises-de-psychologie",
+            "label": "Monographies fran\u00e7aises de psychologie"
+          },
+          { "value": "moyen-age", "label": "Moyen \u00c2ge" },
+          { "value": "mutations", "label": "Mutations" },
+          { "value": "mythes-et-religions", "label": "Mythes et religions" },
+          {
+            "value": "nature-et-societe",
+            "label": "Nature et soci\u00e9t\u00e9"
+          },
+          { "value": "natures-sociales", "label": "Natures sociales" },
+          {
+            "value": "neurosciences-cognition",
+            "label": "Neurosciences  cognition"
+          },
+          { "value": "new-management", "label": "New Management" },
+          { "value": "nomos-normes", "label": "Nomos  Normes" },
+          { "value": "non-fiction", "label": "Non fiction" },
+          { "value": "nous-partons-pour", "label": "Nous partons pour" },
+          { "value": "nouveaux-debats", "label": "Nouveaux D\u00e9bats" },
+          { "value": "nouvelle-clio", "label": "Nouvelle Clio" },
+          {
+            "value": "nouvelle-encyclopedie-diderot",
+            "label": "Nouvelle encyclop\u00e9die Diderot"
+          },
+          {
+            "value": "nouvelle-encyclopedie-pedagogique",
+            "label": "Nouvelle encyclop\u00e9die p\u00e9dagogique"
+          },
+          {
+            "value": "outils-daction-sociale",
+            "label": "Outils d'action sociale"
+          },
+          {
+            "value": "outils-pour-enseigner",
+            "label": "Outils pour enseigner"
+          },
+          {
+            "value": "ouvertures-psychologiques",
+            "label": "Ouvertures psychologiques"
+          },
+          {
+            "value": "ouvertures-sociologiques",
+            "label": "Ouvertures sociologiques"
+          },
+          { "value": "oxalis", "label": "Oxalis" },
+          { "value": "paideia", "label": "Paide\u00efa" },
+          { "value": "parentalites", "label": "Parentalit\u00e9s" },
+          { "value": "partage-du-savoir", "label": "Partage du savoir" },
+          { "value": "passe-simple", "label": "Pass\u00e9 simple" },
+          { "value": "passions-complices", "label": "Passions complices" },
+          { "value": "patrimoine", "label": "Patrimoine" },
+          {
+            "value": "pays-amp-populations",
+            "label": "Pays &amp; populations"
+          },
+          {
+            "value": "pedagogie-daujourdhui",
+            "label": "P\u00e9dagogie d'aujourd'hui"
+          },
+          {
+            "value": "pedagogies-en-developpement",
+            "label": "P\u00e9dagogies en d\u00e9veloppement"
+          },
+          {
+            "value": "perspectives-critiques",
+            "label": "Perspectives critiques"
+          },
+          {
+            "value": "perspectives-de-leconomique",
+            "label": "Perspectives de l'\u00e9conomique"
+          },
+          {
+            "value": "perspectives-en-education-et-formation",
+            "label": "Perspectives en \u00e9ducation et formation"
+          },
+          {
+            "value": "perspectives-internationales",
+            "label": "Perspectives internationales"
+          },
+          {
+            "value": "perspectives-litteraires",
+            "label": "Perspectives litt\u00e9raires"
+          },
+          {
+            "value": "perspectives-marketing",
+            "label": "Perspectives marketing"
+          },
+          {
+            "value": "petite-bibliotheque-de-psychanalyse",
+            "label": "Petite biblioth\u00e8que de psychanalyse"
+          },
+          {
+            "value": "petite-collection-maspero",
+            "label": "Petite collection Masp\u00e9ro"
+          },
+          {
+            "value": "petite-enfance-et-parentalite",
+            "label": "Petite enfance et parentalit\u00e9"
+          },
+          {
+            "value": "petites-entreprises-entrepreneuriat",
+            "label": "Petites Entreprises  Entrepreneuriat"
+          },
+          {
+            "value": "peuples-et-civilisations",
+            "label": "Peuples et civilisations"
+          },
+          { "value": "philosopher", "label": "Philosopher" },
+          {
+            "value": "philosopher-en-sciences-sociales",
+            "label": "Philosopher en sciences sociales"
+          },
+          { "value": "philosophie", "label": "Philosophie" },
+          {
+            "value": "philosophie-daujourdhui",
+            "label": "Philosophie d'aujourd'hui"
+          },
+          { "value": "philosophie-en-cours", "label": "Philosophie en cours" },
+          {
+            "value": "philosophie-epistemologie",
+            "label": "Philosophie, \u00e9pist\u00e9mologie"
+          },
+          {
+            "value": "philosophie-francaise-contemporaine",
+            "label": "Philosophie fran\u00e7aise contemporaine"
+          },
+          {
+            "value": "philosophie-imaginaire",
+            "label": "Philosophie imaginaire"
+          },
+          {
+            "value": "philosophie-politique",
+            "label": "Philosophie politique"
+          },
+          { "value": "philosophies", "label": "Philosophies" },
+          { "value": "pikler-loczy", "label": "Pikler L\u00f3czy" },
+          { "value": "pluriel", "label": "Pluriel" },
+          {
+            "value": "pluriels-de-la-psyche",
+            "label": "Pluriels de la psych\u00e9"
+          },
+          {
+            "value": "poche-education-formation",
+            "label": "Poche - \u00c9ducation formation"
+          },
+          {
+            "value": "poche-enfance-et-parentalite",
+            "label": "Poche - Enfance et parentalit\u00e9"
+          },
+          {
+            "value": "poche-espace-ethique",
+            "label": "Poche - Espace \u00e9thique"
+          },
+          { "value": "poche-essais", "label": "Poche / Essais" },
+          { "value": "poche-psychanalyse", "label": "Poche - Psychanalyse" },
+          {
+            "value": "poche-psychanalyse-et-travail-social",
+            "label": "Poche - Psychanalyse et travail social"
+          },
+          {
+            "value": "poche-sante-mentale",
+            "label": "Poche - Sant\u00e9 mentale"
+          },
+          { "value": "poche-societe", "label": "Poche - Soci\u00e9t\u00e9" },
+          {
+            "value": "poche-societes-urbaines-et-rurales",
+            "label": "Poche - Soci\u00e9t\u00e9s urbaines et rurales"
+          },
+          {
+            "value": "pochesciences-humaines-et-sociales",
+            "label": "Poche/Sciences humaines et sociales"
+          },
+          { "value": "point-hors-ligne", "label": "Point Hors Ligne" },
+          { "value": "points", "label": "Points" },
+          { "value": "points-dappui", "label": "Points d'appui" },
+          { "value": "points-histoire", "label": "Points Histoire" },
+          { "value": "pol-his", "label": "POL-HIS" },
+          {
+            "value": "politique-daujourdhui",
+            "label": "Politique d'aujourd'hui"
+          },
+          { "value": "politique-sociale", "label": "Politique Sociale" },
+          { "value": "politiques", "label": "Politiques" },
+          {
+            "value": "politiques-et-interventions-sociales",
+            "label": "Politiques et interventions sociales"
+          },
+          { "value": "portefeuille", "label": "Portefeuille" },
+          { "value": "portes-ouvertes", "label": "Portes ouvertes" },
+          { "value": "pour-lhistoire", "label": "Pour l'Histoire" },
+          {
+            "value": "pratiques-corporelles",
+            "label": "Pratiques corporelles"
+          },
+          {
+            "value": "pratiques-du-champ-social",
+            "label": "Pratiques du champ social"
+          },
+          {
+            "value": "pratiques-gerontologiques",
+            "label": "Pratiques g\u00e9rontologiques"
+          },
+          {
+            "value": "pratiques-pedagogiques",
+            "label": "Pratiques p\u00e9dagogiques      "
+          },
+          {
+            "value": "pratiques-physiques-et-societe",
+            "label": "Pratiques physiques et soci\u00e9t\u00e9"
+          },
+          {
+            "value": "pratiques-psychologiques",
+            "label": "Pratiques psychologiques"
+          },
+          {
+            "value": "pratiques-theoriques",
+            "label": "Pratiques th\u00e9oriques"
+          },
+          { "value": "preaut", "label": "Pr\u00e9Aut" },
+          {
+            "value": "presence-de-lhistoire",
+            "label": "Pr\u00e9sence de l'histoire "
+          },
+          {
+            "value": "presence-du-judaisme",
+            "label": "Pr\u00e9sence du juda\u00efsme"
+          },
+          {
+            "value": "prevenir-les-violences-a-lecole",
+            "label": "Pr\u00e9venir les violences \u00e0 l'\u00e9cole"
+          },
+          {
+            "value": "prevention-en-maternite",
+            "label": "Pr\u00e9vention en maternit\u00e9"
+          },
+          { "value": "proche-orient", "label": "Proche-Orient" },
+          {
+            "value": "psy-emotion-intervention-sante",
+            "label": "PSY-\u00c9motion, intervention, sant\u00e9"
+          },
+          {
+            "value": "psy-evaluation-mesure-diagnostic",
+            "label": "PSY-\u00c9valuation, mesure, diagnostic"
+          },
+          {
+            "value": "psy-individus-groupes-culture",
+            "label": "PSY-Individus, groupes, culture"
+          },
+          {
+            "value": "psy-theories-debats-syntheses",
+            "label": "PSY-Th\u00e9ories, d\u00e9bats, synth\u00e8ses"
+          },
+          { "value": "psychanalyse", "label": "Psychanalyse" },
+          {
+            "value": "psychanalyse-autrement",
+            "label": "Psychanalyse autrement"
+          },
+          {
+            "value": "psychanalyse-et-clinique",
+            "label": "Psychanalyse et clinique"
+          },
+          {
+            "value": "psychanalyse-et-ecriture",
+            "label": "Psychanalyse et \u00e9criture"
+          },
+          {
+            "value": "psychanalyse-et-education-specialisee",
+            "label": "Psychanalyse et \u00e9ducation sp\u00e9cialis\u00e9e"
+          },
+          {
+            "value": "psychanalyse-et-travail-social",
+            "label": "Psychanalyse et travail social"
+          },
+          { "value": "psychanalyses", "label": "Psychanalyses" },
+          {
+            "value": "psychanalystes-daujourdhui",
+            "label": "Psychanalystes d'aujourd'hui"
+          },
+          { "value": "psychiatrie", "label": "Psychiatrie" },
+          {
+            "value": "psychiatrie-de-lenfant",
+            "label": "Psychiatrie de l'enfant"
+          },
+          { "value": "psychiatrie-ouverte", "label": "Psychiatrie ouverte" },
+          { "value": "psychismes", "label": "Psychismes" },
+          { "value": "psycho-sup", "label": "Psycho Sup" },
+          {
+            "value": "psychologie-daujourdhui",
+            "label": "Psychologie d'aujourd'hui"
+          },
+          {
+            "value": "psychologie-et-sciences-de-la-pensee",
+            "label": "Psychologie et sciences de la pens\u00e9e"
+          },
+          {
+            "value": "psychologie-et-sciences-humaines",
+            "label": "Psychologie et Sciences humaines"
+          },
+          {
+            "value": "psychologie-et-vieillissement",
+            "label": "Psychologie et vieillissement"
+          },
+          { "value": "psychologie-sociale", "label": "Psychologie sociale" },
+          { "value": "psychopathologie", "label": "Psychopathologie" },
+          {
+            "value": "psychotherapie-institutionnelle",
+            "label": "Psychoth\u00e9rapie institutionnelle"
+          },
+          {
+            "value": "publications-dhistoire-economique-et-sociale-internationale",
+            "label": "Publications d'histoire \u00e9conomique et sociale internationale"
+          },
+          { "value": "puf-essais", "label": "PUF essais" },
+          { "value": "quadrige", "label": "Quadrige" },
+          { "value": "quand", "label": "Quand...?" },
+          { "value": "que-sais-je", "label": "Que sais-je\u00a0?" },
+          { "value": "questions", "label": "Questions" },
+          {
+            "value": "questions-actuelles-de-criminologie",
+            "label": "Questions actuelles de criminologie"
+          },
+          {
+            "value": "questions-au-xxe-siecle",
+            "label": "Questions au XXe si\u00e8cle"
+          },
+          { "value": "questions-de-culture", "label": "Questions de culture" },
+          {
+            "value": "questions-de-personne",
+            "label": "Questions de personne"
+          },
+          {
+            "value": "questions-de-psychiatrie",
+            "label": "Questions de psychiatrie"
+          },
+          {
+            "value": "questions-de-societe",
+            "label": "Questions de soci\u00e9t\u00e9"
+          },
+          { "value": "questions-de-soin", "label": "Questions de soin" },
+          {
+            "value": "questions-deconomie-et-de-gestion",
+            "label": "Questions d'\u00e9conomie et de gestion"
+          },
+          { "value": "questions-denfance", "label": "Questions d'enfance" },
+          { "value": "questions-denfances", "label": "Questions d'Enfances" },
+          {
+            "value": "questions-dethique",
+            "label": "Questions d'\u00e9thique"
+          },
+          {
+            "value": "questions-judiciaires",
+            "label": "Questions judiciaires"
+          },
+          {
+            "value": "questions-vives-sur-la-banlieue",
+            "label": "Questions vives sur la banlieue"
+          },
+          { "value": "raisonnances", "label": "Raisonnances" },
+          { "value": "raisons-educatives", "label": "Raisons \u00e9ducatives" },
+          {
+            "value": "rapports-du-conseil-superieur-du-travail-social",
+            "label": "Rapports du Conseil sup\u00e9rieur du travail social"
+          },
+          {
+            "value": "recherche-en-psychosomatique",
+            "label": "Recherche en psychosomatique"
+          },
+          {
+            "value": "recherche-et-entreprises",
+            "label": "Recherche et entreprises"
+          },
+          {
+            "value": "recherche-sante-social",
+            "label": "Recherche, sant\u00e9, social"
+          },
+          { "value": "recherches", "label": "Recherches" },
+          {
+            "value": "recherches-internationales",
+            "label": "Recherches internationales"
+          },
+          {
+            "value": "recherches-politiques",
+            "label": "Recherches politiques"
+          },
+          { "value": "recherchesinrap", "label": "Recherches/INRAP" },
+          { "value": "recherchesmauss", "label": "Recherches/MAUSS" },
+          {
+            "value": "recherchesterritoires-du-politique",
+            "label": "Recherches/Territoires du politique"
+          },
+          { "value": "redecouverte", "label": "[Re]d\u00e9couverte" },
+          { "value": "references", "label": "R\u00e9f\u00e9rences " },
+          {
+            "value": "regards-sur-lhistoire",
+            "label": "Regards sur l'histoire"
+          },
+          { "value": "relations", "label": "Relations" },
+          {
+            "value": "relations-internationales",
+            "label": "Relations internationales"
+          },
+          { "value": "reliance", "label": "Reliance" },
+          { "value": "rencontre-avec", "label": "Rencontre avec" },
+          { "value": "reperes", "label": "Rep\u00e8res" },
+          { "value": "reponses", "label": "R\u00e9ponses" },
+          {
+            "value": "reponses-philosophiques",
+            "label": "R\u00e9ponses philosophiques"
+          },
+          { "value": "sante-en-soi", "label": "Sant\u00e9 en Soi" },
+          { "value": "sante-mentale", "label": "Sant\u00e9 mentale" },
+          {
+            "value": "sante-mentale-cybercultures",
+            "label": "Sant\u00e9 mentale - Cybercultures"
+          },
+          { "value": "sante-social", "label": "Sant\u00e9 Social" },
+          { "value": "savoir-faire", "label": "Savoir faire" },
+          { "value": "savoirs-en-pratique", "label": "Savoirs en Pratique" },
+          {
+            "value": "science-histoire-et-societe",
+            "label": "Science, histoire et soci\u00e9t\u00e9"
+          },
+          {
+            "value": "sciences-des-discours",
+            "label": "Sciences des discours"
+          },
+          { "value": "sciences-du-langage", "label": "Sciences du langage" },
+          { "value": "sciences-en-partage", "label": "Sciences en partage" },
+          {
+            "value": "sciences-en-questions",
+            "label": "Sciences en questions"
+          },
+          {
+            "value": "sciences-et-societe",
+            "label": "Sciences et soci\u00e9t\u00e9"
+          },
+          { "value": "sciences-humaines", "label": "Sciences Humaines" },
+          {
+            "value": "sciences-modernites-philosophies",
+            "label": "Sciences modernit\u00e9s philosophies"
+          },
+          { "value": "sciences-philosophie", "label": "Sciences  philosophie" },
+          { "value": "sciences-sociales", "label": "Sciences sociales" },
+          {
+            "value": "sciences-sociales-et-societes",
+            "label": "Sciences sociales et soci\u00e9t\u00e9s"
+          },
+          { "value": "scripta", "label": "Scripta" },
+          { "value": "securiser-lemploi", "label": "S\u00e9curiser l'emploi" },
+          { "value": "sexe-en-tous-genres", "label": "Sexe en tous genres" },
+          { "value": "sexologie", "label": "Sexologie" },
+          { "value": "singulier-pluriel", "label": "Singulier-Pluriel" },
+          { "value": "societe", "label": "Soci\u00e9t\u00e9" },
+          {
+            "value": "societes-arabes-et-musulmanes",
+            "label": "Soci\u00e9t\u00e9s arabes et musulmanes"
+          },
+          {
+            "value": "societes-en-mouvement",
+            "label": "Soci\u00e9t\u00e9s en mouvement"
+          },
+          { "value": "sociologie-clinique", "label": "Sociologie clinique" },
+          {
+            "value": "sociologie-daujourdhui",
+            "label": "Sociologie d'aujourd'hui"
+          },
+          {
+            "value": "sociologie-de-limaginaire-et-du-quotidien",
+            "label": "Sociologie de l'imaginaire et du quotidien"
+          },
+          {
+            "value": "sociologie-economique",
+            "label": "Sociologie \u00e9conomique"
+          },
+          { "value": "sociologies", "label": "Sociologies" },
+          {
+            "value": "souffrance-et-theorie",
+            "label": "Souffrance et th\u00e9orie"
+          },
+          {
+            "value": "suites-sciences-humaines",
+            "label": "Suites Sciences Humaines"
+          },
+          { "value": "sur-le-vif", "label": "Sur le vif" },
+          { "value": "syntheses", "label": "Synth\u00e8ses" },
+          {
+            "value": "syntheses-historiques",
+            "label": "Synth\u00e8ses historiques"
+          },
+          {
+            "value": "tap-anthropologie-des-sciences-et-des-techniques",
+            "label": "TAP / Anthropologie des sciences et des techniques"
+          },
+          {
+            "value": "tap-enquetes-de-terrain",
+            "label": "TAP / Enqu\u00eates de terrain"
+          },
+          {
+            "value": "tap-etudes-coloniales",
+            "label": "TAP / \u00c9tudes coloniales"
+          },
+          {
+            "value": "tap-genre-sexualite",
+            "label": "TAP / Genre  sexualit\u00e9"
+          },
+          {
+            "value": "tap-histoire-classique",
+            "label": "TAP / Histoire classique"
+          },
+          {
+            "value": "tap-islam-et-societe",
+            "label": "TAP / Islam et Soci\u00e9t\u00e9"
+          },
+          {
+            "value": "tap-lab-sciences-sociales",
+            "label": "TAP / Lab. Sciences Sociales"
+          },
+          {
+            "value": "tap-philosophie-pratique",
+            "label": "TAP / Philosophie pratique"
+          },
+          {
+            "value": "tap-psychanalyse-et-societe",
+            "label": "TAP / Psychanalyse et soci\u00e9t\u00e9"
+          },
+          {
+            "value": "tap-serie-histoire-contemporaine",
+            "label": "TAP / s\u00e9rie histoire contemporaine"
+          },
+          { "value": "tap-sociologie", "label": "TAP / Sociologie" },
+          {
+            "value": "tapbibliotheque-du-mauss",
+            "label": "TAP/Biblioth\u00e8que du MAUSS"
+          },
+          { "value": "tapeconomie", "label": "TAP/Economie" },
+          {
+            "value": "taphist-contemporaine",
+            "label": "TAP/HIST Contemporaine"
+          },
+          {
+            "value": "taphistoire-des-sciences",
+            "label": "TAP/Histoire des sciences"
+          },
+          { "value": "taphors-serie", "label": "TAP/Hors S\u00e9rie" },
+          {
+            "value": "tappolitique-et-societe",
+            "label": "TAP/Politique et soci\u00e9t\u00e9"
+          },
+          {
+            "value": "taprelations-internationales",
+            "label": "TAP/Relations internationales"
+          },
+          {
+            "value": "tapsciences-cognitives",
+            "label": "TAP/Sciences cognitives"
+          },
+          {
+            "value": "temoigner-transmettre",
+            "label": "T\u00e9moigner / Transmettre"
+          },
+          { "value": "temps-espaces", "label": "Temps  Espaces" },
+          { "value": "tempus", "label": "Tempus" },
+          {
+            "value": "terrains-sante-social",
+            "label": "Terrains Sant\u00e9 Social"
+          },
+          { "value": "textes-a-lappui", "label": "Textes \u00e0 l'appui" },
+          {
+            "value": "textes-et-etudes-sociologiques",
+            "label": "Textes et \u00e9tudes sociologiques"
+          },
+          { "value": "textes-et-manuscrits", "label": "Textes et Manuscrits" },
+          {
+            "value": "textes-images-et-monuments-de-lantiquite-au-haut-moyen-age",
+            "label": "Textes, images et monuments de l'Antiquit\u00e9 au Haut Moyen \u00c2ge"
+          },
+          { "value": "texto", "label": "Texto" },
+          {
+            "value": "theatres-du-monde",
+            "label": "Th\u00e9\u00e2tres du monde"
+          },
+          { "value": "themis", "label": "Th\u00e9mis" },
+          { "value": "theorie", "label": "Th\u00e9orie" },
+          { "value": "theorie-politique", "label": "Th\u00e9orie politique" },
+          { "value": "titre-courant", "label": "Titre courant" },
+          { "value": "traducto", "label": "Traducto" },
+          { "value": "trajets", "label": "Trajets" },
+          { "value": "trames", "label": "Trames" },
+          { "value": "transition", "label": "Transition" },
+          {
+            "value": "travaux-de-sciences-sociales",
+            "label": "Travaux de Sciences Sociales"
+          },
+          {
+            "value": "travaux-du-centre-de-recherche-et-de-documentation-sur-hegel-et-sur-marx",
+            "label": "Travaux du Centre de recherche et de documentation sur Hegel et sur Marx"
+          },
+          { "value": "travaux-pratiques", "label": "Travaux pratiques" },
+          { "value": "traversees", "label": "Travers\u00e9es" },
+          { "value": "u", "label": "U" },
+          { "value": "un-point-sur", "label": "Un point sur..." },
+          {
+            "value": "une-histoire-personnelle-de",
+            "label": "Une histoire personnelle de ..."
+          },
+          {
+            "value": "une-journee-dans-lhistoire",
+            "label": "Une journ\u00e9e dans l'histoire"
+          },
+          {
+            "value": "update-sciences-technologies",
+            "label": "Update Sciences  Technologies "
+          },
+          {
+            "value": "verites-et-legendes",
+            "label": "V\u00e9rit\u00e9s et l\u00e9gendes"
+          },
+          {
+            "value": "victimologie-amp-criminologie",
+            "label": "Victimologie &amp; criminologie"
+          },
+          {
+            "value": "victimologie-criminologie",
+            "label": "Victimologie  criminologie"
+          },
+          { "value": "voix", "label": "Voix" },
+          {
+            "value": "voix-nouvelles-en-psychanalyse",
+            "label": "Voix nouvelles en psychanalyse"
+          },
+          { "value": "vues-critiques", "label": "Vues critiques" }
+        ]
+      },
+      {
+        "name": "categories",
+        "type": "values",
+        "label": "Sujets",
+        "values": [
+          { "value": "arts", "label": "Arts" },
+          { "value": "arts-droit", "label": "Arts, Droit" },
+          {
+            "value": "arts-sciences-politiques",
+            "label": "Arts, Sciences politiques"
+          },
+          { "value": "droit", "label": "Droit" },
+          { "value": "economie-gestion", "label": "\u00c9conomie-Gestion" },
+          { "value": "geographie", "label": "G\u00e9ographie" },
+          { "value": "histoire", "label": "Histoire" },
+          { "value": "info-com", "label": "Info. - Com." },
+          {
+            "value": "interet-general",
+            "label": "Int\u00e9r\u00eat g\u00e9n\u00e9ral"
+          },
+          {
+            "value": "lettres-et-linguistique",
+            "label": "Lettres et linguistique"
+          },
+          { "value": "philosophie", "label": "Philosophie" },
+          { "value": "psychologie", "label": "Psychologie" },
+          { "value": "sante-publique", "label": "Sant\u00e9 publique" },
+          {
+            "value": "sciences-de-leducation",
+            "label": "Sciences de l'\u00e9ducation"
+          },
+          { "value": "sciences-politiques", "label": "Sciences politiques" },
+          {
+            "value": "sociologie-et-societe",
+            "label": "Sociologie et soci\u00e9t\u00e9"
+          },
+          { "value": "sport-et-societe", "label": "Sport et soci\u00e9t\u00e9" }
+        ]
+      }
+    ]
+  }
+]

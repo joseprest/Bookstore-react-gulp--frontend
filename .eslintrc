@@ -1,0 +1,18 @@
+{
+    "extends": ["airbnb", "prettier", "prettier/react"],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "commonjs": true,
+        "jest": true
+    },
+    "rules": {
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "no-console": ["error", { "allow": ["warn", "error"] }]
+    },
+    "globals": {
+        "__DEV__": true
+    }
+}

@@ -1,0 +1,140 @@
+ .channels-menu
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    white-space: nowrap;
+    font-size: 0;
+    overflow-x: auto;
+
+
+    .channel-menu-item
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .channel-menu-item-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        margin: 10px;
+    }
+
+    .channel-icon
+    {
+        display: block;
+        flex-grow: 1;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .channel-name
+    {
+        width: 100%;
+        text-align: center;
+        display:none;
+
+        font-size: 8px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        white-space:normal;
+        white-space:nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin-top:10px;
+    }
+
+    @include screen-small('horizontal', true)
+    {
+        .channel-menu-item-inner {
+            margin: 10px 20px;
+        }
+
+        .channel-menu-item
+        {
+            width: 120px;
+            height: 120px;
+        }
+
+        .channel-icon
+        {
+            margin: 20px;
+        }
+
+        .channel-name {
+            display:block;
+            font-size: 10px;
+        }
+    }
+
+    @include screen-medium('horizontal', true)
+    {
+        @include screen-small('vertical', true)
+        {
+            .channel-menu-item
+            {
+                width: 150px;
+                height: 150px;
+            }
+
+            .channel-icon
+            {
+                margin: 0;
+            }
+
+            .channel-name {
+                font-size: 12px;
+                padding: 5px 5px;
+            }
+        }
+    }
+
+    @include screen-large('horizontal', true)
+    {
+        @include screen-medium('vertical', true)
+        {
+            .channel-menu-item
+            {
+                width: 210px;
+                height: 210px;
+            }
+
+            .channel-icon
+            {
+                margin: 0;
+            }
+
+            .channel-name {
+                font-size: 16px;
+                padding: 20px;
+                padding-top: 0;
+            }
+        }
+    }
+
+    @include screen-ultra('horizontal', true)
+    {
+        @include screen-large('vertical', true)
+        {
+            .channel-menu-item
+            {
+                width: 240px;
+                height: 240px;
+            }
+
+            .channel-name {
+                font-size: 18px;
+            }
+        }
+    }
+}

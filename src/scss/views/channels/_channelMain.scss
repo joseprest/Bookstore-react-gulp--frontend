@@ -1,0 +1,35 @@
+.channel-main
+{
+    @extend %fullscreen;
+    overflow: hidden;
+
+    .channel-name-container
+    {
+        text-align:center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        &:after
+        {
+            content: '';
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .channel-name
+    {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .channel-main-content
+    {
+        z-index: 0;
+        @extend %fullscreen;
+    }
+}

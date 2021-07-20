@@ -1,0 +1,64 @@
+.channel-filters-tabs
+{
+
+    .channel-tabs
+    {
+        @extend %fullscreen;
+    }
+
+    .channel-tabs-list
+    {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+
+        .btn {
+            font-size:12px;
+            padding: 6px 12px;
+        }
+    }
+
+    @include screen-small('horizontal', true)
+    {
+        .channel-tabs-list
+        {
+            .btn {
+                font-size:12px;
+                padding: 6px 12px;
+            }
+        }
+    }
+
+    @include screen-medium('horizontal', true)
+    {
+        .channel-tabs-list
+        {
+            .btn {
+                font-size:14px;
+                padding: 6px 12px;
+            }
+        }
+    }
+
+    @include screen-large('horizontal', true)
+    {
+        .channel-tabs-list
+        {
+            .btn {
+                font-size:16px;
+                padding: 8px 16px;
+            }
+        }
+    }
+
+    @include screen-ultra('horizontal', true)
+    {
+        .channel-tabs-list
+        {
+            .btn {
+                font-size:18px;
+                padding: 8px 16px;
+            }
+        }
+    }
+}

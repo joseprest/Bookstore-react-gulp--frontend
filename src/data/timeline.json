@@ -1,0 +1,15 @@
+[{
+    "start": 1,
+    "end": null,
+    "id": "all",
+    "items": [
+        {
+            "bubble_id": "question1",
+            "duration": 10
+        },
+        {
+            "bubble_id": "question1",
+            "duration": 10
+        }
+    ]
+}]

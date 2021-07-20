@@ -1,0 +1,19 @@
+.content-screen-container
+{
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.screen-content
+{
+    @extend %fullscreen;
+
+    &.full
+    {
+        .slideshow .slide-cover-container
+        {
+            cursor: auto;
+        }
+    }
+}

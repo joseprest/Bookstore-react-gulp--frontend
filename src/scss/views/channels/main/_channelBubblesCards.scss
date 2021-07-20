@@ -1,0 +1,174 @@
+.channel-bubbles-cards
+{
+    @extend %fullscreen;
+
+    visibility: hidden;
+
+    &.ready
+    {
+        visibility: visible;
+    }
+
+    .bubbles-cards-list
+    {
+        @extend %fullscreen;
+    }
+
+    .bubble-card
+    {
+        position: absolute;
+        width: 40%;
+
+        transform-origin: center center;
+        transition: width 0.2s ease-out;
+        cursor: pointer;
+
+        &.dragging
+        {
+
+        }
+
+        &.selected
+        {
+            width: 60%;
+            cursor: auto;
+        }
+
+        &.out-of-bounds {
+            display: none;
+        }
+    }
+
+    .bubble-card-content
+    {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .bubble-card-infos
+    {
+        padding: 10px;
+        max-height: 700px;
+        overflow: auto;
+    }
+
+    .bubble-card-infos-inner
+    {
+        padding: 20px 16px;
+    }
+
+    .bubble-card-credits
+    {
+        font-size:10px;
+        opacity: 0.5;
+        margin-top:5px;
+    }
+
+    .bubble-card-title
+    {
+        margin-bottom: 0.3em;
+        font-size: 1.5em;
+    }
+
+    .bubble-card-subtitle
+    {
+        margin-bottom: 1em;
+        font-size: 1em;
+    }
+
+    .bubble-card-image
+    {
+        display: block;
+        width: 100%;
+        // background-color: rgba(0,0,0,0.2);
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // background-position: center;
+    }
+
+    .bubble-card-details
+    {
+
+    }
+
+    .bubble-card-description
+    {
+        em, i {
+            font-style: italic;
+        }
+
+        strong, b {
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 1em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .bubble-card-button-container
+    {
+        margin-top:1em;
+        text-align: center;
+    }
+
+    .btn.btn-close
+    {
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #000;
+        border: solid 1px $color_white;
+        background-image: url("#{$images-path}/ui/btn/icon-close-modal.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .bubbles-cards-bottom-bar
+    {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0 0 20px;
+    }
+
+    .bubbles-cards-safe
+    {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    @include screen-small('both', false)
+    {
+        .bubble-card
+        {
+            //width: 200px;
+        }
+    }
+
+    @include screen-medium('both', false)
+    {
+        .bubble-card
+        {
+            //width: 600px;
+        }
+    }
+
+    @include screen-large('both', false)
+    {
+
+    }
+}

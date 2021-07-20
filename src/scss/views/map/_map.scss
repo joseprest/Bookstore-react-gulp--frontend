@@ -1,0 +1,136 @@
+.map
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .marker
+    {
+        position: relative;
+        cursor: pointer;
+
+        &:after
+        {
+            content: '';
+            display: block;
+            height: 14px;
+        }
+
+        .arrow
+        {
+            position: absolute;
+            display:block;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: solid transparent;
+            border-width: 14px;
+            margin-left: -14px;
+            bottom: -10px;/* border-width - hauteur du shadow des boutons */
+
+            &.arrow-shadow
+            {
+                bottom: -14px;
+            }
+        }
+
+        .btn
+        {
+            height: auto;
+            font-size: 16px;
+            .label
+            {
+                display: inline-block;
+                max-width: 130px;
+                /*text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;*/
+                padding: 6px;
+                /*word-wrap: break-word;*/
+            }
+            .count
+            {
+                opacity: 0.75;
+            }
+        }
+
+        &.marker-preview
+        {
+            &.with-label
+            {
+                .bubbles-covers
+                {
+                    padding-bottom: 20px;
+                }
+            }
+
+            &.without-label
+            {
+                &:before
+                {
+                    content: '';
+                    display: block;
+                    height: 14px;
+                }
+            }
+
+            .bubbles-covers
+            {
+                position: relative;
+                margin: 0 auto;
+                box-sizing: content-box;
+            }
+
+            .bubble-cover
+            {
+                position: absolute;
+                background-size: contain;
+                border: 4px solid white;
+                box-sizing: border-box;
+                background-color: #DDD;
+            }
+        }
+
+
+
+        /*&.under
+        {
+            transform: translateY(100%);
+
+            .group-content
+            {
+                padding-top: 10px;
+                padding-bottom: 0;
+            }
+
+            .arrow
+            {
+                position: absolute;
+                top: 0;
+                bottom: auto;
+                transform: scaleY(-1);
+                transform-origin: top;
+                &.arrow-shadow
+                {
+                    display: none;
+                }
+            }
+        }*/
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 26px;
+        width: 100%;
+    }
+}
+
+.marker-icon {
+    color: #000;
+}

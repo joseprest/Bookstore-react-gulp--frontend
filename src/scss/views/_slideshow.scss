@@ -1,0 +1,23 @@
+.slideshow
+{
+    @extend %fullscreen;
+
+    .slides-container {
+        @extend %fullscreen;
+    }
+
+    .slide-container.current .slide-cover-content {
+        transition: opacity .2s linear;
+    }
+
+    /*transition: -webkit-filter .2s linear, -webkit-filter .4s linear;*/
+
+    &.paused {
+        .slide-container.current .slide-cover-content {
+            opacity: 0.5;
+        }
+
+        /*-webkit-filter: blur(10px);
+        filter: blur(10px);*/
+    }
+}

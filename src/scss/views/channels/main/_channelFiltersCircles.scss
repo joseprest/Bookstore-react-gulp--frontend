@@ -1,0 +1,107 @@
+.channel-filters-circles
+{
+    @extend %fullscreen;
+
+    .filters-container
+    {
+        padding: 0 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .filters
+    {
+        position: relative;
+        margin-right: -10px;
+    }
+
+    .filter
+    {
+        position: relative;
+        min-width: 100px;
+        display: inline-block;
+        cursor: pointer;
+
+        margin: 0 10px 10px 0;
+
+        .background
+        {
+            @extend %fullscreen;
+            border-radius: 10px;
+            background-color: $color_black;
+            opacity: 0.3;
+            transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+        }
+
+        .btn
+        {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .btn-content
+        {
+            opacity: 0;
+            transition: opacity .2s ease-in-out;
+        }
+
+        .label
+        {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 6px 10px;
+        }
+
+        &.selected
+        {
+            .background
+            {
+                opacity: 0.5;
+            }
+
+            .btn-content
+            {
+                opacity: 1;
+            }
+        }
+
+        &:last-of-type
+        {
+            margin: 0;
+        }
+    }
+
+    .circles-container
+    {
+        @extend %fullscreen;
+    }
+
+    @include screen-small('both', true)
+    {
+        .filter
+        {
+            min-width: 200px;
+        }
+    }
+
+    @include screen-medium('both', true)
+    {
+        .filters-container
+        {
+            padding: 0 86px;
+        }
+
+        .filters
+        {
+            margin-right: -15px;
+        }
+
+        .filter
+        {
+            min-width: 290px;
+            margin: 0 15px 15px 0;
+        }
+    }
+}

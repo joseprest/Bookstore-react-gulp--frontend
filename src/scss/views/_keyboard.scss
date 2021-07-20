@@ -1,0 +1,197 @@
+.keyboard-container {
+    @extend %fullscreen;
+}
+
+.keyboard-safe {
+    cursor: pointer;
+    @extend %fullscreen;
+    background: rgba(0,0,0,0.5);
+    z-index:1;
+}
+
+.keyboard {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background:#333;
+    z-index:2;
+
+    .btn.btn-close {
+        position:absolute;
+        top:-25px;
+        right:25px;
+        display:inline-block;
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        background: $color_black;
+        border:solid 1px $color_white;
+        background-image: url("#{$images-path}/ui/btn/icon-close-modal.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+.keyboard-inner {
+    padding: 30px 40px 100px 40px;
+}
+
+.keyboard-input {
+    margin-bottom:30px;
+    text-align:center;
+
+    .input-text, input
+    {
+        display:inline-block;
+        width:200px;
+        margin:0 auto;
+        margin-right:5px;
+        font-size:12px;
+        vertical-align: bottom;
+    }
+
+    button.btn {
+        display: inline-block;
+        vertical-align: bottom;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    @include screen-medium {
+
+        .input-text, input
+        {
+            width:300px;
+            font-size:14px;
+        }
+    }
+}
+
+.keyboard-layout {
+    text-align:center;
+}
+
+.keyboard-row {
+
+    text-align:center;
+    font-size:0px;
+    margin-bottom:5px;
+
+    &:after {
+        content: "";
+        clear:both;
+        display:block;
+    }
+
+    .keyboard-key {
+        vertical-align:middle;
+        margin-right:5px;
+
+        &:last-child {
+            margin-right:0px;
+        }
+
+    }
+
+    @include screen-small {
+        margin-bottom:10px;
+
+        .keyboard-key {
+            margin-right:10px;
+        }
+    }
+}
+
+.keyboard-keys {
+    display:inline-block;
+}
+
+.keyboard-key {
+    display:inline-block;
+    text-align:center;
+    position: relative;
+
+    &.key-space button {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.btn-keyboard-key, .keyboard-spacer {
+    background:#222;
+    padding:6px 10px;
+    font-size:10px;
+    font-weight:normal;
+    line-height:1.2;
+    min-width: 31px;
+
+    .label {
+        pointer-events: none;
+    }
+
+    .icon {
+        width: 14px;
+        height: 14px;
+        pointer-events: none;
+    }
+
+    span, span:first-child {
+        margin:0;
+    }
+
+    &:hover {
+        background:#252525;
+    }
+
+    &.btn-active, &:active {
+        margin-top:2px;
+        border-bottom: 2px solid;
+    }
+
+    @include screen-small {
+        padding:8px 12px;
+        font-size:12px;
+        font-weight:bold;
+        min-width: 36px;
+    }
+
+    @include screen-medium {
+
+    }
+
+    @include screen-large {
+
+    }
+}
+
+.keyboard-spacer {
+    display: inline-block;
+    background: none;
+}
+
+.keyboard-alternate-keys {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    white-space: nowrap;
+    z-index: 1;
+    transform: translate(-50%, -5px);
+    padding: 10px;
+    border-radius: 10px;
+    background:#333;
+    transform-origin: bottom center;
+
+    .keyboard-row {
+        margin: 0;
+    }
+
+    .arrow-down {
+        position: absolute;
+        left: 50%;
+        width: 18px;
+        height: 18px;
+        border-radius: 6px;
+        transform: translate(-50%, 0) rotate(-45deg);
+    }
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('#{$fonts-path}/montserrat-regular.eot?') format('eot'),
+       url('#{$fonts-path}/montserrat-regular.woff2') format('woff2'),
+       url('#{$fonts-path}/montserrat-regular.woff') format('woff'),
+       url('#{$fonts-path}/montserrat-regular.otf') format('opentype'),
+       url('#{$fonts-path}/montserrat-regular.ttf')  format('truetype'),
+       url('#{$fonts-path}/montserrat-regular.svg#montserrat-regular') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('#{$fonts-path}/montserrat-bold.eot?') format('eot'),
+       url('#{$fonts-path}/montserrat-bold.woff2') format('woff2'),
+       url('#{$fonts-path}/montserrat-bold.woff') format('woff'),
+       url('#{$fonts-path}/montserrat-bold.otf') format('opentype'),
+       url('#{$fonts-path}/montserrat-bold.ttf')  format('truetype'),
+       url('#{$fonts-path}/montserrat-bold.svg#montserrat-bold') format('svg');
+}
+
+@font-face {
+  font-family: 'SimplonNorm';
+  font-weight: normal;
+  src: url('#{$fonts-path}/simplon-norm-regular.eot?') format('eot'),
+       url('#{$fonts-path}/simplon-norm-regular.woff2') format('woff2'),
+       url('#{$fonts-path}/simplon-norm-regular.woff') format('woff'),
+       url('#{$fonts-path}/simplon-norm-regular.otf')  format('opentype'),
+       url('#{$fonts-path}/simplon-norm-regular.ttf')  format('truetype'),
+       url('#{$fonts-path}/simplon-norm-regular.svg#simplon-norm-regular') format('svg');
+}
+
+@font-face {
+  font-family: 'SimplonNorm';
+  font-weight: 700;
+  src: url('#{$fonts-path}/simplon-norm-bold.eot?') format('eot'),
+       url('#{$fonts-path}/simplon-norm-bold.woff2') format('woff2'),
+       url('#{$fonts-path}/simplon-norm-bold.woff') format('woff'),
+       url('#{$fonts-path}/simplon-norm-bold.otf')  format('opentype'),
+       url('#{$fonts-path}/simplon-norm-bold.ttf')  format('truetype'),
+       url('#{$fonts-path}/simplon-norm-bold.svg#simplon-norm-bold') format('svg');
+}

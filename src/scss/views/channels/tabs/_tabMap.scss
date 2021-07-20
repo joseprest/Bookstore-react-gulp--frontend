@@ -1,0 +1,15 @@
+.tab-map
+{
+    position: relative;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+    .map-container
+    {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 30px);
+    }
+}

@@ -1,0 +1,311 @@
+.slide-cover-slideshow {
+
+    .slide-cover-image {
+        position:absolute;
+        width:100%;
+        left:0px;
+        top:0px;
+        background-size:contain;
+        background: center center;
+        padding:20px;
+        box-sizing: border-box;
+
+        @include screen-small('vertical')
+        {
+            padding:40px;
+        }
+
+        @include screen-medium('vertical')
+        {
+            padding:40px 60px;
+        }
+
+        @include screen-large('vertical')
+        {
+            padding:40px 80px;
+        }
+
+        @include screen-ultra('vertical')
+        {
+            padding:60px 100px;
+        }
+    }
+
+    .slide-cover-infos-container {
+        position:absolute;
+        width:100%;
+        left:0px;
+        bottom:0px;
+    }
+
+    .slide-cover-infos {
+
+        padding: 0px 40px 80px 40px;
+
+        /* Medium devices */
+        @include screen-medium('vertical')
+        {
+            padding-bottom:120px;
+        }
+
+        /* Large devices */
+        @include screen-large('vertical')
+        {
+            padding-bottom:160px;
+        }
+    }
+
+    .slide-cover-content {
+
+    }
+
+    .slide-cover-type {
+        display:inline-block;
+        border:solid 1px #fff;
+        font-weight:bold;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 8px;
+
+
+        /* Small devices */
+        @include screen-small
+        {
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 14px;
+        }
+
+        /* Medium devices */
+        @include screen-medium
+        {
+            border-radius: 14px;
+            font-size: 18px;
+            padding: 15px;
+        }
+
+        /* Large devices */
+        @include screen-large
+        {
+            border-radius: 14px;
+            font-size: 24px;
+            padding:20px;
+        }
+
+        /* Ultra devices */
+        @include screen-ultra
+        {
+            border-radius: 20px;
+            padding:40px;
+            font-size: 40px;
+        }
+    }
+
+    .slide-cover-title
+    {
+        font-weight:bold;
+        padding-top: 10px;
+        font-size: 18px;
+
+
+        /* Small devices */
+        @include screen-small('vertical')
+        {
+            padding-top: 20px;
+            font-size: 24px;
+        }
+
+        /* Medium devices */
+        @include screen-medium('vertical')
+        {
+            padding-top: 25px;
+            font-size: 50px;
+        }
+
+        /* Large devices */
+        @include screen-large('vertical')
+        {
+            padding-top: 40px;
+            font-size: 80px;
+        }
+    }
+
+    .slide-cover-subtitle
+    {
+        font-weight:normal;
+        padding-top: 5px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow:hidden;
+
+        /* Small devices */
+        @include screen-small('vertical')
+        {
+            font-size: 28px;
+        }
+
+        /* Medium devices */
+        @include screen-medium('vertical')
+        {
+            padding-top: 10px;
+            font-size: 40px;
+        }
+
+        /* Large devices */
+        @include screen-large('vertical')
+        {
+            padding-top: 10px;
+            font-size: 60px;
+        }
+    }
+
+
+    &.slide-cover-horizontal {
+        /*display:table;*/
+
+        .slide-cover-image, .slide-cover-infos {
+            /*position:relative;
+            top:auto;
+            left:auto;
+            bottom:auto;
+            right:auto;
+            display:table-cell;
+            vertical-align:middle;*/
+        }
+
+        .slide-cover-image {
+            @include screen-small('horizontal')
+            {
+                padding:40px;
+            }
+
+            @include screen-medium('horizontal')
+            {
+                padding:40px 60px;
+            }
+
+            @include screen-large('horizontal')
+            {
+                padding:40px 80px;
+            }
+
+            @include screen-ultra('horizontal')
+            {
+                padding:60px 100px;
+            }
+        }
+
+        .slide-cover-infos-container {
+            display:table;
+            @extend %fullscreen;
+            left:auto;
+            right:0px;
+        }
+
+        .slide-cover-infos {
+            position:relative;
+            top:auto;
+            left:auto;
+            bottom:auto;
+            right:auto;
+            display:table-cell;
+            vertical-align:middle;
+            padding: 0px;
+
+            padding-right: 20px;
+            @include screen-small('vertical')
+            {
+                padding-right: 40px;
+            }
+
+            @include screen-medium('vertical')
+            {
+                padding-right: 60px;
+            }
+
+            @include screen-large('vertical')
+            {
+                padding-right: 80px;
+            }
+
+            @include screen-ultra('vertical')
+            {
+                padding-right: 100px;
+            }
+        }
+
+        .slide-cover-title
+        {
+            padding-top: 15px;
+            font-size: 24px;
+
+            /* Small devices */
+            @include screen-small('horizontal')
+            {
+                padding-top: 20px;
+                font-size: 30px;
+            }
+
+            /* Medium devices */
+            @include screen-medium('horizontal')
+            {
+                padding-top: 20px;
+                font-size: 40px;
+            }
+
+            /* Large devices */
+            @include screen-large('horizontal')
+            {
+                padding-top: 30px;
+                font-size: 50px;
+            }
+
+            /* Ultra devices */
+            @include screen-ultra('horizontal')
+            {
+                padding-top: 40px;
+                font-size: 140px;
+            }
+        }
+
+        .slide-cover-subtitle
+        {
+            padding-top: 5px;
+            font-size: 18px;
+
+            /* Small devices */
+            @include screen-small('horizontal')
+            {
+                padding-top: 10px;
+                font-size: 24px;
+            }
+
+            /* Medium devices */
+            @include screen-medium('horizontal')
+            {
+                padding-top: 10px;
+                font-size: 30px;
+            }
+
+            /* Large devices */
+            @include screen-large('horizontal')
+            {
+                padding-top: 10px;
+                font-size: 40px;
+            }
+
+            /* Ultra devices */
+            @include screen-ultra('horizontal')
+            {
+                padding-top: 10px;
+                font-size: 100px;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,148 @@
+.bubble-details
+{
+    @extend %fullscreen;
+
+    .bubble-basic-infos
+    {
+        min-height: 40px;
+    }
+
+    .bubble-type-name-container
+    {
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .bubble-title-container
+    {
+        text-align: center;
+        padding: 0 10px 20px 10px;
+    }
+
+    .bubble-type-name
+    {
+        display: inline-block;
+        font-size: 10px;
+        padding: 5px 10px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .bubble-title
+    {
+        font-size: 16px;
+    }
+
+    .bubble-content-container
+    {
+        position: absolute;
+        bottom: 0;/* à enlever dans l'update */
+        left: 0;
+        box-sizing: border-box;
+    }
+
+    .bubble-content
+    {
+        position: relative;
+        height: 100%;
+    }
+
+    .bubble-content-inner
+    {
+        height: 100%;
+    }
+
+    .details-gradient
+    {
+        position: absolute;
+        width: 100%;
+        height: $details-padding-y;
+        box-sizing: border-box;
+        pointer-events: none;
+        z-index:2;
+
+        &.gradient-top {
+            top: 0;
+        }
+
+        &.gradient-bottom {
+            bottom: 0;
+        }
+    }
+
+    @include screen-small('both', true)
+    {
+        .bubble-type-name
+        {
+            font-size: 10px;
+            padding: 10px;
+        }
+
+        .bubble-title-container
+        {
+            padding: 0 90px 25px;
+        }
+
+        .bubble-title
+        {
+
+            font-size: 25px
+        }
+
+        .details-gradient
+        {
+            height: $details-padding-y-medium;
+        }
+    }
+
+    @include screen-medium('both', true)
+    {
+        .bubble-type-name-container
+        {
+            padding: 40px 0 20px;
+        }
+
+        .bubble-type-name
+        {
+            font-size: 12px;
+            padding: 12px;
+        }
+
+        .bubble-title-container
+        {
+            padding-bottom: 30px;
+        }
+
+        .bubble-title
+        {
+            font-size: 36px;
+        }
+    }
+
+    @include screen-large('both', true)
+    {
+        .bubble-type-name-container
+        {
+            padding: 40px 0 20px;
+        }
+
+        .bubble-title-container
+        {
+            padding-bottom: 40px;
+        }
+
+        .bubble-type-name
+        {
+            font-size: 14px;
+            padding: 12px;
+        }
+
+        .bubble-title
+        {
+            font-size: 48px;
+        }
+    }
+}

@@ -1,0 +1,4004 @@
+[{
+            "id": "1",
+            "type": "books",
+            "snippet": {
+                "title": "Livres num\u00e9riques",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": null
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#3a2f81",
+                    "color_medium": "#332978",
+                    "color_normal": "#2B235C",
+                    "color_dark": "#1E193D",
+                    "color_darker": "#0E092B",
+                    "color_shadow": "#291E63",
+                    "color_shadow_darker": "#1F1B40"
+                },
+                "settings": {
+                    "channelView": "filters_tabs",
+                    "slidesHeightRatio": 0.35,
+                    "slidesMarginRatio": 0.05,
+                    "slidesWidthRatio": null,
+                    "slidesSlideView": "thumbnail",
+                    "modalBubblesListView": "cover",
+                    "bubbleDetailsShowTypeName": true,
+                    "bubbleDetailsShowTitle": true,
+                    "bubbleDetailsContentView": "columns",
+                    "bubbleDetailsContentColumns": [{
+                        "column": 0,
+                        "type": "description",
+                        "value": "snippet.description"
+                    }, {
+                        "column": 1,
+                        "type": "fields",
+                        "value": "fields.date,fields.author"
+                    }, {
+                        "column": 1,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }]
+                }
+            },
+            "filters": [{
+                "name": "collection",
+                "type": "circles",
+                "label": "Collections",
+                "values": [{
+                    "value": "family",
+                    "label": "Famille et maternit\u00e9"
+                }, {
+                    "value": "poetry-drama",
+                    "label": "Po\u00e9sie et th\u00e9\u00e2tre"
+                }, {
+                    "value": "novel-fiction",
+                    "label": "Romans et nouvelles"
+                }, {
+                    "value": "biography",
+                    "label": "Biographies"
+                }, {
+                    "value": "juvenile-fiction",
+                    "label": "Jeunesse - albums et romans"
+                }, {
+                    "value": "self-help",
+                    "label": "Croissance personnelle"
+                }, {
+                    "value": "religion-spirituality",
+                    "label": "Religion et spiritualit\u00e9"
+                }, {
+                    "value": "juvenile-comics",
+                    "label": "Jeunesse - bandes dessin\u00e9es"
+                }, {
+                    "value": "arts",
+                    "label": "Arts, architecture et design"
+                }, {
+                    "value": "historical-fiction",
+                    "label": "Romans historiques"
+                }, {
+                    "value": "parapsychology",
+                    "label": "Parapsychologie"
+                }, {
+                    "value": "essays-literary-criticism",
+                    "label": "Essais litt\u00e9raires et critique"
+                }, {
+                    "value": "education-languages",
+                    "label": "\u00c9ducation et langues"
+                }, {
+                    "value": "social-science",
+                    "label": "Sciences humaines et sociales"
+                }, {
+                    "value": "science-fiction-fantasy",
+                    "label": "Romans science-fiction et fantastique"
+                }, {
+                    "value": "tourism-travel",
+                    "label": "Tourisme et voyages"
+                }, {
+                    "value": "health",
+                    "label": "Sant\u00e9"
+                }, {
+                    "value": "business-economics-law",
+                    "label": "Affaires, \u00e9conomie et droit"
+                }, {
+                    "value": "cooking",
+                    "label": "Cuisine"
+                }, {
+                    "value": "detective-suspense",
+                    "label": "Romans policiers et suspense"
+                }, {
+                    "value": "romance",
+                    "label": "Romans sentimentaux"
+                }, {
+                    "value": "juvenile-nonfiction",
+                    "label": "Jeunesse - documentaires"
+                }, {
+                    "value": "psychology",
+                    "label": "Psychologie"
+                }, {
+                    "value": "comics",
+                    "label": "Bandes dessin\u00e9es"
+                }, {
+                    "value": "nature-environment",
+                    "label": "Nature et environnement"
+                }]
+            }, {
+                "name": "author",
+                "type": "list",
+                "label": "Auteur",
+                "layout": "alphabetic",
+                "values": [{
+                    "value": "Diana Gabaldon",
+                    "label": "Diana Gabaldon",
+                    "alpha": "gabaldon-diana"
+                }, {
+                    "value": "Elena Ferrante",
+                    "label": "Elena Ferrante",
+                    "alpha": "ferrante-elena"
+                }, {
+                    "value": "Gilles Kepel",
+                    "label": "Gilles Kepel",
+                    "alpha": "kepel-gilles"
+                }, {
+                    "value": "Christian Blais",
+                    "label": "Christian Blais",
+                    "alpha": "blais-christian"
+                }, {
+                    "value": "Mark Roberts",
+                    "label": "Mark Roberts",
+                    "alpha": "roberts-mark"
+                }, {
+                    "value": "Holly Smale",
+                    "label": "Holly Smale",
+                    "alpha": "smale-holly"
+                }, {
+                    "value": "Jayne Anne Krentz",
+                    "label": "Jayne Anne Krentz",
+                    "alpha": "anne-krentz-jayne"
+                }, {
+                    "value": "Claudia Gray",
+                    "label": "Claudia Gray",
+                    "alpha": "gray-claudia"
+                }, {
+                    "value": "Lise Bergeron",
+                    "label": "Lise Bergeron",
+                    "alpha": "bergeron-lise"
+                }, {
+                    "value": "Maude Royer",
+                    "label": "Maude Royer",
+                    "alpha": "royer-maude"
+                }, {
+                    "value": "Diana Cooper",
+                    "label": "Diana Cooper",
+                    "alpha": "cooper-diana"
+                }, {
+                    "value": "Laura Csajagi",
+                    "label": "Laura Csajagi",
+                    "alpha": "csajagi-laura"
+                }, {
+                    "value": "Michelle Gagnon",
+                    "label": "Michelle Gagnon",
+                    "alpha": "gagnon-michelle"
+                }, {
+                    "value": "Sonia Choquette",
+                    "label": "Sonia Choquette",
+                    "alpha": "choquette-sonia"
+                }, {
+                    "value": "Shirley MacLaine",
+                    "label": "Shirley MacLaine",
+                    "alpha": "maclaine-shirley"
+                }, {
+                    "value": "Margaret Ann Lembo",
+                    "label": "Margaret Ann Lembo",
+                    "alpha": "ann-lembo-margaret"
+                }, {
+                    "value": "Mike Dooley",
+                    "label": "Mike Dooley",
+                    "alpha": "dooley-mike"
+                }, {
+                    "value": "J. D. Tyler",
+                    "label": "J. D. Tyler",
+                    "alpha": "d-tyler-j"
+                }, {
+                    "value": "Marie-Chantal Plante",
+                    "label": "Marie-Chantal Plante",
+                    "alpha": "plante-marie-chantal"
+                }, {
+                    "value": "Dan Scott",
+                    "label": "Dan Scott",
+                    "alpha": "scott-dan"
+                }, {
+                    "value": "Sylvie Goudreau",
+                    "label": "Sylvie Goudreau",
+                    "alpha": "goudreau-sylvie"
+                }, {
+                    "value": "Sylvie Brien",
+                    "label": "Sylvie Brien",
+                    "alpha": "brien-sylvie"
+                }, {
+                    "value": "Bryan Perro",
+                    "label": "Bryan Perro",
+                    "alpha": "perro-bryan"
+                }, {
+                    "value": "Fran\u00e7ois Lapierre",
+                    "label": "Fran\u00e7ois Lapierre",
+                    "alpha": "lapierre-francois"
+                }, {
+                    "value": "St\u00e9phan Bilodeau",
+                    "label": "St\u00e9phan Bilodeau",
+                    "alpha": "bilodeau-stephan"
+                }, {
+                    "value": "Daniel Naud",
+                    "label": "Daniel Naud",
+                    "alpha": "naud-daniel"
+                }, {
+                    "value": "Jackie Alpers",
+                    "label": "Jackie Alpers",
+                    "alpha": "alpers-jackie"
+                }, {
+                    "value": "Mel Gosselin",
+                    "label": "Mel Gosselin",
+                    "alpha": "gosselin-mel"
+                }, {
+                    "value": "St\u00e9phanie Bourgault-Dallaire",
+                    "label": "St\u00e9phanie Bourgault-Dallaire",
+                    "alpha": "bourgault-dallaire-stephanie"
+                }, {
+                    "value": "Florence K",
+                    "label": "Florence K",
+                    "alpha": "k-florence"
+                }, {
+                    "value": "Daniel Castillo Durante",
+                    "label": "Daniel Castillo Durante",
+                    "alpha": "castillo-durante-daniel"
+                }, {
+                    "value": "Jean D\u00e9sy",
+                    "label": "Jean D\u00e9sy",
+                    "alpha": "desy-jean"
+                }, {
+                    "value": "Marie Potvin",
+                    "label": "Marie Potvin",
+                    "alpha": "potvin-marie"
+                }, {
+                    "value": "Collectif Ulysse",
+                    "label": "Collectif Ulysse",
+                    "alpha": "ulysse-collectif"
+                }, {
+                    "value": "Alain Legault",
+                    "label": "Alain Legault",
+                    "alpha": "legault-alain"
+                }, {
+                    "value": "Marc Rigole",
+                    "label": "Marc Rigole",
+                    "alpha": "rigole-marc"
+                }, {
+                    "value": "Suzanne Leclerc",
+                    "label": "Suzanne Leclerc",
+                    "alpha": "leclerc-suzanne"
+                }, {
+                    "value": "Yves Beauregard",
+                    "label": "Yves Beauregard",
+                    "alpha": "beauregard-yves"
+                }, {
+                    "value": "Georges LeBel",
+                    "label": "Georges LeBel",
+                    "alpha": "lebel-georges"
+                }, {
+                    "value": "Michael Rinn",
+                    "label": "Michael Rinn",
+                    "alpha": "rinn-michael"
+                }, {
+                    "value": "Collectif",
+                    "label": "Collectif",
+                    "alpha": "collectif"
+                }, {
+                    "value": "Normand Perron",
+                    "label": "Normand Perron",
+                    "alpha": "perron-normand"
+                }, {
+                    "value": "Christian Deblock",
+                    "label": "Christian Deblock",
+                    "alpha": "deblock-christian"
+                }, {
+                    "value": "Anne-Marie Chalifoux",
+                    "label": "Anne-Marie Chalifoux",
+                    "alpha": "chalifoux-anne-marie"
+                }, {
+                    "value": "Elizabeth Landry",
+                    "label": "Elizabeth Landry",
+                    "alpha": "landry-elizabeth"
+                }, {
+                    "value": "Audrey Couture",
+                    "label": "Audrey Couture",
+                    "alpha": "couture-audrey"
+                }, {
+                    "value": "Samia Amor",
+                    "label": "Samia Amor",
+                    "alpha": "amor-samia"
+                }, {
+                    "value": "Mona Greenbaum",
+                    "label": "Mona Greenbaum",
+                    "alpha": "greenbaum-mona"
+                }, {
+                    "value": "Emmanuel Daigle",
+                    "label": "Emmanuel Daigle",
+                    "alpha": "daigle-emmanuel"
+                }, {
+                    "value": "Claude Par\u00e9",
+                    "label": "Claude Par\u00e9",
+                    "alpha": "pare-claude"
+                }, {
+                    "value": "Louis Gagn\u00e9",
+                    "label": "Louis Gagn\u00e9",
+                    "alpha": "gagne-louis"
+                }, {
+                    "value": "Louis Aragon",
+                    "label": "Louis Aragon",
+                    "alpha": "aragon-louis"
+                }, {
+                    "value": "Simon Boulerice",
+                    "label": "Simon Boulerice",
+                    "alpha": "boulerice-simon"
+                }, {
+                    "value": "Susan Albers",
+                    "label": "Susan Albers",
+                    "alpha": "albers-susan"
+                }, {
+                    "value": "Danielle L'Heureux",
+                    "label": "Danielle L'Heureux",
+                    "alpha": "lheureux-danielle"
+                }, {
+                    "value": "Jacques Michaud",
+                    "label": "Jacques Michaud",
+                    "alpha": "michaud-jacques"
+                }, {
+                    "value": "H\u00e9l\u00e8ne Turmel",
+                    "label": "H\u00e9l\u00e8ne Turmel",
+                    "alpha": "turmel-helene"
+                }, {
+                    "value": "Hada Lopez",
+                    "label": "Hada Lopez",
+                    "alpha": "lopez-hada"
+                }, {
+                    "value": "Alain M. Bergeron",
+                    "label": "Alain M. Bergeron",
+                    "alpha": "m-bergeron-alain"
+                }, {
+                    "value": "Jeanne Painchaud",
+                    "label": "Jeanne Painchaud",
+                    "alpha": "painchaud-jeanne"
+                }, {
+                    "value": "H.-Paul Chevrier",
+                    "label": "H.-Paul Chevrier",
+                    "alpha": "chevrier-h-paul"
+                }, {
+                    "value": "Mathieu Grondin",
+                    "label": "Mathieu Grondin",
+                    "alpha": "grondin-mathieu"
+                }, {
+                    "value": "Emmanuel Lauzon",
+                    "label": "Emmanuel Lauzon",
+                    "alpha": "lauzon-emmanuel"
+                }, {
+                    "value": "Suzanne Aubry",
+                    "label": "Suzanne Aubry",
+                    "alpha": "aubry-suzanne"
+                }, {
+                    "value": "Pascale Wilhelmy",
+                    "label": "Pascale Wilhelmy",
+                    "alpha": "wilhelmy-pascale"
+                }, {
+                    "value": "Jean Pierre Girard",
+                    "label": "Jean Pierre Girard",
+                    "alpha": "pierre-girard-jean"
+                }, {
+                    "value": "Alexandre Fontaine Rousseau",
+                    "label": "Alexandre Fontaine Rousseau",
+                    "alpha": "fontaine-rousseau-alexandre"
+                }, {
+                    "value": "Marie Christine Dean",
+                    "label": "Marie Christine Dean",
+                    "alpha": "christine-dean-marie"
+                }, {
+                    "value": "Maryse Poudrier",
+                    "label": "Maryse Poudrier",
+                    "alpha": "poudrier-maryse"
+                }, {
+                    "value": "Christine Dubois",
+                    "label": "Christine Dubois",
+                    "alpha": "dubois-christine"
+                }, {
+                    "value": "Claudia Larochelle",
+                    "label": "Claudia Larochelle",
+                    "alpha": "larochelle-claudia"
+                }, {
+                    "value": "Catinca Adriana Stan",
+                    "label": "Catinca Adriana Stan",
+                    "alpha": "adriana-stan-catinca"
+                }, {
+                    "value": "David Sanschagrin",
+                    "label": "David Sanschagrin",
+                    "alpha": "sanschagrin-david"
+                }, {
+                    "value": "Maria Gravari-Barbas",
+                    "label": "Maria Gravari-Barbas",
+                    "alpha": "gravari-barbas-maria"
+                }, {
+                    "value": "Audrey Miller",
+                    "label": "Audrey Miller",
+                    "alpha": "miller-audrey"
+                }, {
+                    "value": "Mario Bergeron",
+                    "label": "Mario Bergeron",
+                    "alpha": "bergeron-mario"
+                }, {
+                    "value": "Jasmin Girard",
+                    "label": "Jasmin Girard",
+                    "alpha": "girard-jasmin"
+                }, {
+                    "value": "Natalie Jean",
+                    "label": "Natalie Jean",
+                    "alpha": "jean-natalie"
+                }, {
+                    "value": "Diane Giroux",
+                    "label": "Diane Giroux",
+                    "alpha": "giroux-diane"
+                }, {
+                    "value": "Bertrand Latour",
+                    "label": "Bertrand Latour",
+                    "alpha": "latour-bertrand"
+                }, {
+                    "value": "Jean-Philippe Viriot Durandal",
+                    "label": "Jean-Philippe Viriot Durandal",
+                    "alpha": "viriot-durandal-jean-philippe"
+                }, {
+                    "value": "Claude J. Melan\u00e7on",
+                    "label": "Claude J. Melan\u00e7on",
+                    "alpha": "j-melancon-claude"
+                }, {
+                    "value": "Jean-Michel Decroly",
+                    "label": "Jean-Michel Decroly",
+                    "alpha": "decroly-jean-michel"
+                }, {
+                    "value": "Elisa Ganivet",
+                    "label": "Elisa Ganivet",
+                    "alpha": "ganivet-elisa"
+                }, {
+                    "value": "Daniel Brouillette",
+                    "label": "Daniel Brouillette",
+                    "alpha": "brouillette-daniel"
+                }, {
+                    "value": "Kelly Berthelsen",
+                    "label": "Kelly Berthelsen",
+                    "alpha": "berthelsen-kelly"
+                }, {
+                    "value": "Lorraine Pintal",
+                    "label": "Lorraine Pintal",
+                    "alpha": "pintal-lorraine"
+                }, {
+                    "value": "Pierre Calv\u00e9",
+                    "label": "Pierre Calv\u00e9",
+                    "alpha": "calve-pierre"
+                }, {
+                    "value": "Laurence Houllier",
+                    "label": "Laurence Houllier",
+                    "alpha": "houllier-laurence"
+                }, {
+                    "value": "Alain Cuerrier",
+                    "label": "Alain Cuerrier",
+                    "alpha": "cuerrier-alain"
+                }, {
+                    "value": "Alexandre Klein",
+                    "label": "Alexandre Klein",
+                    "alpha": "klein-alexandre"
+                }, {
+                    "value": "C\u00e9lyne Fortin",
+                    "label": "C\u00e9lyne Fortin",
+                    "alpha": "fortin-celyne"
+                }, {
+                    "value": "Giacomo D'Alisa",
+                    "label": "Giacomo D'Alisa",
+                    "alpha": "dalisa-giacomo"
+                }, {
+                    "value": "Catherine Ego",
+                    "label": "Catherine Ego",
+                    "alpha": "ego-catherine"
+                }, {
+                    "value": "Jonathan Charette",
+                    "label": "Jonathan Charette",
+                    "alpha": "charette-jonathan"
+                }, {
+                    "value": "Raymond Mass\u00e9",
+                    "label": "Raymond Mass\u00e9",
+                    "alpha": "masse-raymond"
+                }, {
+                    "value": "Kent Nagano",
+                    "label": "Kent Nagano",
+                    "alpha": "nagano-kent"
+                }, {
+                    "value": "Alain Asselin",
+                    "label": "Alain Asselin",
+                    "alpha": "asselin-alain"
+                }, {
+                    "value": "Fr\u00e9d\u00e9rick Lavoie",
+                    "label": "Fr\u00e9d\u00e9rick Lavoie",
+                    "alpha": "lavoie-frederick"
+                }, {
+                    "value": "Marcel Martel",
+                    "label": "Marcel Martel",
+                    "alpha": "martel-marcel"
+                }, {
+                    "value": "Sylvie G.",
+                    "label": "Sylvie G.",
+                    "alpha": "g-sylvie"
+                }, {
+                    "value": "Renald B\u00e9rub\u00e9",
+                    "label": "Renald B\u00e9rub\u00e9",
+                    "alpha": "berube-renald"
+                }, {
+                    "value": "Rod Phillips",
+                    "label": "Rod Phillips",
+                    "alpha": "phillips-rod"
+                }, {
+                    "value": "Isabelle Pag\u00e9",
+                    "label": "Isabelle Pag\u00e9",
+                    "alpha": "page-isabelle"
+                }, {
+                    "value": "Dany Rossignol",
+                    "label": "Dany Rossignol",
+                    "alpha": "rossignol-dany"
+                }, {
+                    "value": "V\u00e9ronique C\u00f4t\u00e9",
+                    "label": "V\u00e9ronique C\u00f4t\u00e9",
+                    "alpha": "cote-veronique"
+                }, {
+                    "value": "Louise Tondreau-Levert",
+                    "label": "Louise Tondreau-Levert",
+                    "alpha": "tondreau-levert-louise"
+                }, {
+                    "value": "Alain Roy",
+                    "label": "Alain Roy",
+                    "alpha": "roy-alain"
+                }, {
+                    "value": "Antonio Tabucchi",
+                    "label": "Antonio Tabucchi",
+                    "alpha": "tabucchi-antonio"
+                }, {
+                    "value": "Boileau-Narcejac",
+                    "label": "Boileau-Narcejac",
+                    "alpha": "boileau-narcejac"
+                }, {
+                    "value": "Pierre Beaulieu",
+                    "label": "Pierre Beaulieu",
+                    "alpha": "beaulieu-pierre"
+                }, {
+                    "value": "Michel David",
+                    "label": "Michel David",
+                    "alpha": "david-michel"
+                }, {
+                    "value": "Serge Chapleau",
+                    "label": "Serge Chapleau",
+                    "alpha": "chapleau-serge"
+                }, {
+                    "value": "Dani\u00e8le Henkel",
+                    "label": "Dani\u00e8le Henkel",
+                    "alpha": "henkel-daniele"
+                }, {
+                    "value": "Andr\u00e9-Philippe C\u00f4t\u00e9",
+                    "label": "Andr\u00e9-Philippe C\u00f4t\u00e9",
+                    "alpha": "cote-andre-philippe"
+                }, {
+                    "value": "Marcel Thouin",
+                    "label": "Marcel Thouin",
+                    "alpha": "thouin-marcel"
+                }, {
+                    "value": "Thomas King",
+                    "label": "Thomas King",
+                    "alpha": "king-thomas"
+                }, {
+                    "value": "Marc Andr\u00e9 Brouillette",
+                    "label": "Marc Andr\u00e9 Brouillette",
+                    "alpha": "andre-brouillette-marc"
+                }, {
+                    "value": "R\u00e9al Houde",
+                    "label": "R\u00e9al Houde",
+                    "alpha": "houde-real"
+                }, {
+                    "value": "Jean-Pierre Gorkynian",
+                    "label": "Jean-Pierre Gorkynian",
+                    "alpha": "gorkynian-jean-pierre"
+                }, {
+                    "value": "Rosette Laberge",
+                    "label": "Rosette Laberge",
+                    "alpha": "laberge-rosette"
+                }, {
+                    "value": "Fernande Lamy",
+                    "label": "Fernande Lamy",
+                    "alpha": "lamy-fernande"
+                }, {
+                    "value": "Andr\u00e9 Gosselin",
+                    "label": "Andr\u00e9 Gosselin",
+                    "alpha": "gosselin-andre"
+                }, {
+                    "value": "Gilles Proulx",
+                    "label": "Gilles Proulx",
+                    "alpha": "proulx-gilles"
+                }, {
+                    "value": "Maureen Martineau",
+                    "label": "Maureen Martineau",
+                    "alpha": "martineau-maureen"
+                }, {
+                    "value": "Isabelle Lauzon",
+                    "label": "Isabelle Lauzon",
+                    "alpha": "lauzon-isabelle"
+                }, {
+                    "value": "Jean B\u00e9dard",
+                    "label": "Jean B\u00e9dard",
+                    "alpha": "bedard-jean"
+                }, {
+                    "value": "Marie-Line Laplante",
+                    "label": "Marie-Line Laplante",
+                    "alpha": "laplante-marie-line"
+                }, {
+                    "value": "Philippe Ducros",
+                    "label": "Philippe Ducros",
+                    "alpha": "ducros-philippe"
+                }, {
+                    "value": "Dany Laferri\u00e8re",
+                    "label": "Dany Laferri\u00e8re",
+                    "alpha": "laferriere-dany"
+                }, {
+                    "value": "Marcel Labine",
+                    "label": "Marcel Labine",
+                    "alpha": "labine-marcel"
+                }, {
+                    "value": "Anne Paradis",
+                    "label": "Anne Paradis",
+                    "alpha": "paradis-anne"
+                }, {
+                    "value": "Denyse Delcourt",
+                    "label": "Denyse Delcourt",
+                    "alpha": "delcourt-denyse"
+                }, {
+                    "value": "Jean-Simon DesRochers",
+                    "label": "Jean-Simon DesRochers",
+                    "alpha": "desrochers-jean-simon"
+                }, {
+                    "value": "Marie-Danielle Croteau",
+                    "label": "Marie-Danielle Croteau",
+                    "alpha": "croteau-marie-danielle"
+                }, {
+                    "value": "Marie-Claude Savard",
+                    "label": "Marie-Claude Savard",
+                    "alpha": "savard-marie-claude"
+                }, {
+                    "value": "Richard Houde",
+                    "label": "Richard Houde",
+                    "alpha": "houde-richard"
+                }, {
+                    "value": "Michel Jean",
+                    "label": "Michel Jean",
+                    "alpha": "jean-michel"
+                }, {
+                    "value": "Guylaine Guay",
+                    "label": "Guylaine Guay",
+                    "alpha": "guay-guylaine"
+                }, {
+                    "value": "\u00c9milie Clavel",
+                    "label": "\u00c9milie Clavel",
+                    "alpha": "clavel-emilie"
+                }, {
+                    "value": "Danielle Boulianne",
+                    "label": "Danielle Boulianne",
+                    "alpha": "boulianne-danielle"
+                }, {
+                    "value": "Nicolas Paquin",
+                    "label": "Nicolas Paquin",
+                    "alpha": "paquin-nicolas"
+                }, {
+                    "value": "Sylvain Campeau",
+                    "label": "Sylvain Campeau",
+                    "alpha": "campeau-sylvain"
+                }, {
+                    "value": "Gilles Gemme",
+                    "label": "Gilles Gemme",
+                    "alpha": "gemme-gilles"
+                }, {
+                    "value": "Marie-C. Lachance",
+                    "label": "Marie-C. Lachance",
+                    "alpha": "lachance-marie-c"
+                }, {
+                    "value": "Sylviane Thibault",
+                    "label": "Sylviane Thibault",
+                    "alpha": "thibault-sylviane"
+                }, {
+                    "value": "Mourad Ali-Khodja",
+                    "label": "Mourad Ali-Khodja",
+                    "alpha": "ali-khodja-mourad"
+                }, {
+                    "value": "Jean-Jacques Pelletier",
+                    "label": "Jean-Jacques Pelletier",
+                    "alpha": "pelletier-jean-jacques"
+                }, {
+                    "value": "Rosa Barber",
+                    "label": "Rosa Barber",
+                    "alpha": "barber-rosa"
+                }, {
+                    "value": "Fran\u00e7ois Chartier",
+                    "label": "Fran\u00e7ois Chartier",
+                    "alpha": "chartier-francois"
+                }, {
+                    "value": "Hugo Shirley",
+                    "label": "Hugo Shirley",
+                    "alpha": "shirley-hugo"
+                }, {
+                    "value": "Jean-Pierre B\u00e9land",
+                    "label": "Jean-Pierre B\u00e9land",
+                    "alpha": "beland-jean-pierre"
+                }, {
+                    "value": "Yves Bonnefoy",
+                    "label": "Yves Bonnefoy",
+                    "alpha": "bonnefoy-yves"
+                }, {
+                    "value": "Adonis",
+                    "label": "Adonis",
+                    "alpha": "adonis"
+                }, {
+                    "value": "Jean-Louis Mingalon",
+                    "label": "Jean-Louis Mingalon",
+                    "alpha": "mingalon-jean-louis"
+                }, {
+                    "value": "Raymond Carver",
+                    "label": "Raymond Carver",
+                    "alpha": "carver-raymond"
+                }, {
+                    "value": "Craig Johnson",
+                    "label": "Craig Johnson",
+                    "alpha": "johnson-craig"
+                }, {
+                    "value": "Jean-Yves Camus",
+                    "label": "Jean-Yves Camus",
+                    "alpha": "camus-jean-yves"
+                }, {
+                    "value": "Blake Crouch",
+                    "label": "Blake Crouch",
+                    "alpha": "crouch-blake"
+                }, {
+                    "value": "Erri De Luca",
+                    "label": "Erri De Luca",
+                    "alpha": "de-luca-erri"
+                }, {
+                    "value": "David Revault d'Allonnes",
+                    "label": "David Revault d'Allonnes",
+                    "alpha": "revault-dallonnes-david"
+                }, {
+                    "value": "Charlaine Harris",
+                    "label": "Charlaine Harris",
+                    "alpha": "harris-charlaine"
+                }, {
+                    "value": "Jean-Pierre Bertrand",
+                    "label": "Jean-Pierre Bertrand",
+                    "alpha": "bertrand-jean-pierre"
+                }, {
+                    "value": "Pierre Bourdieu",
+                    "label": "Pierre Bourdieu",
+                    "alpha": "bourdieu-pierre"
+                }, {
+                    "value": "Pierrette Dub\u00e9",
+                    "label": "Pierrette Dub\u00e9",
+                    "alpha": "dube-pierrette"
+                }, {
+                    "value": "Pierre-Luc Landry",
+                    "label": "Pierre-Luc Landry",
+                    "alpha": "landry-pierre-luc"
+                }, {
+                    "value": "Dorica Lucaci",
+                    "label": "Dorica Lucaci",
+                    "alpha": "lucaci-dorica"
+                }, {
+                    "value": "Catherine Girard-Audet",
+                    "label": "Catherine Girard-Audet",
+                    "alpha": "girard-audet-catherine"
+                }, {
+                    "value": "Maud Chayer",
+                    "label": "Maud Chayer",
+                    "alpha": "chayer-maud"
+                }, {
+                    "value": "Michel Roche",
+                    "label": "Michel Roche",
+                    "alpha": "roche-michel"
+                }, {
+                    "value": "Beno\u00eet Bouthillette",
+                    "label": "Beno\u00eet Bouthillette",
+                    "alpha": "bouthillette-benoit"
+                }, {
+                    "value": "Pauline Gill",
+                    "label": "Pauline Gill",
+                    "alpha": "gill-pauline"
+                }, {
+                    "value": "Ilan Halevi",
+                    "label": "Ilan Halevi",
+                    "alpha": "halevi-ilan"
+                }, {
+                    "value": "Eileen Lohka",
+                    "label": "Eileen Lohka",
+                    "alpha": "lohka-eileen"
+                }, {
+                    "value": "Jo Roberge",
+                    "label": "Jo Roberge",
+                    "alpha": "roberge-jo"
+                }, {
+                    "value": "Philippe Alexandre",
+                    "label": "Philippe Alexandre",
+                    "alpha": "alexandre-philippe"
+                }, {
+                    "value": "Pierre Razoux",
+                    "label": "Pierre Razoux",
+                    "alpha": "razoux-pierre"
+                }, {
+                    "value": "Thierry Cohen",
+                    "label": "Thierry Cohen",
+                    "alpha": "cohen-thierry"
+                }, {
+                    "value": "Christophe Bardyn",
+                    "label": "Christophe Bardyn",
+                    "alpha": "bardyn-christophe"
+                }, {
+                    "value": "Francine Ferland",
+                    "label": "Francine Ferland",
+                    "alpha": "ferland-francine"
+                }, {
+                    "value": "Fabien Desage",
+                    "label": "Fabien Desage",
+                    "alpha": "desage-fabien"
+                }, {
+                    "value": "Hansen Randall",
+                    "label": "Hansen Randall",
+                    "alpha": "randall-hansen"
+                }, {
+                    "value": "Ga\u00eblle Fiasse",
+                    "label": "Ga\u00eblle Fiasse",
+                    "alpha": "fiasse-gaelle"
+                }, {
+                    "value": "Ernest-Marie Mbonda",
+                    "label": "Ernest-Marie Mbonda",
+                    "alpha": "mbonda-ernest-marie"
+                }, {
+                    "value": "Olivier Bernard",
+                    "label": "Olivier Bernard",
+                    "alpha": "bernard-olivier"
+                }, {
+                    "value": "Mathieu Poulin",
+                    "label": "Mathieu Poulin",
+                    "alpha": "poulin-mathieu"
+                }, {
+                    "value": "Marie-France Raynault",
+                    "label": "Marie-France Raynault",
+                    "alpha": "raynault-marie-france"
+                }, {
+                    "value": "Elie Hanson",
+                    "label": "Elie Hanson",
+                    "alpha": "hanson-elie"
+                }, {
+                    "value": "Christian Leduc",
+                    "label": "Christian Leduc",
+                    "alpha": "leduc-christian"
+                }, {
+                    "value": "Sonia K. Laflamme",
+                    "label": "Sonia K. Laflamme",
+                    "alpha": "k-laflamme-sonia"
+                }, {
+                    "value": "Diane Daigneault",
+                    "label": "Diane Daigneault",
+                    "alpha": "daigneault-diane"
+                }, {
+                    "value": "Jonathan Brassard",
+                    "label": "Jonathan Brassard",
+                    "alpha": "brassard-jonathan"
+                }, {
+                    "value": "Marielle Bernard",
+                    "label": "Marielle Bernard",
+                    "alpha": "bernard-marielle"
+                }, {
+                    "value": "Rosette Pipar",
+                    "label": "Rosette Pipar",
+                    "alpha": "pipar-rosette"
+                }, {
+                    "value": "Jean-Fran\u00e7ois Lis\u00e9e",
+                    "label": "Jean-Fran\u00e7ois Lis\u00e9e",
+                    "alpha": "lisee-jean-francois"
+                }, {
+                    "value": "Jessica Gauthier",
+                    "label": "Jessica Gauthier",
+                    "alpha": "gauthier-jessica"
+                }, {
+                    "value": "Maureen Mc Gowan",
+                    "label": "Maureen Mc Gowan",
+                    "alpha": "mc-gowan-maureen"
+                }, {
+                    "value": "Ivy (Ivan Bielinski)",
+                    "label": "Ivy (Ivan Bielinski)",
+                    "alpha": "ivan-bielinski-ivy"
+                }, {
+                    "value": "Maude Nepveu-Villeneuve",
+                    "label": "Maude Nepveu-Villeneuve",
+                    "alpha": "nepveu-villeneuve-maude"
+                }, {
+                    "value": "Paul B\u00e9langer",
+                    "label": "Paul B\u00e9langer",
+                    "alpha": "belanger-paul"
+                }, {
+                    "value": "Sylvie Ouellette",
+                    "label": "Sylvie Ouellette",
+                    "alpha": "ouellette-sylvie"
+                }, {
+                    "value": "Marie France Desrochers",
+                    "label": "Marie France Desrochers",
+                    "alpha": "france-desrochers-marie"
+                }, {
+                    "value": "Marion Vacheret",
+                    "label": "Marion Vacheret",
+                    "alpha": "vacheret-marion"
+                }, {
+                    "value": "Danielle Cohen-Levinas",
+                    "label": "Danielle Cohen-Levinas",
+                    "alpha": "cohen-levinas-danielle"
+                }, {
+                    "value": "Claude La Charit\u00e9",
+                    "label": "Claude La Charit\u00e9",
+                    "alpha": "la-charite-claude"
+                }, {
+                    "value": "John Parisella",
+                    "label": "John Parisella",
+                    "alpha": "parisella-john"
+                }, {
+                    "value": "Pauline Michel",
+                    "label": "Pauline Michel",
+                    "alpha": "michel-pauline"
+                }, {
+                    "value": "Thierry Davila",
+                    "label": "Thierry Davila",
+                    "alpha": "davila-thierry"
+                }, {
+                    "value": "Louise Chevrier",
+                    "label": "Louise Chevrier",
+                    "alpha": "chevrier-louise"
+                }, {
+                    "value": "Andr\u00e9e Ferretti",
+                    "label": "Andr\u00e9e Ferretti",
+                    "alpha": "ferretti-andree"
+                }, {
+                    "value": "Pierrette Beauchamp",
+                    "label": "Pierrette Beauchamp",
+                    "alpha": "beauchamp-pierrette"
+                }, {
+                    "value": "No\u00ebl Lajoie",
+                    "label": "No\u00ebl Lajoie",
+                    "alpha": "lajoie-noel"
+                }, {
+                    "value": "Michel Quintin",
+                    "label": "Michel Quintin",
+                    "alpha": "quintin-michel"
+                }, {
+                    "value": "Pierdomenico Baccalario",
+                    "label": "Pierdomenico Baccalario",
+                    "alpha": "baccalario-pierdomenico"
+                }, {
+                    "value": "Wayne W. Dyer",
+                    "label": "Wayne W. Dyer",
+                    "alpha": "w-dyer-wayne"
+                }, {
+                    "value": "Claude Ruel",
+                    "label": "Claude Ruel",
+                    "alpha": "ruel-claude"
+                }, {
+                    "value": "Jessica Harnois",
+                    "label": "Jessica Harnois",
+                    "alpha": "harnois-jessica"
+                }, {
+                    "value": "Henri Vernes",
+                    "label": "Henri Vernes",
+                    "alpha": "vernes-henri"
+                }, {
+                    "value": "Danielle Dumais",
+                    "label": "Danielle Dumais",
+                    "alpha": "dumais-danielle"
+                }, {
+                    "value": "Andr\u00e9e Laurier",
+                    "label": "Andr\u00e9e Laurier",
+                    "alpha": "laurier-andree"
+                }, {
+                    "value": "Lori Austin",
+                    "label": "Lori Austin",
+                    "alpha": "austin-lori"
+                }, {
+                    "value": "Max U. Duvivier",
+                    "label": "Max U. Duvivier",
+                    "alpha": "u-duvivier-max"
+                }, {
+                    "value": "Demi Lovato",
+                    "label": "Demi Lovato",
+                    "alpha": "lovato-demi"
+                }, {
+                    "value": "Pierre Labrie",
+                    "label": "Pierre Labrie",
+                    "alpha": "labrie-pierre"
+                }, {
+                    "value": "Fanny Britt",
+                    "label": "Fanny Britt",
+                    "alpha": "britt-fanny"
+                }, {
+                    "value": "Michel Br\u00fbl\u00e9",
+                    "label": "Michel Br\u00fbl\u00e9",
+                    "alpha": "brule-michel"
+                }, {
+                    "value": "Claude R. Blouin",
+                    "label": "Claude R. Blouin",
+                    "alpha": "r-blouin-claude"
+                }, {
+                    "value": "D\u00efana B\u00e9lice",
+                    "label": "D\u00efana B\u00e9lice",
+                    "alpha": "belice-diana"
+                }, {
+                    "value": "Fran\u00e7ois L\u00e9vesque",
+                    "label": "Fran\u00e7ois L\u00e9vesque",
+                    "alpha": "levesque-francois"
+                }, {
+                    "value": "Carolyn Baker",
+                    "label": "Carolyn Baker",
+                    "alpha": "baker-carolyn"
+                }, {
+                    "value": "Genevi\u00e8ve Guilbault",
+                    "label": "Genevi\u00e8ve Guilbault",
+                    "alpha": "guilbault-genevieve"
+                }, {
+                    "value": "Nancy Levin",
+                    "label": "Nancy Levin",
+                    "alpha": "levin-nancy"
+                }, {
+                    "value": "Jean-Pierre Deslauriers",
+                    "label": "Jean-Pierre Deslauriers",
+                    "alpha": "deslauriers-jean-pierre"
+                }, {
+                    "value": "Marie Jos\u00e9e Cordeau",
+                    "label": "Marie Jos\u00e9e Cordeau",
+                    "alpha": "josee-cordeau-marie"
+                }, {
+                    "value": "Neil Smith",
+                    "label": "Neil Smith",
+                    "alpha": "smith-neil"
+                }, {
+                    "value": "Jean Royer",
+                    "label": "Jean Royer",
+                    "alpha": "royer-jean"
+                }, {
+                    "value": "Heather Killough-Walden",
+                    "label": "Heather Killough-Walden",
+                    "alpha": "killough-walden-heather"
+                }, {
+                    "value": "Pete Johnson",
+                    "label": "Pete Johnson",
+                    "alpha": "johnson-pete"
+                }, {
+                    "value": "Isabelle Gagnon",
+                    "label": "Isabelle Gagnon",
+                    "alpha": "gagnon-isabelle"
+                }, {
+                    "value": "Catherine Lafrance",
+                    "label": "Catherine Lafrance",
+                    "alpha": "lafrance-catherine"
+                }]
+            }]
+        }, {
+            "id": "2",
+            "type": "events",
+            "snippet": {
+                "title": "\u00c9v\u00e9nements",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": null
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#C61D22",
+                    "color_medium": "#391316",
+                    "color_normal": "#6A191D",
+                    "color_dark": "#43171A",
+                    "color_darker": "#391316",
+                    "color_shadow": "#99131D",
+                    "color_shadow_darker": "#550F13"
+                },
+                "settings": {
+                    "channelView": "filters_tabs",
+
+                    "slidesHeightRatio": 0.4,
+                    "slidesMarginRatio": 0.03,
+                    "slidesWidthRatio": 0.5,
+                    "slidesSlideView": "with_basic_infos",
+                    "modalBubblesListView": "cover",
+                    "bubbleDetailsShowTypeName": false,
+                    "bubbleDetailsShowTitle": false,
+                    "bubbleSuggestionView": "with_dates",
+                    "bubbleDetailsContentView": "columns",
+                    "bubbleDetailsContentColumns": [{
+                        "column": 0,
+                        "type": "title",
+                        "value": "fields.category.value"
+                    }, {
+                        "column": 0,
+                        "type": "description",
+                        "value": "snippet.description"
+                    }, {
+                        "column": 1,
+                        "type": "fields",
+                        "value": "fields.date,fields.venue"
+                    }, {
+                        "column": 1,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }]
+                }
+            },
+            "filters": [{
+                "name": "date",
+                "type": "list",
+                "label": "Calendrier",
+                "layout": "calendar",
+                "values": [{
+                    "value": "2016-01-13",
+                    "label": "13 janvier",
+                    "date": "2016-01-13"
+                }, {
+                    "value": "2016-01-14",
+                    "label": "14 janvier",
+                    "date": "2016-01-14"
+                }, {
+                    "value": "2016-05-26",
+                    "label": "26 mai",
+                    "date": "2016-05-26"
+                }]
+            }, {
+                "name": "category",
+                "type": "circles",
+                "label": "Catégories",
+                "values": [{
+                    "value": "7",
+                    "label": "Catégorie 1"
+                }, {
+                    "value": "9",
+                    "label": "Catégorie 2"
+                }, {
+                    "value": "15",
+                    "label": "Catégorie 3"
+                }]
+            }, {
+                "name": "venue",
+                "type": "map",
+                "label": "Carte",
+                "markerType": "normal",
+                "clusterIconType": "normal",
+                "clusterTypes": [
+                   {
+                       "minZoom": 15,
+                       "maxZoom": 21,
+                       "key": "label"
+                   },
+                   {
+                       "minZoom": 8,
+                       "maxZoom": 14,
+                       "key": "city"
+                   },
+                   {
+                       "minZoom": 0,
+                       "maxZoom": 7,
+                       "key": "region"
+                   }
+               ],
+                "values": [
+                    {
+                        "value": "85",
+                        "label": "Écomusée du fier monde",
+                        "position": {
+                            "latitude": "45.52052280",
+                            "longitude": "-73.56372630"
+                        }
+                    },
+                    {
+                        "value": "10",
+                        "label": "Université de Montréal - 3744, rue Jean-Brillant",
+                        "position": {
+                            "latitude": "45.49497700",
+                            "longitude": "-73.62182000"
+                        }
+                    },
+                    {
+                        "value": "1198",
+                        "label": "Mairie d'arrondissement de Saint-Laurent",
+                        "position": {
+                            "latitude": "45.50706900",
+                            "longitude": "-73.68358600"
+                        }
+                    },
+                    {
+                        "value": "10825",
+                        "label": "Mairie Le Relecq-Kerhuon",
+                        "position": {
+                            "latitude": "48.40762290",
+                            "longitude": "-4.39674550"
+                        }
+                    },
+                    {
+                        "value": "230",
+                        "label": "Centre des sciences de Montréal",
+                        "position": {
+                            "latitude": "45.49987800",
+                            "longitude": "-73.55307300"
+                        }
+                    },
+                    {
+                        "value": "9543",
+                        "label": "Musée de la Gaspésie ",
+                        "position": {
+                            "latitude": "48.83869890",
+                            "longitude": "-64.47941550"
+                        }
+                    },
+                    {
+                        "value": "10942",
+                        "label": "Imagerie maison de jeunes",
+                        "position": {
+                            "latitude": "45.52597530",
+                            "longitude": "-73.57790880"
+                        }
+                    },
+                    {
+                        "value": "3045",
+                        "label": "Centre PHI",
+                        "position": {
+                            "latitude": "45.50143800",
+                            "longitude": "-73.55644500"
+                        }
+                    },
+                    {
+                        "value": "134",
+                        "label": "Maison des écrivains - UNEQ",
+                        "position": {
+                            "latitude": "45.51590670",
+                            "longitude": "-73.57012470"
+                        }
+                    },
+                    {
+                        "value": "1230",
+                        "label": "Université de Montréal - Carrefour des arts et des sciences",
+                        "position": {
+                            "latitude": "45.49922000",
+                            "longitude": "-73.61826700"
+                        }
+                    },
+                    {
+                        "value": "3014",
+                        "label": "Galerie les impatients",
+                        "position": {
+                            "latitude": "45.51343800",
+                            "longitude": "-73.56906200"
+                        }
+                    },
+                    {
+                        "value": "9433",
+                        "label": "Carrefour Saint-Eusèbe",
+                        "position": {
+                            "latitude": "45.53264070",
+                            "longitude": "-73.55826370"
+                        }
+                    },
+                    {
+                        "value": "261",
+                        "label": "Bibliothèque interculturelle",
+                        "position": {
+                            "latitude": "45.50295060",
+                            "longitude": "-73.63684060"
+                        }
+                    },
+                    {
+                        "value": "3442",
+                        "label": "Bibliothèque Gabrielle-Roy",
+                        "position": {
+                            "latitude": "46.81404100",
+                            "longitude": "-71.22559200"
+                        }
+                    },
+                    {
+                        "value": "1410",
+                        "label": "Galerie Valentin",
+                        "position": {
+                            "latitude": "45.49726600",
+                            "longitude": "-73.58088600"
+                        }
+                    },
+                    {
+                        "value": "160",
+                        "label": "TOHU, la cité des arts du cirque",
+                        "position": {
+                            "latitude": "45.55855340",
+                            "longitude": "-73.61432590"
+                        }
+                    },
+                    {
+                        "value": "8812",
+                        "label": "Musée des beaux-arts de Brest",
+                        "position": {
+                            "latitude": "48.38519440",
+                            "longitude": "-4.48987680"
+                        }
+                    },
+                    {
+                        "value": "1450",
+                        "label": "Bibliothèque de Saint-Michel",
+                        "position": {
+                            "latitude": "45.56226400",
+                            "longitude": "-73.60238700"
+                        }
+                    },
+                    {
+                        "value": "1620",
+                        "label": "Bibliothèque de La Petite-Patrie",
+                        "position": {
+                            "latitude": "45.54738820",
+                            "longitude": "-73.59827460"
+                        }
+                    },
+                    {
+                        "value": "215",
+                        "label": "Biodôme",
+                        "position": {
+                            "latitude": "45.55963210",
+                            "longitude": "-73.54789610"
+                        }
+                    },
+                    {
+                        "value": "2386",
+                        "label": "Maison du développement durable",
+                        "position": {
+                            "latitude": "45.50945700",
+                            "longitude": "-73.56421400"
+                        }
+                    },
+                    {
+                        "value": "1103",
+                        "label": "Bibliothèque de Rosemont ",
+                        "position": {
+                            "latitude": "45.55148800",
+                            "longitude": "-73.58194100"
+                        }
+                    },
+                    {
+                        "value": "2089",
+                        "label": "Bibliothèque du Vieux Saint-Laurent",
+                        "position": {
+                            "latitude": "45.51280000",
+                            "longitude": "-73.67667300"
+                        }
+                    },
+                    {
+                        "value": "2083",
+                        "label": "Bibliothèque de Pierrefonds",
+                        "position": {
+                            "latitude": "45.49519000",
+                            "longitude": "-73.84715400"
+                        }
+                    },
+                    {
+                        "value": "199",
+                        "label": "Université de Montréal - Pavillon J.-Armand-Bombardier",
+                        "position": {
+                            "latitude": "45.50318900",
+                            "longitude": "-73.61299000"
+                        }
+                    },
+                    {
+                        "value": "7095",
+                        "label": "Centre d'exposition de l'Université de Montréal",
+                        "position": {
+                            "latitude": "45.50488760",
+                            "longitude": "-73.62188030"
+                        }
+                    },
+                    {
+                        "value": "67",
+                        "label": "Université de Montréal - Pavillon Jean-Coutu",
+                        "position": {
+                            "latitude": "45.50070000",
+                            "longitude": "-73.61476600"
+                        }
+                    },
+                    {
+                        "value": "4736",
+                        "label": "Bibliothèque du Boisé",
+                        "position": {
+                            "latitude": "45.50408480",
+                            "longitude": "-73.70534040"
+                        }
+                    },
+                    {
+                        "value": "3483",
+                        "label": "Cégep de Sherbrooke",
+                        "position": {
+                            "latitude": "45.40980900",
+                            "longitude": "-71.88599500"
+                        }
+                    },
+                    {
+                        "value": "31",
+                        "label": "Université de Montréal - Pavillon Maximilien-Caron",
+                        "position": {
+                            "latitude": "45.49865800",
+                            "longitude": "-73.61693300"
+                        }
+                    },
+                    {
+                        "value": "773",
+                        "label": "Insectarium",
+                        "position": {
+                            "latitude": "45.55819700",
+                            "longitude": "-73.55452900"
+                        }
+                    },
+                    {
+                        "value": "6599",
+                        "label": "Galerie Lounge TD",
+                        "position": {
+                            "latitude": "45.50672880",
+                            "longitude": "-73.56682390"
+                        }
+                    },
+                    {
+                        "value": "71",
+                        "label": "Le Monument-National",
+                        "position": {
+                            "latitude": "45.50924100",
+                            "longitude": "-73.56246700"
+                        }
+                    },
+                    {
+                        "value": "33",
+                        "label": "Université de Montréal - Pavillon Marie-Victorin",
+                        "position": {
+                            "latitude": "45.51064000",
+                            "longitude": "-73.61168100"
+                        }
+                    },
+                    {
+                        "value": "226",
+                        "label": "CHU Sainte-Justine",
+                        "position": {
+                            "latitude": "45.50238970",
+                            "longitude": "-73.62406290"
+                        }
+                    },
+                    {
+                        "value": "497",
+                        "label": "VOX Centre de l'image contemporaine",
+                        "position": {
+                            "latitude": "45.50987500",
+                            "longitude": "-73.56376200"
+                        }
+                    },
+                    {
+                        "value": "1568",
+                        "label": "Musée de Lachine",
+                        "position": {
+                            "latitude": "45.42942160",
+                            "longitude": "-73.66602010"
+                        }
+                    },
+                    {
+                        "value": "833",
+                        "label": "Galerie 2456",
+                        "position": {
+                            "latitude": "45.54834800",
+                            "longitude": "-73.59200500"
+                        }
+                    },
+                    {
+                        "value": "717",
+                        "label": "Musée des maîtres et artisans du Québec",
+                        "position": {
+                            "latitude": "45.51201600",
+                            "longitude": "-73.67245000"
+                        }
+                    },
+                    {
+                        "value": "68",
+                        "label": "UQAM - Galerie de l'UQAM  - Pavillon Judith-Jasmin",
+                        "position": {
+                            "latitude": "45.51499800",
+                            "longitude": "-73.56034400"
+                        }
+                    },
+                    {
+                        "value": "41",
+                        "label": "Maison de la culture Frontenac",
+                        "position": {
+                            "latitude": "45.53296920",
+                            "longitude": "-73.55266520"
+                        }
+                    },
+                    {
+                        "value": "3885",
+                        "label": "La Bande Vidéo",
+                        "position": {
+                            "latitude": "46.81279900",
+                            "longitude": "-71.22137800"
+                        }
+                    },
+                    {
+                        "value": "78",
+                        "label": "UQAM - Pavillon J.-A.-DeSève (DS)",
+                        "position": {
+                            "latitude": "45.51306320",
+                            "longitude": "-73.56101660"
+                        }
+                    },
+                    {
+                        "value": "2840",
+                        "label": "UQAM - Pavillon de Musique (F)",
+                        "position": {
+                            "latitude": "45.51405500",
+                            "longitude": "-73.56116600"
+                        }
+                    },
+                    {
+                        "value": "9973",
+                        "label": "L'Artothèque",
+                        "position": {
+                            "latitude": "45.53324000",
+                            "longitude": "-73.59507510"
+                        }
+                    },
+                    {
+                        "value": "10869",
+                        "label": "UQAM ",
+                        "position": {
+                            "latitude": "45.51443850",
+                            "longitude": "-73.56070440"
+                        }
+                    },
+                    {
+                        "value": "1074",
+                        "label": "UQAM - Pavillon Berri (AC)",
+                        "position": {
+                            "latitude": "45.51458670",
+                            "longitude": "-73.55879170"
+                        }
+                    },
+                    {
+                        "value": "79",
+                        "label": "UQAM - Pavillon des Sciences de la gestion (R)",
+                        "position": {
+                            "latitude": "45.51292060",
+                            "longitude": "-73.56113720"
+                        }
+                    },
+                    {
+                        "value": "26",
+                        "label": "UQAM - Pavillon Thérèse-Casgrain (W)",
+                        "position": {
+                            "latitude": "45.51318400",
+                            "longitude": "-73.55764000"
+                        }
+                    },
+                    {
+                        "value": "1281",
+                        "label": "Maison des arts de Laval - Salle Alfred-Pellan",
+                        "position": {
+                            "latitude": "45.55793700",
+                            "longitude": "-73.71622000"
+                        }
+                    },
+                    {
+                        "value": "93",
+                        "label": "Bibliothèque de Cartierville",
+                        "position": {
+                            "latitude": "45.52720400",
+                            "longitude": "-73.71339200"
+                        }
+                    },
+                    {
+                        "value": "316",
+                        "label": "Café de Da, bibliothèque d'Ahuntsic",
+                        "position": {
+                            "latitude": "45.55338170",
+                            "longitude": "-73.66191950"
+                        }
+                    },
+                    {
+                        "value": "5910",
+                        "label": "Bibliothèque Marc-Favreau",
+                        "position": {
+                            "latitude": "45.53174270",
+                            "longitude": "-73.59780950"
+                        }
+                    },
+                    {
+                        "value": "9182",
+                        "label": "Musée national de la Marine",
+                        "position": {
+                            "latitude": "48.38425650",
+                            "longitude": "-4.49005940"
+                        }
+                    },
+                    {
+                        "value": "4522",
+                        "label": "Maison de la culture Villebon",
+                        "position": {
+                            "latitude": "45.56073570",
+                            "longitude": "-73.20445040"
+                        }
+                    },
+                    {
+                        "value": "166",
+                        "label": "Bibliothèque Langelier",
+                        "position": {
+                            "latitude": "45.58156860",
+                            "longitude": "-73.54391190"
+                        }
+                    },
+                    {
+                        "value": "534",
+                        "label": "Université de Montréal - Campus de l'UdeM à Longueuil",
+                        "position": {
+                            "latitude": "45.52568950",
+                            "longitude": "-73.52064290"
+                        }
+                    },
+                    {
+                        "value": "10075",
+                        "label": "Abbaye de Daoulas",
+                        "position": {
+                            "latitude": "48.36177440",
+                            "longitude": "-4.26510320"
+                        }
+                    },
+                    {
+                        "value": "1210",
+                        "label": "Université de Montréal - Campus de l'UdeM à Laval",
+                        "position": {
+                            "latitude": "45.55859800",
+                            "longitude": "-73.72242100"
+                        }
+                    },
+                    {
+                        "value": "27",
+                        "label": "UQAM - Pavillon Hubert-Aquin (A)",
+                        "position": {
+                            "latitude": "45.51373610",
+                            "longitude": "-73.56044100"
+                        }
+                    },
+                    {
+                        "value": "95",
+                        "label": "Université de Montréal - Pavillon de la Faculté de musique",
+                        "position": {
+                            "latitude": "45.50922700",
+                            "longitude": "-73.60850600"
+                        }
+                    },
+                    {
+                        "value": "2085",
+                        "label": "Bibliothèque Robert-Bourassa",
+                        "position": {
+                            "latitude": "45.51759700",
+                            "longitude": "-73.60830900"
+                        }
+                    },
+                    {
+                        "value": "10790",
+                        "label": "CLD Centre-Est",
+                        "position": {
+                            "latitude": "45.53479100",
+                            "longitude": "-73.60051000"
+                        }
+                    },
+                    {
+                        "value": "428",
+                        "label": "Bibliothèque du Père-Ambroise",
+                        "position": {
+                            "latitude": "45.52299200",
+                            "longitude": "-73.56325100"
+                        }
+                    },
+                    {
+                        "value": "11",
+                        "label": "Université de Montréal - Pavillon de la Faculté de l'aménagement",
+                        "position": {
+                            "latitude": "45.50458700",
+                            "longitude": "-73.62115500"
+                        }
+                    },
+                    {
+                        "value": "9322",
+                        "label": "Librairie Pantoute (Vieux-Québec)",
+                        "position": {
+                            "latitude": "46.81383580",
+                            "longitude": "-71.21087020"
+                        }
+                    },
+                    {
+                        "value": "202",
+                        "label": "MAI (Montréal, arts interculturels)",
+                        "position": {
+                            "latitude": "45.51169620",
+                            "longitude": "-73.57628110"
+                        }
+                    },
+                    {
+                        "value": "537",
+                        "label": "Université de Montréal - Centre d'essai",
+                        "position": {
+                            "latitude": "45.50729400",
+                            "longitude": "-73.61511500"
+                        }
+                    },
+                    {
+                        "value": "9409",
+                        "label": "Atelier Circulaire",
+                        "position": {
+                            "latitude": "45.52708330",
+                            "longitude": "-73.59526940"
+                        }
+                    },
+                    {
+                        "value": "83",
+                        "label": "Maison de la culture du Plateau-Mont-Royal",
+                        "position": {
+                            "latitude": "45.52469670",
+                            "longitude": "-73.58226020"
+                        }
+                    },
+                    {
+                        "value": "4",
+                        "label": "UQAM - Pavillon Judith-Jasmin (J)",
+                        "position": {
+                            "latitude": "45.51425900",
+                            "longitude": "-73.56020100"
+                        }
+                    },
+                    {
+                        "value": "10981",
+                        "label": "UQAM - Pavillon SH",
+                        "position": {
+                            "latitude": "45.50988430",
+                            "longitude": "-73.57026890"
+                        }
+                    },
+                    {
+                        "value": "596",
+                        "label": "Atelier Graff",
+                        "position": {
+                            "latitude": "45.52509600",
+                            "longitude": "-73.57513900"
+                        }
+                    },
+                    {
+                        "value": "12",
+                        "label": "Librairie Olivieri",
+                        "position": {
+                            "latitude": "45.49591620",
+                            "longitude": "-73.62139740"
+                        }
+                    },
+                    {
+                        "value": "2744",
+                        "label": "Musée de la civilisation",
+                        "position": {
+                            "latitude": "46.81568400",
+                            "longitude": "-71.20202400"
+                        }
+                    },
+                    {
+                        "value": "6248",
+                        "label": "Main Film",
+                        "position": {
+                            "latitude": "45.51658950",
+                            "longitude": "-73.57853120"
+                        }
+                    },
+                    {
+                        "value": "9277",
+                        "label": "1550, rue Metcalfe",
+                        "position": {
+                            "latitude": "45.55246840",
+                            "longitude": "-73.53956310"
+                        }
+                    },
+                    {
+                        "value": "22",
+                        "label": "UQAM - Centre de design - Pavillon de Design",
+                        "position": {
+                            "latitude": "45.51286970",
+                            "longitude": "-73.56165720"
+                        }
+                    },
+                    {
+                        "value": "2080",
+                        "label": "Bibliothèque de Mercier",
+                        "position": {
+                            "latitude": "45.59578600",
+                            "longitude": "-73.52331500"
+                        }
+                    },
+                    {
+                        "value": "623",
+                        "label": "Théâtre Rialto",
+                        "position": {
+                            "latitude": "45.52353300",
+                            "longitude": "-73.60509400"
+                        }
+                    },
+                    {
+                        "value": "4267",
+                        "label": "Bibliothèque Georges-Dor",
+                        "position": {
+                            "latitude": "45.52133800",
+                            "longitude": "-73.46319800"
+                        }
+                    },
+                    {
+                        "value": "118",
+                        "label": "Centre St-Pierre",
+                        "position": {
+                            "latitude": "45.51926860",
+                            "longitude": "-73.55348010"
+                        }
+                    },
+                    {
+                        "value": "540",
+                        "label": "La Récréation",
+                        "position": {
+                            "latitude": "45.51634600",
+                            "longitude": "-73.56520400"
+                        }
+                    },
+                    {
+                        "value": "136",
+                        "label": "Théâtre La Licorne / La Petite Licorne",
+                        "position": {
+                            "latitude": "45.53337000",
+                            "longitude": "-73.57551800"
+                        }
+                    },
+                    {
+                        "value": "7161",
+                        "label": "Maison de la généalogie",
+                        "position": {
+                            "latitude": "45.54595370",
+                            "longitude": "-73.55648150"
+                        }
+                    },
+                    {
+                        "value": "389",
+                        "label": "Librairie Paulines",
+                        "position": {
+                            "latitude": "45.54852100",
+                            "longitude": "-73.58446500"
+                        }
+                    },
+                    {
+                        "value": "105",
+                        "label": "Maison de la culture Rosemont--La Petite-Patrie",
+                        "position": {
+                            "latitude": "45.54714520",
+                            "longitude": "-73.59807160"
+                        }
+                    },
+                    {
+                        "value": "120",
+                        "label": "Planétarium Rio Tinto Alcan",
+                        "position": {
+                            "latitude": "45.55939800",
+                            "longitude": "-73.54831300"
+                        }
+                    },
+                    {
+                        "value": "1726",
+                        "label": "Quartier des spectacles",
+                        "position": {
+                            "latitude": "45.50955200",
+                            "longitude": "-73.56408500"
+                        }
+                    },
+                    {
+                        "value": "10425",
+                        "label": "Salle de Spectacles de Gaspé",
+                        "position": {
+                            "latitude": "48.83619680",
+                            "longitude": "-64.47542150"
+                        }
+                    },
+                    {
+                        "value": "9",
+                        "label": "Cinémathèque québécoise",
+                        "position": {
+                            "latitude": "45.51365200",
+                            "longitude": "-73.56257000"
+                        }
+                    },
+                    {
+                        "value": "9523",
+                        "label": "Le Quartz - Scène nationale",
+                        "position": {
+                            "latitude": "48.38906420",
+                            "longitude": "-4.48571650"
+                        }
+                    },
+                    {
+                        "value": "3294",
+                        "label": "Lieu virtuel / En ligne",
+                        "position": {
+                            "latitude": "0.00000000",
+                            "longitude": "0.00000000"
+                        }
+                    },
+                    {
+                        "value": "210",
+                        "label": "Jardin botanique",
+                        "position": {
+                            "latitude": "45.55584160",
+                            "longitude": "-73.55447560"
+                        }
+                    },
+                    {
+                        "value": "10947",
+                        "label": "Arrondissement de Saint-Laurent ",
+                        "position": {
+                            "latitude": "45.51273300",
+                            "longitude": "-73.56949100"
+                        }
+                    },
+                    {
+                        "value": "508",
+                        "label": "UQAM - Place Pasteur",
+                        "position": {
+                            "latitude": "45.51395900",
+                            "longitude": "-73.56116700"
+                        }
+                    },
+                    {
+                        "value": "80",
+                        "label": "UQAM - Pavillon Sherbrooke (SH)",
+                        "position": {
+                            "latitude": "45.51030190",
+                            "longitude": "-73.57039240"
+                        }
+                    },
+                    {
+                        "value": "2667",
+                        "label": "Cégep Beauce-Appalaches",
+                        "position": {
+                            "latitude": "46.12555700",
+                            "longitude": "-70.66931600"
+                        }
+                    },
+                    {
+                        "value": "531",
+                        "label": "Université de Montréal - 2101, boul. Édouard-Montpetit",
+                        "position": {
+                            "latitude": "45.50910600",
+                            "longitude": "-73.61363400"
+                        }
+                    },
+                    {
+                        "value": "2079",
+                        "label": "Bibliothèque Marie-Uguay",
+                        "position": {
+                            "latitude": "45.45769500",
+                            "longitude": "-73.59549900"
+                        }
+                    },
+                    {
+                        "value": "281",
+                        "label": "Bibliothèque d'Ahuntsic",
+                        "position": {
+                            "latitude": "45.55340250",
+                            "longitude": "-73.66192540"
+                        }
+                    },
+                    {
+                        "value": "2076",
+                        "label": "Bibliothèque Le Prévost",
+                        "position": {
+                            "latitude": "45.54388700",
+                            "longitude": "-73.61459600"
+                        }
+                    },
+                    {
+                        "value": "2086",
+                        "label": "Bibliothèque de Roxboro",
+                        "position": {
+                            "latitude": "45.50412400",
+                            "longitude": "-73.81329400"
+                        }
+                    },
+                    {
+                        "value": "7489",
+                        "label": "Ancienne École des Beaux-Arts de Montréal",
+                        "position": {
+                            "latitude": "45.51110680",
+                            "longitude": "-73.57012390"
+                        }
+                    },
+                    {
+                        "value": "32",
+                        "label": "Université de Montréal - Pavillon Roger-Gaudry",
+                        "position": {
+                            "latitude": "45.50280500",
+                            "longitude": "-73.61521700"
+                        }
+                    },
+                    {
+                        "value": "43",
+                        "label": "Université de Montréal - Pavillon Lionel-Groulx",
+                        "position": {
+                            "latitude": "45.49923300",
+                            "longitude": "-73.61821000"
+                        }
+                    },
+                    {
+                        "value": "10988",
+                        "label": "Pavillon 3200, rue Jean-Brillant",
+                        "position": {
+                            "latitude": "45.49836210",
+                            "longitude": "-73.61807840"
+                        }
+                    },
+                    {
+                        "value": "29",
+                        "label": "Université de Montréal - Pavillon Claire-McNicoll",
+                        "position": {
+                            "latitude": "45.50156100",
+                            "longitude": "-73.61636500"
+                        }
+                    },
+                    {
+                        "value": "179",
+                        "label": "UQAM - Pavillon Paul-Gérin-Lajoie (N)",
+                        "position": {
+                            "latitude": "45.51324000",
+                            "longitude": "-73.55929000"
+                        }
+                    },
+                    {
+                        "value": "441",
+                        "label": "UQAM - Pavillon Président-Kennedy (PK)",
+                        "position": {
+                            "latitude": "45.50932800",
+                            "longitude": "-73.56805800"
+                        }
+                    },
+                    {
+                        "value": "46",
+                        "label": "Université de Montréal - Pavillon J.-A.-DeSève",
+                        "position": {
+                            "latitude": "45.50712100",
+                            "longitude": "-73.61438500"
+                        }
+                    },
+                    {
+                        "value": "10875",
+                        "label": "Cégep de Thetford",
+                        "position": {
+                            "latitude": "46.09796890",
+                            "longitude": "-71.32147630"
+                        }
+                    },
+                    {
+                        "value": "1199",
+                        "label": "Bibliothèque de Saint-Léonard",
+                        "position": {
+                            "latitude": "45.58734400",
+                            "longitude": "-73.59702600"
+                        }
+                    },
+                    {
+                        "value": "2082",
+                        "label": "Bibliothèque de Parc-Extension",
+                        "position": {
+                            "latitude": "45.53118700",
+                            "longitude": "-73.62845800"
+                        }
+                    },
+                    {
+                        "value": "2072",
+                        "label": "Bibliothèque Haut-Anjou",
+                        "position": {
+                            "latitude": "45.60128000",
+                            "longitude": "-73.57595100"
+                        }
+                    },
+                    {
+                        "value": "3",
+                        "label": "Université de Montréal - 3200, rue Jean-Brillant",
+                        "position": {
+                            "latitude": "45.49863900",
+                            "longitude": "-73.61845700"
+                        }
+                    },
+                    {
+                        "value": "453",
+                        "label": "Hôtel Hyatt Regency Montréal",
+                        "position": {
+                            "latitude": "45.50681300",
+                            "longitude": "-73.56548300"
+                        }
+                    },
+                    {
+                        "value": "10976",
+                        "label": "Centre sportif de l'UQAM",
+                        "position": {
+                            "latitude": "45.51205820",
+                            "longitude": "-73.55984060"
+                        }
+                    },
+                    {
+                        "value": "1171",
+                        "label": "Bibliothèque du Plateau-Mont-Royal",
+                        "position": {
+                            "latitude": "45.52472100",
+                            "longitude": "-73.58232700"
+                        }
+                    },
+                    {
+                        "value": "6745",
+                        "label": "Polytechnique Montréal - Pavillon J.-Armand-Bombardier",
+                        "position": {
+                            "latitude": "45.50322640",
+                            "longitude": "-73.61310420"
+                        }
+                    },
+                    {
+                        "value": "10048",
+                        "label": "Studio Hydro-Québec du Monument-National",
+                        "position": {
+                            "latitude": "45.50919060",
+                            "longitude": "-73.56235260"
+                        }
+                    },
+                    {
+                        "value": "1542",
+                        "label": "Centre des arts Juliette-Lassonde",
+                        "position": {
+                            "latitude": "45.62332670",
+                            "longitude": "-72.94580720"
+                        }
+                    },
+                    {
+                        "value": "206",
+                        "label": "Théâtre La Chapelle",
+                        "position": {
+                            "latitude": "45.51508240",
+                            "longitude": "-73.57379220"
+                        }
+                    },
+                    {
+                        "value": "127",
+                        "label": "Théâtre Plaza",
+                        "position": {
+                            "latitude": "45.53618030",
+                            "longitude": "-73.60317170"
+                        }
+                    },
+                    {
+                        "value": "88",
+                        "label": "Le Balcon",
+                        "position": {
+                            "latitude": "45.50911560",
+                            "longitude": "-73.55332040"
+                        }
+                    },
+                    {
+                        "value": "10484",
+                        "label": "Salle de spectacles de Chandler",
+                        "position": {
+                            "latitude": "48.35477210",
+                            "longitude": "-64.67967010"
+                        }
+                    },
+                    {
+                        "value": "56",
+                        "label": "Le Belmont",
+                        "position": {
+                            "latitude": "45.52000250",
+                            "longitude": "-73.58613430"
+                        }
+                    },
+                    {
+                        "value": "10767",
+                        "label": "Hotel Bonaventure",
+                        "position": {
+                            "latitude": "45.49929850",
+                            "longitude": "-73.56580330"
+                        }
+                    },
+                    {
+                        "value": "10974",
+                        "label": "CIRANO",
+                        "position": {
+                            "latitude": "45.50110500",
+                            "longitude": "-73.57665740"
+                        }
+                    },
+                    {
+                        "value": "10661",
+                        "label": "CCTU",
+                        "position": {
+                            "latitude": "45.52345060",
+                            "longitude": "-73.45086290"
+                        }
+                    },
+                    {
+                        "value": "10348",
+                        "label": "Jardins Intérieurs",
+                        "position": {
+                            "latitude": "45.48427170",
+                            "longitude": "-73.48525640"
+                        }
+                    },
+                    {
+                        "value": "2075",
+                        "label": "Bibliothèque de l'Île des Soeurs",
+                        "position": {
+                            "latitude": "45.45700300",
+                            "longitude": "-73.54653200"
+                        }
+                    },
+                    {
+                        "value": "10632",
+                        "label": "Maison de la culture de Frontenac",
+                        "position": {
+                            "latitude": "45.53291500",
+                            "longitude": "-73.55169800"
+                        }
+                    },
+                    {
+                        "value": "997",
+                        "label": "Bibliothèque Frontenac",
+                        "position": {
+                            "latitude": "45.53298800",
+                            "longitude": "-73.55260800"
+                        }
+                    },
+                    {
+                        "value": "122",
+                        "label": "UQAM - Centre Pierre-Péladeau (Q)",
+                        "position": {
+                            "latitude": "45.51341830",
+                            "longitude": "-73.56280400"
+                        }
+                    },
+                    {
+                        "value": "383",
+                        "label": "Polytechnique Montréal - Pavillon Lassonde",
+                        "position": {
+                            "latitude": "45.50490300",
+                            "longitude": "-73.61521100"
+                        }
+                    },
+                    {
+                        "value": "10960",
+                        "label": "Racine croisée",
+                        "position": {
+                            "latitude": "45.51801660",
+                            "longitude": "-73.57820470"
+                        }
+                    },
+                    {
+                        "value": "11003",
+                        "label": "École des médias de l'UQAM",
+                        "position": {
+                            "latitude": "45.51443850",
+                            "longitude": "-73.56070440"
+                        }
+                    },
+                    {
+                        "value": "90",
+                        "label": "Librairie Gallimard",
+                        "position": {
+                            "latitude": "45.51465680",
+                            "longitude": "-73.57425880"
+                        }
+                    },
+                    {
+                        "value": "10233",
+                        "label": "La Gare ",
+                        "position": {
+                            "latitude": "45.52605260",
+                            "longitude": "-73.59504880"
+                        }
+                    },
+                    {
+                        "value": "11004",
+                        "label": "Salle d'exposition L'Entrepôt",
+                        "position": {
+                            "latitude": "45.43354530",
+                            "longitude": "-73.68991960"
+                        }
+                    },
+                    {
+                        "value": "396",
+                        "label": "Bibliothèque Jean-Corbeil",
+                        "position": {
+                            "latitude": "45.60336500",
+                            "longitude": "-73.55865740"
+                        }
+                    },
+                    {
+                        "value": "774",
+                        "label": "Cégep de Saint-Laurent",
+                        "position": {
+                            "latitude": "45.51167000",
+                            "longitude": "-73.67251400"
+                        }
+                    },
+                    {
+                        "value": "6282",
+                        "label": "Nouvelle Acropole",
+                        "position": {
+                            "latitude": "45.53598340",
+                            "longitude": "-73.60966520"
+                        }
+                    },
+                    {
+                        "value": "539",
+                        "label": "Université de Montréal - Salle Claude-Champagne",
+                        "position": {
+                            "latitude": "45.50940000",
+                            "longitude": "-73.61022200"
+                        }
+                    },
+                    {
+                        "value": "1833",
+                        "label": "Les Deux-Pierrots",
+                        "position": {
+                            "latitude": "45.50654010",
+                            "longitude": "-73.55304310"
+                        }
+                    },
+                    {
+                        "value": "294",
+                        "label": "Club Soda",
+                        "position": {
+                            "latitude": "45.50947920",
+                            "longitude": "-73.56299580"
+                        }
+                    },
+                    {
+                        "value": "843",
+                        "label": "Aquarium Café Bar",
+                        "position": {
+                            "latitude": "45.54837800",
+                            "longitude": "-73.57477400"
+                        }
+                    },
+                    {
+                        "value": "11009",
+                        "label": "Marché Des Trésors",
+                        "position": {
+                            "latitude": "45.10704770",
+                            "longitude": "-73.77225110"
+                        }
+                    },
+                    {
+                        "value": "6813",
+                        "label": "L'essentiel et les petits riens",
+                        "position": {
+                            "latitude": "45.53432770",
+                            "longitude": "-73.60978920"
+                        }
+                    },
+                    {
+                        "value": "2074",
+                        "label": "Bibliothèque d'Hochelaga",
+                        "position": {
+                            "latitude": "45.54277500",
+                            "longitude": "-73.54554500"
+                        }
+                    },
+                    {
+                        "value": "2081",
+                        "label": "Bibliothèque de Notre-Dame-de-Grâce",
+                        "position": {
+                            "latitude": "45.47525700",
+                            "longitude": "-73.61429600"
+                        }
+                    },
+                    {
+                        "value": "2078",
+                        "label": "Bibliothèque de Maisonneuve",
+                        "position": {
+                            "latitude": "45.55066500",
+                            "longitude": "-73.54061000"
+                        }
+                    },
+                    {
+                        "value": "6853",
+                        "label": "OPTICA, un centre d'art contemporain ",
+                        "position": {
+                            "latitude": "45.52702100",
+                            "longitude": "-73.59538210"
+                        }
+                    },
+                    {
+                        "value": "1519",
+                        "label": "La Maison amérindienne",
+                        "position": {
+                            "latitude": "45.54906740",
+                            "longitude": "-73.18815410"
+                        }
+                    },
+                    {
+                        "value": "395",
+                        "label": "Bibliothèque Saul-Bellow",
+                        "position": {
+                            "latitude": "45.44006230",
+                            "longitude": "-73.69157790"
+                        }
+                    },
+                    {
+                        "value": "173",
+                        "label": "Librairie Monet",
+                        "position": {
+                            "latitude": "45.53746100",
+                            "longitude": "-73.69998340"
+                        }
+                    },
+                    {
+                        "value": "2772",
+                        "label": "Bibliothèque Raymond-Lévesque",
+                        "position": {
+                            "latitude": "45.49147000",
+                            "longitude": "-73.40210100"
+                        }
+                    },
+                    {
+                        "value": "1334",
+                        "label": "Cathédrale Christ Church / Église Anglicane de Canada - Diocese de Montréal",
+                        "position": {
+                            "latitude": "45.50380800",
+                            "longitude": "-73.56938500"
+                        }
+                    },
+                    {
+                        "value": "1153",
+                        "label": "Salle Bourgie du Musée des beaux-arts",
+                        "position": {
+                            "latitude": "45.49863900",
+                            "longitude": "-73.57983800"
+                        }
+                    },
+                    {
+                        "value": "1460",
+                        "label": "Maison de la culture Rosemont--La Petite-Patrie - Salle Jean-Eudes",
+                        "position": {
+                            "latitude": "45.55538300",
+                            "longitude": "-73.57871900"
+                        }
+                    },
+                    {
+                        "value": "1356",
+                        "label": "Théâtre Telus",
+                        "position": {
+                            "latitude": "45.51349200",
+                            "longitude": "-73.56002900"
+                        }
+                    },
+                    {
+                        "value": "1541",
+                        "label": "Cabaret-Théâtre du Vieux-Saint-Jean",
+                        "position": {
+                            "latitude": "45.30578000",
+                            "longitude": "-73.25635280"
+                        }
+                    },
+                    {
+                        "value": "570",
+                        "label": "Lieu à déterminer",
+                        "position": {
+                            "latitude": "0.00000000",
+                            "longitude": "0.00000000"
+                        }
+                    },
+                    {
+                        "value": "1312",
+                        "label": "L'Étoile Banque Nationale",
+                        "position": {
+                            "latitude": "45.44082000",
+                            "longitude": "-73.44089600"
+                        }
+                    },
+                    {
+                        "value": "10996",
+                        "label": " Maison de la culture Ahuntsic-Cartierville",
+                        "position": {
+                            "latitude": "45.55347900",
+                            "longitude": "-73.66276300"
+                        }
+                    },
+                    {
+                        "value": "10416",
+                        "label": "Maison de la culture de Sainte-Anne-des-Monts",
+                        "position": {
+                            "latitude": "49.12409900",
+                            "longitude": "-66.49216920"
+                        }
+                    },
+                    {
+                        "value": "9113",
+                        "label": "L'Arcadie",
+                        "position": {
+                            "latitude": "48.53630670",
+                            "longitude": "-4.66127430"
+                        }
+                    },
+                    {
+                        "value": "1236",
+                        "label": "Le National",
+                        "position": {
+                            "latitude": "45.51870900",
+                            "longitude": "-73.55588800"
+                        }
+                    },
+                    {
+                        "value": "897",
+                        "label": "Cégep André-Laurendeau",
+                        "position": {
+                            "latitude": "45.43643600",
+                            "longitude": "-73.60518000"
+                        }
+                    },
+                    {
+                        "value": "1458",
+                        "label": "Collège Sainte-Anne de Lachine",
+                        "position": {
+                            "latitude": "45.43184600",
+                            "longitude": "-73.67465600"
+                        }
+                    },
+                    {
+                        "value": "2091",
+                        "label": "Bibliothèque de Verdun",
+                        "position": {
+                            "latitude": "45.44821200",
+                            "longitude": "-73.57700200"
+                        }
+                    },
+                    {
+                        "value": "1057",
+                        "label": "Newtown",
+                        "position": {
+                            "latitude": "45.49720300",
+                            "longitude": "-73.57576100"
+                        }
+                    },
+                    {
+                        "value": "1146",
+                        "label": "La Maison d'Aurore",
+                        "position": {
+                            "latitude": "45.53280800",
+                            "longitude": "-73.58097600"
+                        }
+                    },
+                    {
+                        "value": "469",
+                        "label": "Diese onze",
+                        "position": {
+                            "latitude": "45.52129300",
+                            "longitude": "-73.57692000"
+                        }
+                    },
+                    {
+                        "value": "10972",
+                        "label": "APAMM-RS",
+                        "position": {
+                            "latitude": "45.48940050",
+                            "longitude": "-73.49125210"
+                        }
+                    },
+                    {
+                        "value": "11013",
+                        "label": "Café les Oubliettes",
+                        "position": {
+                            "latitude": "45.53348850",
+                            "longitude": "-73.60122840"
+                        }
+                    },
+                    {
+                        "value": "556",
+                        "label": "Studio Bizz Mont-Royal",
+                        "position": {
+                            "latitude": "45.52526200",
+                            "longitude": "-73.58174800"
+                        }
+                    },
+                    {
+                        "value": "10530",
+                        "label": "Centre culturel de Paspébiac",
+                        "position": {
+                            "latitude": "48.02936680",
+                            "longitude": "-65.24803410"
+                        }
+                    },
+                    {
+                        "value": "2593",
+                        "label": "Cuisines collectives du Grand Plateau",
+                        "position": {
+                            "latitude": "45.52357600",
+                            "longitude": "-73.57436300"
+                        }
+                    },
+                    {
+                        "value": "2583",
+                        "label": "SORIF",
+                        "position": {
+                            "latitude": "45.52925800",
+                            "longitude": "-73.58884700"
+                        }
+                    },
+                    {
+                        "value": "188",
+                        "label": "Cégep du Vieux-Montréal",
+                        "position": {
+                            "latitude": "45.51415000",
+                            "longitude": "-73.56580970"
+                        }
+                    },
+                    {
+                        "value": "4650",
+                        "label": "Studio-théâtre L'Illusion",
+                        "position": {
+                            "latitude": "45.53361040",
+                            "longitude": "-73.60495320"
+                        }
+                    },
+                    {
+                        "value": "538",
+                        "label": "Université de Montréal - Pavillon André-Aisenstadt",
+                        "position": {
+                            "latitude": "45.50099300",
+                            "longitude": "-73.61567300"
+                        }
+                    },
+                    {
+                        "value": "2806",
+                        "label": "CLSC Métro",
+                        "position": {
+                            "latitude": "45.49449600",
+                            "longitude": "-73.58080000"
+                        }
+                    },
+                    {
+                        "value": "182",
+                        "label": "UQAM - Pavillon des Sciences biologiques (SB)",
+                        "position": {
+                            "latitude": "45.50966540",
+                            "longitude": "-73.56760880"
+                        }
+                    },
+                    {
+                        "value": "7099",
+                        "label": "ACEM Financement communautaire responsable",
+                        "position": {
+                            "latitude": "45.51160140",
+                            "longitude": "-73.57605150"
+                        }
+                    },
+                    {
+                        "value": "1223",
+                        "label": "Complexe Arsenal",
+                        "position": {
+                            "latitude": "45.48587900",
+                            "longitude": "-73.56852700"
+                        }
+                    },
+                    {
+                        "value": "6519",
+                        "label": "Théâtre Paradoxe",
+                        "position": {
+                            "latitude": "45.45880870",
+                            "longitude": "-73.59616810"
+                        }
+                    },
+                    {
+                        "value": "10481",
+                        "label": "Musée acadien du Québec ",
+                        "position": {
+                            "latitude": "48.04478300",
+                            "longitude": "-65.49190300"
+                        }
+                    },
+                    {
+                        "value": "1304",
+                        "label": "Théâtre du Vieux-Terrebonne",
+                        "position": {
+                            "latitude": "45.69225900",
+                            "longitude": "-73.63536700"
+                        }
+                    },
+                    {
+                        "value": "58",
+                        "label": "Usine C",
+                        "position": {
+                            "latitude": "45.52225810",
+                            "longitude": "-73.56037090"
+                        }
+                    },
+                    {
+                        "value": "225",
+                        "label": "Institut universitaire de gériatrie de Montréal (IUGM)",
+                        "position": {
+                            "latitude": "45.49121310",
+                            "longitude": "-73.62244880"
+                        }
+                    },
+                    {
+                        "value": "10889",
+                        "label": "Maison de la famille Le Cavalier",
+                        "position": {
+                            "latitude": "45.52554550",
+                            "longitude": "-73.48174930"
+                        }
+                    },
+                    {
+                        "value": "1395",
+                        "label": "Collège Vanier",
+                        "position": {
+                            "latitude": "45.51388300",
+                            "longitude": "-73.67598700"
+                        }
+                    },
+                    {
+                        "value": "10390",
+                        "label": "Terrasse Ontario",
+                        "position": {
+                            "latitude": "45.52147700",
+                            "longitude": "-73.56511900"
+                        }
+                    },
+                    {
+                        "value": "3401",
+                        "label": "Université de Montréal - 7101 avenue du Parc",
+                        "position": {
+                            "latitude": "45.53031300",
+                            "longitude": "-73.62131900"
+                        }
+                    },
+                    {
+                        "value": "10877",
+                        "label": "Collège André-Grasset",
+                        "position": {
+                            "latitude": "45.55087000",
+                            "longitude": "-73.63291260"
+                        }
+                    },
+                    {
+                        "value": "1392",
+                        "label": "Musée McCord - Théâtre J. Armand-Bombardier",
+                        "position": {
+                            "latitude": "45.50462000",
+                            "longitude": "-73.57376200"
+                        }
+                    },
+                    {
+                        "value": "2253",
+                        "label": "Galerie d'art Stewart Hall",
+                        "position": {
+                            "latitude": "45.43417500",
+                            "longitude": "-73.81014000"
+                        }
+                    },
+                    {
+                        "value": "2741",
+                        "label": "Coop la Maison verte",
+                        "position": {
+                            "latitude": "45.47003100",
+                            "longitude": "-73.61699900"
+                        }
+                    },
+                    {
+                        "value": "3260",
+                        "label": "Place des arts",
+                        "position": {
+                            "latitude": "45.50821200",
+                            "longitude": "-73.56544400"
+                        }
+                    },
+                    {
+                        "value": "840",
+                        "label": "Bistro de Paris",
+                        "position": {
+                            "latitude": "45.52428500",
+                            "longitude": "-73.58359300"
+                        }
+                    },
+                    {
+                        "value": "2623",
+                        "label": "Le Labo, Taverne Jarry",
+                        "position": {
+                            "latitude": "45.54380700",
+                            "longitude": "-73.62843600"
+                        }
+                    },
+                    {
+                        "value": "532",
+                        "label": "Université de Montréal - 7077, avenue du Parc",
+                        "position": {
+                            "latitude": "45.52977900",
+                            "longitude": "-73.62002300"
+                        }
+                    },
+                    {
+                        "value": "2090",
+                        "label": "Bibliothèque De Salaberry",
+                        "position": {
+                            "latitude": "45.53456900",
+                            "longitude": "-73.70418200"
+                        }
+                    },
+                    {
+                        "value": "3258",
+                        "label": "Collège Bois-de-Boulogne",
+                        "position": {
+                            "latitude": "45.53839900",
+                            "longitude": "-73.67620800"
+                        }
+                    },
+                    {
+                        "value": "94",
+                        "label": "Université de Montréal - 2910, boul. Édouard-Montpetit",
+                        "position": {
+                            "latitude": "45.50292900",
+                            "longitude": "-73.61868700"
+                        }
+                    },
+                    {
+                        "value": "402",
+                        "label": "Université de Montréal - Pavillon Marguerite-d'Youville",
+                        "position": {
+                            "latitude": "45.50894700",
+                            "longitude": "-73.61828700"
+                        }
+                    },
+                    {
+                        "value": "322",
+                        "label": "UQAM - Pavillon de Design (DE)",
+                        "position": {
+                            "latitude": "45.51286970",
+                            "longitude": "-73.56165720"
+                        }
+                    },
+                    {
+                        "value": "66",
+                        "label": "Bibliothèque Mordecai-Richler",
+                        "position": {
+                            "latitude": "45.52175940",
+                            "longitude": "-73.60120030"
+                        }
+                    },
+                    {
+                        "value": "3456",
+                        "label": "Éco-quartier NDG",
+                        "position": {
+                            "latitude": "45.46700800",
+                            "longitude": "-73.63889300"
+                        }
+                    },
+                    {
+                        "value": "10035",
+                        "label": "Librairie Pantoute (Saint-Roch)",
+                        "position": {
+                            "latitude": "46.81350080",
+                            "longitude": "-71.22703790"
+                        }
+                    },
+                    {
+                        "value": "11008",
+                        "label": "Regroupement de Lachine",
+                        "position": {
+                            "latitude": "45.43459340",
+                            "longitude": "-73.67043040"
+                        }
+                    },
+                    {
+                        "value": "5298",
+                        "label": "Café Fixe",
+                        "position": {
+                            "latitude": "45.53436200",
+                            "longitude": "-73.59900440"
+                        }
+                    },
+                    {
+                        "value": "334",
+                        "label": "Place Bonaventure",
+                        "position": {
+                            "latitude": "45.50074420",
+                            "longitude": "-73.56536170"
+                        }
+                    },
+                    {
+                        "value": "7262",
+                        "label": "Université de Montréal - Campus Laval ",
+                        "position": {
+                            "latitude": "45.55887140",
+                            "longitude": "-73.72116630"
+                        }
+                    },
+                    {
+                        "value": "4950",
+                        "label": "Bibliothèque Jacques-Ferron",
+                        "position": {
+                            "latitude": "45.53767510",
+                            "longitude": "-73.50653700"
+                        }
+                    },
+                    {
+                        "value": "1853",
+                        "label": "UQAM - Pavillon de Danse (K)",
+                        "position": {
+                            "latitude": "45.52057080",
+                            "longitude": "-73.56781670"
+                        }
+                    },
+                    {
+                        "value": "10690",
+                        "label": "Mini-bibliothèque de Chameran",
+                        "position": {
+                            "latitude": "45.52876570",
+                            "longitude": "-73.67745370"
+                        }
+                    },
+                    {
+                        "value": "3419",
+                        "label": "UQAM - Complexe des sciences Pierre-Dansereau",
+                        "position": {
+                            "latitude": "45.50961900",
+                            "longitude": "-73.56946800"
+                        }
+                    },
+                    {
+                        "value": "9167",
+                        "label": "Chambre de Commerce et d'Industrie de Morlaix (CCI) de Morlaix",
+                        "position": {
+                            "latitude": "48.57761300",
+                            "longitude": "-3.82822800"
+                        }
+                    },
+                    {
+                        "value": "1548",
+                        "label": "École de la Magdeleine - Salle Richard-Sauvageau",
+                        "position": {
+                            "latitude": "45.40550300",
+                            "longitude": "-73.49840720"
+                        }
+                    },
+                    {
+                        "value": "9975",
+                        "label": "Cabaret Le Fripon",
+                        "position": {
+                            "latitude": "45.50792500",
+                            "longitude": "-73.55329890"
+                        }
+                    },
+                    {
+                        "value": "141",
+                        "label": "Université Concordia - Salle Oscar Peterson",
+                        "position": {
+                            "latitude": "45.45983500",
+                            "longitude": "-73.63631700"
+                        }
+                    },
+                    {
+                        "value": "7583",
+                        "label": "Académie Sainte-Thérèse - Pavillon Rosemère",
+                        "position": {
+                            "latitude": "45.64718340",
+                            "longitude": "-73.77283930"
+                        }
+                    },
+                    {
+                        "value": "510",
+                        "label": "Centre Gabrielle-et-Marcel-Lapalme",
+                        "position": {
+                            "latitude": "45.55330700",
+                            "longitude": "-73.57329400"
+                        }
+                    },
+                    {
+                        "value": "10561",
+                        "label": "Studio Hydro-Québec du Quai des arts",
+                        "position": {
+                            "latitude": "48.10128550",
+                            "longitude": "-66.10846370"
+                        }
+                    },
+                    {
+                        "value": "2375",
+                        "label": "Maison symphonique de Montréal",
+                        "position": {
+                            "latitude": "45.50968300",
+                            "longitude": "-73.56629500"
+                        }
+                    },
+                    {
+                        "value": "10422",
+                        "label": "Temple hindou Thiru Murugan",
+                        "position": {
+                            "latitude": "45.48930600",
+                            "longitude": "-73.77969500"
+                        }
+                    },
+                    {
+                        "value": "1758",
+                        "label": "Collège Ahuntsic",
+                        "position": {
+                            "latitude": "45.54986480",
+                            "longitude": "-73.63765840"
+                        }
+                    },
+                    {
+                        "value": "60",
+                        "label": "École de technologie supérieure",
+                        "position": {
+                            "latitude": "45.49505840",
+                            "longitude": "-73.56325960"
+                        }
+                    },
+                    {
+                        "value": "207",
+                        "label": "Chapelle historique du Bon-Pasteur",
+                        "position": {
+                            "latitude": "45.51351060",
+                            "longitude": "-73.56900120"
+                        }
+                    },
+                    {
+                        "value": "907",
+                        "label": "Centre culturel Henri-Lemieux",
+                        "position": {
+                            "latitude": "45.43098500",
+                            "longitude": "-73.59436500"
+                        }
+                    },
+                    {
+                        "value": "10986",
+                        "label": "Ritz-Carlton Montréal",
+                        "position": {
+                            "latitude": "45.50009630",
+                            "longitude": "-73.57792350"
+                        }
+                    },
+                    {
+                        "value": "5396",
+                        "label": "Collège Édouard-Montpetit",
+                        "position": {
+                            "latitude": "45.53475910",
+                            "longitude": "-73.49441230"
+                        }
+                    },
+                    {
+                        "value": "4894",
+                        "label": "Université Concordia - John Molson School of Business",
+                        "position": {
+                            "latitude": "45.49525550",
+                            "longitude": "-73.57836540"
+                        }
+                    },
+                    {
+                        "value": "63",
+                        "label": "Musée des beaux-arts de Montréal",
+                        "position": {
+                            "latitude": "45.49864660",
+                            "longitude": "-73.57973520"
+                        }
+                    },
+                    {
+                        "value": "1996",
+                        "label": "Place Ville-Marie",
+                        "position": {
+                            "latitude": "45.50159700",
+                            "longitude": "-73.56869800"
+                        }
+                    },
+                    {
+                        "value": "9699",
+                        "label": "Oui Mais Non Café",
+                        "position": {
+                            "latitude": "45.53983040",
+                            "longitude": "-73.63076650"
+                        }
+                    },
+                    {
+                        "value": "7001",
+                        "label": "CRCHUM",
+                        "position": {
+                            "latitude": "45.51113820",
+                            "longitude": "-73.55579450"
+                        }
+                    },
+                    {
+                        "value": "10349",
+                        "label": "Le Cherbourg 1",
+                        "position": {
+                            "latitude": "45.45122170",
+                            "longitude": "-73.49462490"
+                        }
+                    },
+                    {
+                        "value": "5378",
+                        "label": "Cégep Saint-Jean-sur-Richelieu",
+                        "position": {
+                            "latitude": "45.29643370",
+                            "longitude": "-73.26998410"
+                        }
+                    },
+                    {
+                        "value": "10631",
+                        "label": "Centre communautaire de Bordeaux-Cartierville",
+                        "position": {
+                            "latitude": "45.53925940",
+                            "longitude": "-73.67866350"
+                        }
+                    },
+                    {
+                        "value": "10131",
+                        "label": "Carrefour jeunesse emploi Rosemont/Petite-Patrie",
+                        "position": {
+                            "latitude": "45.54169880",
+                            "longitude": "-73.59822240"
+                        }
+                    },
+                    {
+                        "value": "416",
+                        "label": "Église Saint-Stanislas-de-Kostka",
+                        "position": {
+                            "latitude": "45.53247700",
+                            "longitude": "-73.58003100"
+                        }
+                    },
+                    {
+                        "value": "10937",
+                        "label": "Centre communautaire des aînées et aînés de Longueuil",
+                        "position": {
+                            "latitude": "45.53418040",
+                            "longitude": "-73.48541110"
+                        }
+                    },
+                    {
+                        "value": "2546",
+                        "label": "Café l'Artère",
+                        "position": {
+                            "latitude": "45.52970900",
+                            "longitude": "-73.61978900"
+                        }
+                    },
+                    {
+                        "value": "5476",
+                        "label": "Cégep de Sorel-Tracy",
+                        "position": {
+                            "latitude": "46.01550700",
+                            "longitude": "-73.14956570"
+                        }
+                    },
+                    {
+                        "value": "5570",
+                        "label": "Champlain College Saint-Lambert",
+                        "position": {
+                            "latitude": "45.51655660",
+                            "longitude": "-73.52040850"
+                        }
+                    },
+                    {
+                        "value": "11011",
+                        "label": "Station Ho.st",
+                        "position": {
+                            "latitude": "45.52410170",
+                            "longitude": "-73.56044440"
+                        }
+                    },
+                    {
+                        "value": "906",
+                        "label": "Cégep André-Laurendeau - Salle Jean Grimaldi",
+                        "position": {
+                            "latitude": "45.43500600",
+                            "longitude": "-73.60434300"
+                        }
+                    },
+                    {
+                        "value": "9671",
+                        "label": "Zocalo, centre d'artistes",
+                        "position": {
+                            "latitude": "45.53711350",
+                            "longitude": "-73.51185170"
+                        }
+                    },
+                    {
+                        "value": "10433",
+                        "label": "Quai des arts",
+                        "position": {
+                            "latitude": "48.10128550",
+                            "longitude": "-66.10846370"
+                        }
+                    },
+                    {
+                        "value": "573",
+                        "label": "Centre culturel Georges-Vanier",
+                        "position": {
+                            "latitude": "45.48374000",
+                            "longitude": "-73.57524600"
+                        }
+                    },
+                    {
+                        "value": "11020",
+                        "label": "PME MTL Centre-Ville",
+                        "position": {
+                            "latitude": "45.51785240",
+                            "longitude": "-73.56787030"
+                        }
+                    },
+                    {
+                        "value": "2861",
+                        "label": "Office de consultation publique de Montréal (OCPM)",
+                        "position": {
+                            "latitude": "45.50112200",
+                            "longitude": "-73.57307500"
+                        }
+                    },
+                    {
+                        "value": "263",
+                        "label": "Dazibao",
+                        "position": {
+                            "latitude": "45.52745420",
+                            "longitude": "-73.59669230"
+                        }
+                    },
+                    {
+                        "value": "310",
+                        "label": "Vidéographe Production",
+                        "position": {
+                            "latitude": "45.53124780",
+                            "longitude": "-73.57734890"
+                        }
+                    },
+                    {
+                        "value": "3085",
+                        "label": "UQAM - Pavillon Adrien-Pinard (SU)",
+                        "position": {
+                            "latitude": "45.51104800",
+                            "longitude": "-73.57004900"
+                        }
+                    },
+                    {
+                        "value": "11030",
+                        "label": "Espace CC",
+                        "position": {
+                            "latitude": "45.53032300",
+                            "longitude": "-73.55801430"
+                        }
+                    },
+                    {
+                        "value": "3636",
+                        "label": "Insertech",
+                        "position": {
+                            "latitude": "45.54284000",
+                            "longitude": "-73.56446500"
+                        }
+                    },
+                    {
+                        "value": "28",
+                        "label": "UQAM - Pavillon Athanase-David (D)",
+                        "position": {
+                            "latitude": "45.51411310",
+                            "longitude": "-73.56127920"
+                        }
+                    },
+                    {
+                        "value": "2568",
+                        "label": "Le Patro Le prévost",
+                        "position": {
+                            "latitude": "45.54388200",
+                            "longitude": "-73.61463900"
+                        }
+                    },
+                    {
+                        "value": "9769",
+                        "label": "Espace patrimoine et histoire",
+                        "position": {
+                            "latitude": "45.48093660",
+                            "longitude": "-73.86863070"
+                        }
+                    },
+                    {
+                        "value": "11022",
+                        "label": "Université Concordia - 1590 Dr. Penfield",
+                        "position": {
+                            "latitude": "45.49635250",
+                            "longitude": "-73.58653490"
+                        }
+                    },
+                    {
+                        "value": "598",
+                        "label": "Galerie Gora",
+                        "position": {
+                            "latitude": "45.50899400",
+                            "longitude": "-73.57097600"
+                        }
+                    },
+                    {
+                        "value": "4057",
+                        "label": "CLSC de Côte-des-Neiges",
+                        "position": {
+                            "latitude": "45.49826200",
+                            "longitude": "-73.62723400"
+                        }
+                    },
+                    {
+                        "value": "960",
+                        "label": "Centre des femmes de Montréal",
+                        "position": {
+                            "latitude": "45.51233100",
+                            "longitude": "-73.57264100"
+                        }
+                    },
+                    {
+                        "value": "11024",
+                        "label": "École de santé publique de l'Université de Montréal",
+                        "position": {
+                            "latitude": "45.53036010",
+                            "longitude": "-73.62124100"
+                        }
+                    },
+                    {
+                        "value": "10350",
+                        "label": "Le Cherbourg II",
+                        "position": {
+                            "latitude": "45.44867700",
+                            "longitude": "-73.49449700"
+                        }
+                    },
+                    {
+                        "value": "11027",
+                        "label": "Musée du Rock'n'roll",
+                        "position": {
+                            "latitude": "45.52975790",
+                            "longitude": "-73.55561840"
+                        }
+                    },
+                    {
+                        "value": "8884",
+                        "label": "La Maison du Théâtre",
+                        "position": {
+                            "latitude": "48.41464370",
+                            "longitude": "-4.49356550"
+                        }
+                    },
+                    {
+                        "value": "133",
+                        "label": "GESÙ - Centre de créativité",
+                        "position": {
+                            "latitude": "45.50579350",
+                            "longitude": "-73.56590020"
+                        }
+                    },
+                    {
+                        "value": "394",
+                        "label": "L'Olympia de Montréal",
+                        "position": {
+                            "latitude": "45.51699520",
+                            "longitude": "-73.55748960"
+                        }
+                    },
+                    {
+                        "value": "10772",
+                        "label": "Le Savignon",
+                        "position": {
+                            "latitude": "45.43594190",
+                            "longitude": "-73.69056190"
+                        }
+                    },
+                    {
+                        "value": "11035",
+                        "label": "Centre Lajeunesse",
+                        "position": {
+                            "latitude": "45.54067680",
+                            "longitude": "-73.61775150"
+                        }
+                    },
+                    {
+                        "value": "1006",
+                        "label": "Église de Saint-Andrew et Saint-Paul",
+                        "position": {
+                            "latitude": "45.49803000",
+                            "longitude": "-73.58043900"
+                        }
+                    },
+                    {
+                        "value": "9137",
+                        "label": "Pôle Culturel Le Roudour",
+                        "position": {
+                            "latitude": "48.57201790",
+                            "longitude": "-3.84707480"
+                        }
+                    },
+                    {
+                        "value": "1557",
+                        "label": "Polyvalente Saint-Jérôme - Salle André-Prévost",
+                        "position": {
+                            "latitude": "45.78761030",
+                            "longitude": "-73.99367840"
+                        }
+                    },
+                    {
+                        "value": "10987",
+                        "label": "Maison Bleue",
+                        "position": {
+                            "latitude": "45.40084600",
+                            "longitude": "-71.90857300"
+                        }
+                    },
+                    {
+                        "value": "165",
+                        "label": "Centre de loisirs communautaires Lajeunesse",
+                        "position": {
+                            "latitude": "45.54055850",
+                            "longitude": "-73.61727250"
+                        }
+                    },
+                    {
+                        "value": "40",
+                        "label": "Centre Segal des arts de la scène",
+                        "position": {
+                            "latitude": "45.48918870",
+                            "longitude": "-73.63582750"
+                        }
+                    },
+                    {
+                        "value": "363",
+                        "label": "Édifice 7000, Avenue du Parc",
+                        "position": {
+                            "latitude": "45.52969150",
+                            "longitude": "-73.61995180"
+                        }
+                    },
+                    {
+                        "value": "474",
+                        "label": "Bain Mathieu",
+                        "position": {
+                            "latitude": "45.53730700",
+                            "longitude": "-73.54973700"
+                        }
+                    }
+                ]
+            }]
+        }, {
+            "id": "3",
+            "type": "banq_photos",
+            "snippet": {
+                "title": "Photos d’archives",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": null
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#29927D",
+                    "color_medium": "#0A372E",
+                    "color_normal": "#0C4137",
+                    "color_dark": "#092721",
+                    "color_darker": "#07211C",
+                    "color_shadow": "#1E6D5C",
+                    "color_shadow_darker": "#266C5C"
+                },
+                "settings": {
+                    "channelView": "filters_tabs",
+                    "slidesHeightRatio": 0.3,
+                    "slidesMarginRatio": 0.03,
+                    "slidesWidthRatio": null,
+                    "slidesSlideView": "thumbnail",
+                    "modalBubblesListView": "cover",
+                    "modalSendBubbleDefaultMessage": "J'ai fait cette découverte dans les collections de BAnQ!",
+                    "modalSendBubbleHasMessage": true,
+                    "bubbleDetailsShowTypeName": true,
+                    "bubbleDetailsShowTitle": true,
+                    "bubbleDetailsContentView": "columns",
+                    "bubbleDetailsContentColumns": [{
+                        "column": 0,
+                        "type": "fields",
+                        "value": "fields.date,fields.author"
+                    }, {
+                        "column": 0,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }]
+                }
+            },
+            "filters": [{
+                "name": "year",
+                "type": "list",
+                "label": "Ann\u00e9e",
+                "layout": "year",
+                "values": [{
+                    "value": "1900",
+                    "label": "1900"
+                }, {
+                    "value": "1903",
+                    "label": "1903"
+                }, {
+                    "value": "1905",
+                    "label": "1905"
+                }, {
+                    "value": "1906",
+                    "label": "1906"
+                }, {
+                    "value": "1907",
+                    "label": "1907"
+                }, {
+                    "value": "1908",
+                    "label": "1908"
+                }, {
+                    "value": "1910",
+                    "label": "1910"
+                }, {
+                    "value": "1912",
+                    "label": "1912"
+                }, {
+                    "value": "1915",
+                    "label": "1915"
+                }, {
+                    "value": "1917",
+                    "label": "1917"
+                }, {
+                    "value": "1920",
+                    "label": "1920"
+                }, {
+                    "value": "1921",
+                    "label": "1921"
+                }, {
+                    "value": "1922",
+                    "label": "1922"
+                }, {
+                    "value": "1927",
+                    "label": "1927"
+                }, {
+                    "value": "1929",
+                    "label": "1929"
+                }, {
+                    "value": "1930",
+                    "label": "1930"
+                }, {
+                    "value": "1931",
+                    "label": "1931"
+                }, {
+                    "value": "1940",
+                    "label": "1940"
+                }, {
+                    "value": "1941",
+                    "label": "1941"
+                }, {
+                    "value": "1945",
+                    "label": "1945"
+                }, {
+                    "value": "1946",
+                    "label": "1946"
+                }, {
+                    "value": "1950",
+                    "label": "1950"
+                }]
+            }, {
+                "name": "subject",
+                "type": "list",
+                "label": "Sujet",
+                "layout": "alphabetic",
+                "values": [
+                    {
+                        "value": "Thomas Albertson",
+                        "label": "Thomas Albertson",
+                        "alpha": "albertsonthomas"
+                    },
+                    {
+                        "value": "Raymond Luxury Amelia",
+                        "label": "Raymond Luxury Amelia",
+                        "alpha": "ameliaraymondluxury"
+                    },
+                    {
+                        "value": "Amélie Arthur",
+                        "label": "Amélie Arthur",
+                        "alpha": "arthuramelie"
+                    },
+                    {
+                        "value": "Guybrush Avery",
+                        "label": "Guybrush Avery",
+                        "alpha": "averyguybrush"
+                    }
+                ]
+            }]
+        }, {
+            "id": "4",
+            "type": "banq_cards",
+            "snippet": {
+                "title": "Cartes postales",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": null
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#D99E40",
+                    "color_medium": "#442A09",
+                    "color_normal": "#51320B",
+                    "color_dark": "#3B1F04",
+                    "color_darker": "#321A03",
+                    "color_shadow": "#A86D0C",
+                    "color_shadow_darker": "#A46B27"
+                },
+                "settings": {
+                    "channelView": "filters_tabs",
+                    "slidesHeightRatio": 0.3,
+                    "slidesMarginRatio": 0.03,
+                    "slidesWidthRatio": null,
+                    "slidesSlideView": "thumbnail",
+                    "modalBubblesListView": "cover",
+                    "modalSendBubbleDefaultMessage": "J'ai fait cette découverte dans les collections de BAnQ!",
+                    "modalSendBubbleHasMessage": true,
+                    "bubbleDetailsShowTypeName": true,
+                    "bubbleDetailsShowTitle": true,
+                    "bubbleDetailsContentView": "columns",
+                    "bubbleDetailsContentColumns": [{
+                        "column": 0,
+                        "type": "fields",
+                        "value": "fields.date,fields.author"
+                    }, {
+                        "column": 0,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }]
+                }
+            },
+            "filters": [{
+                "name": "year",
+                "type": "list",
+                "label": "Ann\u00e9e",
+                "layout": "year",
+                "values": [{
+                    "value": "1903",
+                    "label": "1903"
+                }, {
+                    "value": "1905",
+                    "label": "1905"
+                }, {
+                    "value": "1908",
+                    "label": "1908"
+                }, {
+                    "value": "1910",
+                    "label": "1910"
+                }, {
+                    "value": "1920",
+                    "label": "1920"
+                }, {
+                    "value": "1922",
+                    "label": "1922"
+                }, {
+                    "value": "1930",
+                    "label": "1930"
+                }, {
+                    "value": "1931",
+                    "label": "1931"
+                }, {
+                    "value": "1940",
+                    "label": "1940"
+                }, {
+                    "value": "1950",
+                    "label": "1950"
+                }]
+            }, {
+                "name": "location",
+                "type": "map",
+                "label": "Lieu",
+                "markerType": "preview",
+                "clusterIconType": "preview",
+                "values": [
+                    {
+                        "value": "montreal",
+                        "label": "Ville-Marie",
+                        "position": {
+                            "latitude": "45.5000000",
+                            "longitude": "-73.583000"
+                        },
+                        "city": "Montréal",
+                        "region": "Région de Montréal"
+                    },
+                    {
+                        "value": "quebec",
+                        "label": "Sainte-Foy",
+                        "position": {
+                            "latitude": "46.8032826",
+                            "longitude": "-71.242796"
+                        },
+                        "city": "Québec",
+                        "region": "Région de Québec"
+                    }
+                ]
+            }, {
+                "name": "subject",
+                "type": "list",
+                "label": "Sujet",
+                "layout": "alphabetic",
+                "values": [
+                    {
+                        "value": "Arbre",
+                        "label": "Arbre",
+                        "alpha": "arbre"
+                    },
+                    {
+                        "value": "Autobus",
+                        "label": "Autobus",
+                        "alpha": "autobus"
+                    }
+                ]
+            }]
+        },{
+            "id": "5",
+            "type": "banq_books",
+            "snippet": {
+                "title": "Romans \u00e0 découvrir",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": null
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#D23A26",
+                    "color_medium": "#551109",
+                    "color_normal": "#65150B",
+                    "color_dark": "#3E0C06",
+                    "color_darker": "#2B0804",
+                    "color_shadow": "#9B1F14",
+                    "color_shadow_darker": "#98221B"
+                },
+                "settings": {
+                    "channelView": "filters_circles",
+                    "colorPalette": "skittles",
+                    "modalBubblesListView": "cover",
+                    "slidesHeightRatio": 0.35,
+                    "slidesMarginRatio": 0.05,
+                    "slidesWidthRatio": null,
+                    "slidesSlideView": "thumbnail",
+                    "bubbleDetailsShowTypeName": true,
+                    "bubbleDetailsShowTitle": true,
+                    "bubbleDetailsContentView": "columns",
+                    "bubbleDetailsContentColumns": [
+                        {
+                            "column": 0,
+                            "type": "fields",
+                            "value": "fields.authors,fields.publisher,fields.date,fields.subjects,fields.characters,fields.awards,fields.genres"
+                        },
+                        {
+                            "column": 0,
+                            "type": "buttons",
+                            "value": "send-bubble"
+                        }
+                    ]
+                }
+            },
+            "filters": [
+                {
+                    "name": "genres",
+                    "label": "Genre",
+                    "values": [
+                        {
+                            "value": "science-fiction",
+                            "label": "Science fiction"
+                        },
+                        {
+                            "value": "romans-nouvelles-etc",
+                            "label": "Romans"
+                        }
+                    ]
+                },
+                {
+                    "name": "subjects",
+                    "label": "Thèmes et sujets",
+                    "values": [
+                        {
+                            "value": "voyage",
+                            "label": "Voyage dans le temps"
+                        },
+                        {
+                            "value": "unlieu",
+                            "label": "Un lieu"
+                        }
+                    ]
+                },
+                {
+                    "name": "characters",
+                    "label": "Personnages",
+                    "values": [
+                        {
+                            "value": "hercules",
+                            "label": "Hercules Poirot"
+                        },
+                        {
+                            "value": "gaetan",
+                            "label": "Gaetan Barrettos"
+                        }
+                    ]
+                },
+                {
+                    "name": "real-places",
+                    "label": "Lieux réels ou imaginaires",
+                    "values": [
+                        {
+                            "value": "espagne",
+                            "label": "Espagne"
+                        },
+                        {
+                            "value": "montreal",
+                            "label": "Montréal"
+                        },
+                        {
+                            "value": "france",
+                            "label": "France"
+                        }
+                    ]
+                },
+                {
+                    "name": "historics-periods",
+                    "label": "Périodes historiques",
+                    "values": [
+                        {
+                            "value": "renaissance",
+                            "label": "Renaissance"
+                        },
+                        {
+                            "value": "antiquite",
+                            "label": "Antiquité"
+                        },
+                        {
+                            "value": "revolution-industrielle",
+                            "label": "Révolution industrielle"
+                        }
+                    ]
+                },
+                {
+                    "name": "litterature-awards",
+                    "label": "Prix littéraires",
+                    "values": [
+                        {
+                            "value": "goncourt",
+                            "label": "Goncourt de la nouvelle"
+                        }
+                    ]
+                },
+                {
+                    "name": "national-litterature",
+                    "label": "Littératures nationales",
+                    "values": [
+                        {
+                            "value": "litperu",
+                            "label": "Littérature Péruvienne"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "id": "6",
+            "type": "did_you_know",
+            "snippet": {
+                "title": "Le saviez-vous?",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": "/images/tmp/channel-didyouknow.svg"
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#71BDC4",
+                    "color_medium": "#000",
+                    "color_normal": "#1C494F",
+                    "color_dark": "#153135",
+                    "color_darker": "#000",
+                    "color_shadow": "#417b83",
+                    "color_shadow_darker": "#000"
+                },
+                "settings": {
+                    "slideshowInfosView": "with_question",
+                    "channelView": "filters_cards",
+                    "channelFilterName": "question",
+                    "slidesHeightRatio": 0.48,
+                    "slidesWidthRatio": 0.4,
+                    "slidesMarginRatio": 0.04,
+                    "slideshowImageMaxWidth": 0.3,
+                    "slidesSlideView": "card",
+                    "bubbleDetailsShowTypeName": false,
+                    "bubbleDetailsShowTitle": false,
+                    "bubbleSuggestionView": null,
+                    "bubbleDetailsContentView": "question",
+                    "modalSendBubbleDefaultMessage": "",
+                    "modalSendBubbleHasMessage": true
+                }
+            },
+            "filters": [
+                {
+                    "name": "question",
+                    "type": "question",
+                    "label": "Catégorie",
+                    "values": [
+                        {
+                            "value": "1",
+                            "label": "Art de vivre"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Art et culture"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Histoire et géographie"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Langue et littérature"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Sciences"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Société"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Divers"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "id": "7",
+            "type": "services_collections",
+            "snippet": {
+                "title": "Services/collections",
+                "description": "",
+                "summary": null,
+                "picture": {
+                    "link": "/images/tmp/channel-servicescollections.svg"
+                }
+            },
+            "fields": {
+                "theme": {
+                    "color_light": "#C61D22",
+                    "color_medium": "#391316",
+                    "color_normal": "#6A191D",
+                    "color_dark": "#43171A",
+                    "color_darker": "#311113",
+                    "color_shadow": "#99131D",
+                    "color_shadow_darker": "#550F13"
+                },
+                "settings": {
+                    "channelView": "bubbles_cards",
+                    "slideMenuDestinationView": "channel:main",
+                    "modalSendBubbleDefaultMessage": "",
+                    "modalSendBubbleHasMessage": true
+                }
+            }
+        }
+    ]

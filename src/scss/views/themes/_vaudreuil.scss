@@ -1,0 +1,113 @@
+.theme-vaudreuil {
+    .screen-header-logo {
+        background-image: url('#{$images-path}/themes/vaudreuil/logo.svg');
+    }
+
+    .channels-menu {
+        background: #000;
+    }
+
+    .channel-menu-item {
+        width: 25% !important;
+        // height: auto !important;
+        background: url('#{$images-path}/themes/vaudreuil/line-menu.png') no-repeat center right !important;
+        background-size: auto 70% !important;
+
+        &.channel-theme-type-quizz {
+            background: transparent !important;
+        }
+    }
+
+    .channel-menu-item-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 0 !important;
+    }
+
+    .channel-icon {
+        position: relative;
+        flex-grow: auto;
+        min-width: 60px;
+        max-width: 60px;
+        height: 100%;
+        margin: 0 !important;
+        padding: 0;
+        background-size: auto 60px;
+    }
+
+    .channel-name {
+        position: relative;
+        width: auto;
+        margin-left: 20px;
+        padding: 0 !important;
+        overflow: visible;
+        font-size: 18px !important;
+        text-align: left;
+    }
+
+    .channel-theme-type-announcements {
+        order: 1;
+    }
+
+    .channel-theme-type-events {
+        order: 2;
+    }
+
+    .channel-theme-type-locations {
+        order: 3;
+    }
+
+    .channel-theme-type-quizz {
+        order: 4;
+    }
+
+    .modal-location,
+    .channel-bubbles-map-panel {
+        background: #383a3c;
+    }
+
+    .slide {
+        .slide-cover-description {
+            text-align: center;
+        }
+
+        .slide-cover-menu {
+            background: #000 !important;
+        }
+
+        .slide-cover-with-basic-infos {
+            background: #000 !important;
+        }
+
+        .slide-cover-footer {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 55%) !important;
+        }
+
+        .slide-cover-with-basic-infos {
+            .slide-cover-gradient {
+                background: linear-gradient(transparent, rgb(0, 0, 0) 50%);
+            }
+        }
+    }
+
+    .browser-footer {
+        background-color: transparent !important;
+    }
+
+    .modal-location-bubble,
+    .channel-bubbles-map-panel-bubble {
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 20px;
+            margin-top: 2em;
+            background: url('#{$images-path}/themes/vaudreuil/line-menu-horizontal.png') no-repeat
+                center center transparent;
+            background-size: contain;
+        }
+    }
+}

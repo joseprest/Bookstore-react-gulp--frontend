@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding:0;
+    outline:none;
+    border:none;
+    list-style:none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+button
+{
+    background: none;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    line-height: normal;
+    overflow: visible;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

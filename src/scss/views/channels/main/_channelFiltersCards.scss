@@ -1,0 +1,138 @@
+.channel-filters-cards
+{
+    
+    .cards-container {
+        display: table;
+        width: 100%;
+        padding: 0 50px;/* identique à calendar-list */
+        box-sizing: border-box;
+    }
+
+    .cards-list
+    {
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        text-align: center;
+        padding-top:20px;
+    }
+
+    .btn-card
+    {
+        position: relative;
+        padding: 20px;
+        width: 180px;
+        height: 260px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+
+        .card-inner
+        {
+            position: relative;
+            height: 100%;
+        }
+
+        .filter-label, .bubbles-count-label
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+        }
+
+        .filter-label
+        {
+            top: 0;
+            font-size: 14px;
+        }
+
+        .bubbles-count-label
+        {
+            bottom: 0;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+    }
+    
+    
+    @include screen-small('both', true) {
+        
+        .btn-card
+        {
+            padding: 20px;
+            width: 200px;
+            height: 280px;
+        }
+        
+        .btn-card
+        {
+            .filter-label
+            {
+                font-size: 16px;
+            }
+
+            .bubbles-count-label
+            {
+                font-size: 14px;
+            }
+        }
+    }
+
+    @include screen-medium('both', true) {
+        
+        .cards-list
+        {
+            padding-top:40px;
+        }
+        
+        .btn-card
+        {
+            padding: 20px;
+            width: 214px;
+            height: 320px;
+        }
+        
+        .btn-card
+        {
+            .filter-label
+            {
+                font-size: 20px;
+            }
+
+            .bubbles-count-label
+            {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @include screen-large('both', true) {
+        
+        .cards-list
+        {
+            padding-top:60px;
+        }
+        
+        .btn-card
+        {
+            .filter-label
+            {
+                font-size: 22px;
+            }
+
+            .bubbles-count-label
+            {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @include screen-ultra('both', true) {
+        
+        .cards-list
+        {
+            padding-top:80px;
+        }
+        
+    }
+}

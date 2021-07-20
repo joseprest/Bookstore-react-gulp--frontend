@@ -1,0 +1,170 @@
+/**
+ * Vendor
+ */
+@import 'vendor/scrollpane';
+
+/**
+ * Commons
+ */
+@import 'commons/variables';
+@import 'commons/mixins';
+@import 'commons/fonts';
+@import 'commons/reset';
+@import 'commons/general';
+@import 'commons/placeholders';
+
+/**
+ * Partials
+ */
+@import 'partials/hand';
+@import 'partials/buttons';
+@import 'partials/forms';
+@import 'partials/circles';
+@import 'partials/browserZones';
+
+/**
+ * Header
+ */
+@import 'views/screenHeader';
+@import 'views/clock';
+@import 'views/messages';
+
+/**
+ * Content
+ */
+@import 'views/screenContent';
+@import 'views/slideshow';
+@import 'views/browser';
+@import 'views/keyboard';
+
+/*
+ * channels
+ */
+@import 'views/channels/channel';
+@import 'views/channels/channelMain';
+
+@import 'views/channels/channelTab';
+@import 'views/channels/channelBubbles';
+@import 'views/channels/bubbleDetails';
+@import 'views/channels/main/channelFiltersTabs';
+@import 'views/channels/main/channelFiltersCards';
+@import 'views/channels/main/channelFiltersCircles';
+@import 'views/channels/main/channelBubblesCards';
+@import 'views/channels/main/channelBubblesMap';
+@import 'views/channels/details/bubbleDetailsColumns';
+@import 'views/channels/details/bubbleDetailsQuestion';
+@import 'views/channels/bubbleSuggestions';
+
+/**
+ * Slides
+ */
+@import 'views/slides/slide';
+@import 'views/slides/covers/cover';
+@import 'views/slides/covers/slideshow';
+@import 'views/slides/covers/image';
+@import 'views/slides/covers/withBasicInfos';
+@import 'views/slides/covers/card';
+@import 'views/slides/covers/menu';
+@import 'views/slides/infos/infos';
+@import 'views/slides/infos/withQuestion';
+@import 'views/slides/summary';
+@import 'views/slides/slides';
+
+/*
+ * menu
+ */
+@import 'views/menu/menu';
+@import 'views/menu/channelsMenu';
+
+/**
+ * Lists
+ */
+@import 'views/lists/list';
+@import 'views/lists/sidebar';
+@import 'views/lists/alphabetic';
+@import 'views/lists/calendar';
+@import 'views/lists/year';
+@import 'views/lists/cover';
+
+/**
+ * Map
+ */
+@import 'views/map/map';
+
+/**
+ * Tabs
+ */
+@import 'views/channels/tabs/tabCircles';
+@import 'views/channels/tabs/tabMap';
+@import 'views/channels/tabs/tabList';
+
+/**
+ * Modals
+ */
+@import 'views/modals/modals';
+@import 'views/modals/bubblesList';
+@import 'views/modals/sendBubble';
+@import 'views/modals/location';
+
+/**
+ * Debug
+ */
+@import 'views/debug';
+
+/**
+ * Setup
+ */
+@import 'views/setup';
+
+/**
+ * Main
+ */
+html,
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#app {
+    @extend %fullscreen;
+    overflow: hidden;
+}
+
+.manivelle {
+    @extend %fullscreen;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: $color_black;
+    color: $color_white;
+
+    &.font-normal {
+        font-family: $normal_font_family;
+    }
+
+    &.font-simplon {
+        font-family: $simplon_font_family;
+    }
+}
+
+/* TMP */
+.browser-top-bar {
+    .btn {
+        display: none;
+    }
+}
+
+.search-field {
+    display: none;
+}
+
+.clock .messages {
+    display: none;
+}
+
+/**
+ * Themes
+ */
+@import 'views/themes/themes';

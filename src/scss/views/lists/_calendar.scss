@@ -1,0 +1,317 @@
+.list-calendar
+{
+    max-width:1600px;
+    margin:0 auto;
+
+    .list-item-date
+    {
+        width:100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+        .list-item-content
+        {
+            padding: 28px 0;
+            box-sizing: border-box;
+
+            &:last-of-type
+            {
+
+            }
+
+            &:after
+            {
+                content: '';
+                clear: both;
+                display: block;
+            }
+        }
+
+        .list-item {
+            position: relative;
+            display: table;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            padding-bottom:10px;
+            cursor: pointer;
+            width:100%;
+        }
+
+        &:last-of-type
+        {
+            .list-item-content
+            {
+                padding-bottom: 0;
+                border-bottom: 0;
+            }
+        }
+    }
+
+    .list-item-label
+    {
+        float: none;
+        width: 100%;
+        padding-top:10px;
+        border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .list-item-label-day
+    {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .list-item-label-weekday
+    {
+        font-size: 14px;
+        opacity: 0.5;
+        text-transform: capitalize;
+    }
+
+    .list-covers
+    {
+        width: 100%;
+        float: none;
+    }
+
+    @include screen-small('horizontal', true)
+    {
+        .list-item-label-day
+        {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .list-item-label-weekday
+        {
+            font-size: 14px;
+        }
+
+        .list-item-date
+        {
+            border: none;
+            padding: 0 25px;
+            .list-item-content
+            {
+                padding: 28px 0;
+                border-top: 1px solid rgba(255,255,255,0.2);
+            }
+        }
+
+        .list-item-label
+        {
+            float: left;
+            width: 20%;
+            margin-top:10px;
+            padding-top:0px;
+            border: none;
+        }
+
+        .list-covers
+        {
+            width: 80%;
+            float: left;
+        }
+    }
+
+    @include screen-medium('horizontal', true)
+    {
+        .list-item-label-day
+        {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .list-item-label-weekday
+        {
+            font-size: 14px;
+        }
+
+        .list-item-date
+        {
+            border: none;
+            padding: 0 25px;
+            .list-item-content
+            {
+                padding: 28px 0;
+                border-top: 1px solid rgba(255,255,255,0.2);
+            }
+        }
+
+        .list-item-label
+        {
+            float: left;
+            width: 20%;
+            margin-top:10px;
+            padding-top:0px;
+            border: none;
+        }
+
+        .list-covers
+        {
+            width: 80%;
+            float: left;
+        }
+    }
+
+    @include screen-large('horizontal', true)
+    {
+        .list-item-label-day
+        {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .list-item-label-weekday
+        {
+            font-size: 18px;
+        }
+
+        .list-item-date
+        {
+            padding: 0 50px;
+            .list-item-content
+            {
+                padding: 28px 0;
+            }
+        }
+
+        .list-item-label
+        {
+            width: 34%;
+            margin-top:10px;
+        }
+
+        .list-covers
+        {
+            width: 66%;
+        }
+    }
+}
+
+.list-item-bubble-with-date
+{
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    &:last-of-type
+    {
+        margin-bottom: 0;
+    }
+
+    .bubble-cover
+    {
+        width: 80px;
+        height: 80px;
+        background-size: cover;/*contain;*/
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        display: table-cell;
+    }
+
+    .bubble-infos
+    {
+        display: table-cell;
+        min-height: 80px;
+        box-sizing: border-box;
+        padding: 20px 15px;
+        vertical-align: top;
+        background-color: rgba(0,0,0,0.15);
+    }
+
+    .bubble-infos-hours
+    {
+        opacity: 0.5;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .bubble-infos-name
+    {
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    .bubble-infos-location
+    {
+        font-size: 12px;
+        font-weight:normal;
+    }
+
+    @include screen-small('horizontal', true)
+    {
+        .bubble-cover
+        {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .bubble-infos
+        {
+            min-height: 80px;
+            padding: 20px 15px;
+        }
+
+        .bubble-infos-hours
+        {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        .bubble-infos-name
+        {
+            font-size: 14px;
+            line-height: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .bubble-infos-location
+        {
+            font-size: 12px;
+            font-weight:normal;
+        }
+    }
+
+    @include screen-medium('horizontal', true)
+    {
+        .bubble-cover
+        {
+            width: 140px;
+            height: 140px;
+        }
+
+        .bubble-infos
+        {
+            min-height: 140px;
+            padding: 20px 15px;
+        }
+
+        .bubble-infos-hours
+        {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .bubble-infos-name
+        {
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        .bubble-infos-location
+        {
+            font-size: 12px;
+        }
+    }
+
+    @include screen-large('horizontal')
+    {
+
+    }
+
+}

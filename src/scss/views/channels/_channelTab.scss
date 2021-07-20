@@ -1,0 +1,17 @@
+.channel-tab
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    .channel-tab-content
+    {
+        @extend %fullscreen;
+    }
+
+    .tab
+    {
+        @extend %fullscreen;
+    }
+}

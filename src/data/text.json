@@ -1,0 +1,66 @@
+{
+    "fr": {
+        "menu_title_featured": "En vedette",
+        "menu_title_channels": "Chaînes",
+
+        "btn_send_bubble": "Envoyer un lien",
+        "btn_send_bubble_email": "Envoyer par email",
+        "btn_show_on_map": "Afficher sur la carte",
+        "btn_previous": "Précédent",
+        "btn_next": "Suivant",
+        "btn_summary": "Plus de détails",
+        "btn_home": "Retour",
+        "btn_close": "Fermer",
+        "btn_back": "Retour",
+        "btn_cancel": "Annuler",
+        "btn_send_bubble_by_sms": "Par SMS",
+        "btn_send_bubble_by_email": "Par email",
+
+        "btn_see_other_types": "Voir d’autres %{types}",
+        "banner_see_other_types": "Tournez la manivelle pour voir d’autres %{types}",
+        "default_types": "propositions",
+
+        "send_by_sms_label": "Entrez votre<br/>numéro de téléphone",
+        "send_by_sms_placeholder": "Entrez votre téléphone",
+        "send_by_sms_submit": "Envoyer",
+        "send_by_sms_success": "C'est envoyé!",
+
+        "send_by_email_label": "Entrez votre email",
+        "send_by_email_placeholder": "Entrez votre email",
+        "send_by_email_submit": "Envoyer",
+        "send_by_email_success": "C'est envoyé!",
+
+        "send_email_from_label": "De",
+        "send_email_from_placeholder": "Votre nom",
+        "send_email_email_label": "À",
+        "send_email_email_placeholder": "Adresse email",
+        "send_email_message_label": "Message",
+        "send_email_message_placeholder": "Votre message",
+
+        "send_loading": "Chargement...",
+        "send_failed": "Erreur",
+
+        "related_suggestions" : "Suggestions reliées",
+        "keyboard_enter": "Envoyer",
+
+        "hours_not_found": "Heure indéterminée",
+        "hours_format": "H[h] |||| H[h]mm",
+        "hours_range": "%{start} à %{end}",
+
+        "question_timeout_banner": "La réponse dans %{smart_count} seconde. |||| La réponse dans %{smart_count} secondes.",
+        "questions_count": "%{smart_count} question |||| %{smart_count} questions",
+        "categories": "Catégories",
+        "propositions": "Propositions",
+        "all_categories": "Toutes les catégories",
+        "phone_format": "XX XX XX XX XX XX"
+    },
+    "fr_CA": {
+        "btn_send_bubble_email": "Envoyer par courriel",
+        "btn_send_bubble_by_sms": "Par texto",
+        "btn_send_bubble_by_email": "Par courriel",
+        "send_by_email_label": "Entrez votre courriel",
+        "send_by_email_placeholder": "Entrez votre courriel",
+        "send_email_email_placeholder": "Adresse courriel",
+        "phone_format": "(XXX) XXX-XXXX"
+    }
+}

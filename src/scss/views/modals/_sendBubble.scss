@@ -1,0 +1,204 @@
+.modal-send-bubble
+{
+    width: 300px;
+    text-align: center;
+
+    .top-container
+    {
+        position: relative;
+        border-radius: $modal-border-radius;
+        height: 150px;
+
+        form
+        {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .top-content
+        {
+            position: relative;
+            display: table;
+            width: 100%;
+            height: 100%;
+
+            .top-content-email.has-message {
+
+                label {
+                    text-transform: uppercase;
+                    display: block;
+                }
+
+                form, input, textarea, label
+                {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .btn-send
+    {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        font-size: 0;
+        border:none;
+        padding: 0px;
+        border-radius: 0px;
+        letter-spacing: 0px;
+
+        .icon, .label {
+            display:block;
+            margin:0;
+            width:100%;
+        }
+
+        .icon:first-child {
+            margin:0;
+        }
+
+        &:first-of-type
+        {
+            left: 0;
+        }
+
+        &:last-of-type
+        {
+            right: 0;
+            border-left: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .btn-inner
+        {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+
+            .icon
+            {
+                height: 58px;
+                margin-bottom: 10px;
+            }
+        }
+
+        &:after
+        {
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            content: '';
+        }
+    }
+
+    .btn-send-sms
+    {
+        .icon
+        {
+            background: url("#{$images-path}/ui/btn/icon-phone.svg") no-repeat center transparent;
+        }
+    }
+
+    .btn-send-email
+    {
+        .icon
+        {
+            background: url("#{$images-path}/ui/btn/icon-email.svg") no-repeat center transparent;
+        }
+    }
+
+    form, .top-content-success
+    {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .top-content-success, .top-content-loading
+    {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .form-field {
+        margin-bottom: 20px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    input, textarea
+    {
+        cursor: pointer;
+        width: 100%;
+        margin: 10px 0 18px;
+        font-size: 18px;
+
+        &:last-of-type
+        {
+            margin-bottom: 0;
+        }
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .top-content-success
+    {
+        .label
+        {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .icon
+        {
+            width: 100%;
+            height: 60px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &.top-content-success-sms .icon
+        {
+            background-image: url("#{$images-path}/ui/status/icon-success-phone.svg");
+        }
+
+        &.top-content-success-email .icon
+        {
+            background-image: url("#{$images-path}/ui/status/icon-success-email.svg");
+        }
+    }
+
+    .bottom-button-container {
+        height: 55px;
+        position: relative;
+    }
+
+    .bottom-button
+    {
+        @extend %fullscreen;
+        border:none;
+
+        .label-container
+        {
+            @extend %fullscreen;
+
+            &:after
+            {
+                height: 100%;
+                display: inline-block;
+                vertical-align: middle;
+                content: '';
+            }
+        }
+
+        .label
+        {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}

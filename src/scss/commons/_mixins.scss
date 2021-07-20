@@ -1,0 +1,77 @@
+.fullscreen {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+@mixin screen-small($orientation: 'both', $class: false)
+{
+    @include size-query('small', $screen-width-small, $screen-height-small, $orientation, $class)
+    {
+        @content;
+    }
+}
+
+@mixin screen-medium($orientation: 'both', $class: false)
+{
+    @include size-query('medium', $screen-width-medium, $screen-height-medium, $orientation, $class)
+    {
+        @content;
+    }
+}
+
+@mixin screen-large($orientation: 'both', $class: false)
+{
+    @include size-query('large', $screen-width-large, $screen-height-large, $orientation, $class)
+    {
+        @content;
+    }
+}
+
+@mixin screen-ultra($orientation: 'both', $class: false)
+{
+    @include size-query('ultra', $screen-width-ultra, $screen-height-ultra, $orientation, $class)
+    {
+        @content;
+    }
+}
+
+@mixin size-query($size, $width, $height, $orientation: 'both', $class: false)
+{
+    $media-query-horizontal: '(min-width: ' + $width + ')';
+    $media-query-vertical: '(min-height: ' + $height + ')';
+    $media-query: '';
+    
+    @if $orientation == 'horizontal'
+    {
+        $media-query: $media-query-horizontal;
+    }
+    @else if $orientation == 'vertical'
+    {
+        $media-query: $media-query-vertical;
+    }
+    @else
+    {
+        $media-query: $media-query-horizontal + ' and '+ $media-query-vertical;
+    }
+    
+    @media screen and #{$media-query}
+    {
+        @content;
+    }
+    
+    @if $class
+    {
+        .screen-size-#{$size} &
+        {
+            @content;
+            
+            @media screen and #{$media-query}
+            {
+                @content;
+            }
+        }
+    }
+}

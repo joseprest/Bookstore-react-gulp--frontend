@@ -1,0 +1,89 @@
+/**
+ * Path
+ */
+
+$fonts-path: '/fonts' !default;
+$images-path: '/images' !default;
+
+
+/**
+ * Heights
+ */
+
+$screen-height-ultra: 1800px !default;
+$screen-height-large: 1400px !default;
+$screen-height-medium: 900px !default;
+$screen-height-small: 700px !default;
+
+$screen-width-ultra: 2800px !default;
+$screen-width-large: 1400px !default;
+$screen-width-medium: 850px !default;
+$screen-width-small: 700px !default;
+
+$screen-horizontal-small: "(min-width: " + $screen-width-small + ")" !default;
+$screen-horizontal-medium: "(min-width: " + $screen-width-medium + ")" !default;
+$screen-horizontal-large: "(min-width: " + $screen-width-large + ")" !default;
+$screen-horizontal-ultra: "(min-width: " + $screen-width-ultra + ")" !default;
+
+$screen-vertical-small: "(min-height: " + $screen-height-small + ")" !default;
+$screen-vertical-medium: "(min-height: " + $screen-height-medium + ")" !default;
+$screen-vertical-large: "(min-height: " + $screen-height-large + ")" !default;
+$screen-vertical-ultra: "(min-height: " + $screen-height-ultra + ")" !default;
+
+$screen-small: $screen-vertical-small + " and " + $screen-horizontal-small !default;
+$screen-medium: $screen-vertical-medium + " and " + $screen-horizontal-medium !default;
+$screen-large: $screen-vertical-large + " and " + $screen-horizontal-large !default;
+$screen-ultra: $screen-vertical-ultra + " and " + $screen-horizontal-ultra !default;
+
+/**
+ * Colors
+ */
+
+$color_black: #000 !default;
+$color_white: #f3EDE2 !default;
+$color_browser: #1E193D !default;
+$color_close_browser: #372d7A !default;
+$color_btn: rgba(0,0,0,0.2) !default;
+$color_btn_shadow: rgba(0,0,0,0.4) !default;
+$color_creamy_white:#f3ede2 !default;
+
+/**
+ * Fonts
+ */
+$normal_font_family: 'Montserrat', sans-serif !default;
+$simplon_font_family: 'SimplonNorm', sans-serif !default;
+
+
+/**
+ * BubbleDetails
+ */
+$details-padding-x: 90px !default;
+$details-padding-y: 50px !default;
+
+$details-padding-x-medium: 60px !default;
+$details-padding-y-medium: 30px !default;
+
+$details-columns-max-width: 1400px !default;
+$details-columns-padding: 20px !default;
+$details-fields-columns-padding: 20px !default;
+
+/**
+ * List
+ */
+
+$list-with-sidebar-vertical-margin: 56px !default;
+
+/**
+ * Modals
+ */
+$modal-border-radius: 10px !default;
+$modal-arrow-width: 20px !default;
+$modal-bubbles-covers-list-margins: 30px !default;
+
+/**
+ * Browser
+ */
+ $browser-top-bar-height-small: 30px !default;
+ $browser-top-bar-height-medium: 40px !default;
+ $browser-top-bar-height-large: 54px !default;
+ $browser-top-bar-height-ultra: 100px !default;

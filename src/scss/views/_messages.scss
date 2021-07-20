@@ -1,0 +1,67 @@
+.messages
+{
+    display: table;
+    width: 100%;
+    font-size: 0;
+
+    .message
+    {
+        display: table-cell;
+
+        span
+        {
+            display: inline-block;
+            vertical-align: middle;
+
+            &:nth-child(2)
+            {
+                margin-left: 10px;
+            }
+        }
+
+        .icon
+        {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            width: 40px;
+            height: 100%;
+        }
+
+        .label
+        {
+            font-size: 42px;
+        }
+
+        &:after
+        {
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    @media screen and (max-height: 1000px) {
+        height: 35px;
+
+        .message
+        {
+            span:nth-child(2)
+            {
+                margin-left: 4px;
+            }
+
+            .icon
+            {
+                width: 20px;
+            }
+
+            .label
+            {
+                font-size: 20px;
+            }
+        }
+    }
+}

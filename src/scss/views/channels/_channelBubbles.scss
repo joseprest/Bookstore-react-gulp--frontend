@@ -1,0 +1,26 @@
+.channel-bubbles
+{
+    @extend %fullscreen;
+    overflow: hidden;
+
+    .channel-bubbles-content
+    {
+        @extend %fullscreen;
+    }
+
+    .title-space
+    {
+        padding:20px;
+        padding-left:10px;
+    }
+
+    .slides-container
+    {
+        position: absolute;
+    }
+
+    .bubble-details-container
+    {
+        position: absolute;
+    }
+}

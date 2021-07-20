@@ -1,0 +1,197 @@
+@import '../../../scss/commons/variables';
+
+.theme-#id {
+    .screen-header {
+        background-color: #header_background_color;
+    }
+
+    .browser {
+        background-color: #background_color;
+    }
+
+    .channel {
+        background-color: #channel_background_color;
+    }
+
+    .channel-bubbles {
+        background-color: #channel_bubbles_background_color;
+    }
+
+    .channel-bubbles-cards {
+        .bubble-card-infos
+        {
+            background-color: #channel_bubbles_background_color;
+        }
+
+        .bubbles-cards-safe {
+            background-color: #channel_bubbles_background_color;
+        }
+    }
+
+    .channel-tab {
+        background-color: #channel_list_background_color;
+    }
+
+    .list-gradient {
+        &.gradient-top {
+            background: linear-gradient(#channel_background_color 20%, transparent);
+        }
+
+        &.gradient-bottom {
+            background: linear-gradient(transparent, #channel_background_color 80%);
+        }
+    }
+
+    .circles-gradient {
+        &.gradient-top {
+            background: linear-gradient(#channel_background_color 20%, transparent);
+        }
+    }
+
+
+    .bubble-details {
+
+        .bubble-content {
+            background-color: #bubble_details_background_color;
+        }
+
+        .details-gradient
+        {
+            &.gradient-top {
+                background: linear-gradient(#bubble_details_background_color 20%, transparent);
+            }
+
+            &.gradient-bottom {
+                background: linear-gradient(transparent, #bubble_details_background_color 80%);
+            }
+        }
+    }
+
+    .btn,
+    .slide-summary-container .btn {
+        background-color: #button_background_color;
+        border-bottom: 0;
+
+        &.btn-active {
+            background-color: #button_active_background_color;
+        }
+    }
+
+    .list-sidebar-pointer {
+        .shape-shadow {
+            background-color: #button_background_color;
+        }
+
+        .shape-main {
+            background-color: #button_background_color;
+        }
+    }
+
+    .list-sidebar-pointer-arrow {
+        .shadow {
+            background-color: #button_background_color;
+        }
+
+        .main {
+            background-color: #button_background_color;
+        }
+    }
+
+    .keyboard {
+        background-color: #keyboard_background_color;
+    }
+
+    .keyboard-alternate-keys {
+        background-color: #button_background_color;
+
+        .arrow-down {
+            background-color: #button_background_color;
+        }
+    }
+
+    .list-alphabetic {
+
+        .list-item .list-item
+        {
+            &.active
+            {
+                background-color: #list_item_active_background_color;
+            }
+        }
+    }
+
+    .modal-send-bubble {
+        background-color: #modal_background_color;
+
+        .btn {
+            background-color: transparent;
+        }
+
+        .btn-submit {
+            background-color: #button_active_background_color;
+        }
+
+        .top-container {
+            background-color: #modal_background_color;
+        }
+
+        &.top {
+            .arrow {
+                border-top-color: #modal_background_color;
+            }
+        }
+
+        &.bottom {
+            .arrow {
+                border-bottom-color: #modal_background_color;
+            }
+        }
+    }
+
+    .modal-bubbles-list
+    {
+        background-color: #modal_background_color;
+
+        .gradient-top {
+            background: linear-gradient(#modal_background_color 20%, transparent);
+        }
+
+        .gradient-bottom {
+            background: linear-gradient(transparent, #modal_background_color 80%);
+        }
+
+        &.top {
+            .arrow {
+                border-top-color: #modal_background_color;
+            }
+        }
+
+        &.bottom {
+            .arrow {
+                border-bottom-color: #modal_background_color;
+            }
+        }
+    }
+
+    .map .marker {
+        .arrow {
+            border-top-color: #map_marker_color;
+            &.arrow-shadow
+            {
+                border-top-color: #map_marker_color;
+            }
+        }
+    }
+
+    .bubble-suggestions-content {
+        background-color: #bubble_suggestions_background_color;
+    }
+
+    .bubble-suggestion-thumbnail-label {
+        background-color: #bubble_suggestions_background_color;
+    }
+
+    .channel-menu-item {
+        background: transparent;
+    }
+}

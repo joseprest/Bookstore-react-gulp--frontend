@@ -1,0 +1,142 @@
+.bubble-details-columns {
+    height: 100%;
+    max-width: $details-columns-max-width;
+    position: relative;
+    margin: 0 auto;
+
+    .bubble-column {
+        height: auto;
+
+        .bubble-column-content {
+            padding: $details-padding-y $details-columns-padding/2;
+        }
+
+        @include screen-small('horizontal', true) {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            overflow-y: auto;
+
+            &.bubble-column-left {
+                left: 0;
+
+                .bubble-column-content {
+                    padding: $details-padding-y-medium $details-columns-padding/2
+                        $details-padding-y-medium $details-padding-x;
+                }
+            }
+
+            &.bubble-column-right {
+                right: 0;
+
+                .bubble-column-content {
+                    padding: $details-padding-y-medium $details-padding-x $details-padding-y-medium
+                        $details-columns-padding/2;
+                }
+            }
+
+            &.bubble-column-center {
+                position: relative;
+                margin: 0 auto;
+
+                .bubble-column-content {
+                    padding: $details-padding-y-medium $details-columns-padding/2;
+                }
+            }
+        }
+    }
+
+    .bubble-column-content {
+        box-sizing: border-box;
+
+        & > div {
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .bubble-subtitle {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        opacity: 0.5;
+    }
+
+    .bubble-description {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+
+        em,
+        i {
+            font-style: italic;
+        }
+
+        strong,
+        b {
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 1em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        @include screen-medium('both', true) {
+            font-size: 16px;
+        }
+    }
+
+    .bubble-fields {
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+
+    .bubble-buttons {
+    }
+
+    .bubble-fields-column {
+        float: left;
+        width: 50%;
+
+        &.column-left {
+            .bubble-field {
+                padding-right: $details-fields-columns-padding/2;
+            }
+        }
+
+        &.column-right {
+            .bubble-field {
+                padding-left: $details-fields-columns-padding/2;
+            }
+        }
+    }
+
+    .bubble-field {
+        padding-bottom: 30px;
+        &:last-child {
+            padding-bottom: 0px;
+        }
+    }
+
+    .bubble-field-label {
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        text-transform: uppercase;
+        font-weight: bold;
+
+        font-size: 12px;
+        padding: 10px 0 4px;
+    }
+
+    .bubble-field-value {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,31 @@
+import keyMirror from 'keymirror';
+
+export default keyMirror({
+    NAVIGATION_UPDATE_CLOCK: null,
+
+    NAVIGATION_OPEN_BROWSER: null,
+    NAVIGATION_UPDATE_BROWSER: null,
+    NAVIGATION_CLOSE_BROWSER: null,
+
+    MODALS_OPEN: null,
+    MODALS_UPDATE: null,
+    MODALS_CLOSE: null,
+    MODALS_BROWSER_CLOSE: null,
+
+    MANIVELLE_UPDATE_VALUE: null,
+    MANIVELLE_UPDATE_DATA: null,
+
+    SETUP_UPDATE_LOADING_MESSAGE: null,
+    SETUP_UPDATE_LOADING_PERCENT: null,
+    SETUP_UPDATE_PROGRESS: null,
+    SETUP_UPDATE_READY: null,
+    SETUP_UPDATE_DATA_READY: null,
+    SETUP_UPDATE_SCREEN: null,
+
+    DATA_UPDATE: null,
+    DATA_SET_REPOSITORY: null,
+    DATA_SET_BUBBLES: null,
+    DATA_SET_CHANNELS: null,
+    DATA_SET_TIMELINE: null,
+    DATA_SET_DATA: null,
+});

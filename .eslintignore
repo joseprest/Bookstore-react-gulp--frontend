@@ -1,0 +1,5 @@
+dist/**
+.tmp/**
+webpack.config.js
+node_modules
+gulpfile.js

@@ -1,0 +1,189 @@
+.bubble-details-question
+{
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+
+    max-width: 800px;/* var */
+
+    .bubble-details-question-scroller
+    {
+        position: relative;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .bubble-details-question-content
+    {
+        padding: 0 $details-padding-x;
+        box-sizing: border-box;
+
+        &:before, &:after
+        {
+            content: '';
+            display: block;
+            height: $details-padding-y;
+        }
+    }
+
+    .question-choices
+    {
+
+        position: relative;
+
+        .transitionable-view
+        {
+            top: auto;
+            left: auto;
+            width: auto;
+            height: auto;
+            margin-bottom: 20px;
+
+            &:last-of-type
+            {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .question-choice
+    {
+        position: relative;
+    }
+
+    .question-choice-inner
+    {
+        position: relative;
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        display: table;
+
+        .btn
+        {
+            font-size: 30px;
+            display: table-cell;
+            vertical-align: top;
+            text-shadow: rgba(0,0,0,0.4) 0px -2px 0px;
+        }
+    }
+
+    .question-choice-content
+    {
+        display: table-cell;
+        font-size: 20px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .question-choice-answer-icon
+    {
+        position: absolute;
+        top: 22px;
+        left: -50px;
+        width: 30px;
+        height: 30px;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        &.right
+        {
+            background-image: url("#{$images-path}/ui/question/icon-right.svg");
+        }
+
+        &.wrong
+        {
+            background-image: url("#{$images-path}/ui/question/icon-wrong.svg");
+        }
+    }
+
+    .question-infos
+    {
+        padding-top: 20px;
+
+        .buttons-container
+        {
+            margin-top: 30px;
+
+            .btn
+            {
+                float: left;
+
+                &:last-of-type
+                {
+                    float: right;
+                }
+            }
+
+            &:after {
+                content:'';
+                display: block;
+                clear: both;
+            }
+        }
+    }
+
+    .answer-details {
+        margin: 1em 0;
+
+        * {
+            font-size: inherit !important;
+            font-family: inherit !important;
+            color: inherit !important;
+            line-height: inherit !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            letter-spacing: inherit !important;
+        }
+    }
+
+    .transitionable-view
+    {
+        position: static;
+    }
+
+    @media screen and (max-height: $screen-height-large)
+    {
+
+    }
+
+    @media screen and (max-height: $screen-height-medium)
+    {
+        .bubble-details-question-scroller
+        {
+            padding-left:  $details-padding-x-medium;
+            padding-right:  $details-padding-x-medium;
+        }
+
+        .bubble-details-question-content
+        {
+            &:before, &:after
+            {
+                height: $details-padding-y-medium;
+            }
+        }
+
+        .question-choice-inner
+        {
+            .btn
+            {
+                font-size: 22px;
+            }
+        }
+
+        .question-choice-label
+        {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-height: $screen-height-small)
+    {
+
+    }
+}

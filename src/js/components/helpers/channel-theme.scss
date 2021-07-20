@@ -1,0 +1,224 @@
+.channel-theme-#name {
+
+    &.channel-menu-item {
+        background-color: #color_light;
+    }
+
+    &.channel {
+        background-color: #color_dark;
+    }
+
+    &.browser {
+        .browser-footer {
+            background-color: #color_dark;
+        }
+
+        .browser-top-bar
+        {
+            background-color: #color_dark;
+        }
+
+        .browser-close
+        {
+            background-color: #color_light;
+        }
+    }
+
+    .btn {
+        background-color: #color_light;
+        border-bottom-color: #color_shadow;
+
+        &.btn-active {
+            background-color: #color_shadow;
+            border-bottom-color: transparent;
+        }
+    }
+
+    .slide-cover-with-basic-infos
+    {
+        background-color: #color_darker;
+
+        .slide-cover-gradient
+        {
+            background: linear-gradient(transparent, #color_darker 100%);
+        }
+    }
+
+    .keyboard {
+        background-color: #color_dark;
+    }
+
+    .keyboard-alternate-keys {
+        background-color: #color_medium;
+
+        .arrow-down {
+            background-color: #color_medium;
+        }
+    }
+
+    .list-sidebar-pointer {
+        .shape-shadow {
+            background-color: #color_shadow;
+        }
+
+        .shape-main {
+            background-color: #color_light;
+        }
+    }
+
+    .list-sidebar-pointer-arrow {
+        .shadow {
+            background-color: #color_shadow;
+        }
+
+        .main {
+            background-color: #color_light;
+        }
+    }
+
+    .list-alphabetic {
+
+        .list-item .list-item
+        {
+            &.active
+            {
+                background-color: #color_shadow;
+            }
+        }
+    }
+
+    .modal-send-bubble {
+        background-color: #color_normal;
+
+        .btn {
+            background-color: transparent;
+        }
+
+        .btn-submit {
+            background-color: #color_medium;
+        }
+
+        .top-container {
+            background-color: #color_light;
+        }
+
+        &.top {
+            .arrow {
+                border-top-color: #color_normal;
+            }
+        }
+
+        &.bottom {
+            .arrow {
+                border-bottom-color: #color_normal;
+            }
+        }
+    }
+
+    .modal-bubbles-list
+    {
+        background-color: #color_darker;
+
+        .gradient-top {
+            background: linear-gradient(#color_darker 20%, transparent);
+        }
+
+        .gradient-bottom {
+            background: linear-gradient(transparent, #color_darker 80%);
+        }
+
+        &.top {
+            .arrow {
+                border-top-color: #color_darker;
+            }
+        }
+
+        &.bottom {
+            .arrow {
+                border-bottom-color: #color_darker;
+            }
+        }
+    }
+
+    .bubble-details {
+
+        .bubble-content {
+            background-color: #color_normal;
+        }
+
+        .details-gradient
+        {
+            &.gradient-top {
+                background: linear-gradient(#color_normal 20%, transparent);
+            }
+
+            &.gradient-bottom {
+                background: linear-gradient(transparent, #color_normal 80%);
+            }
+        }
+    }
+
+    .list-gradient {
+        &.gradient-top {
+            background: linear-gradient(#color_dark 20%, transparent);
+        }
+
+        &.gradient-bottom {
+            background: linear-gradient(transparent, #color_dark 80%);
+        }
+    }
+
+    .circles-gradient {
+        &.gradient-top {
+            background: linear-gradient(#color_dark 20%, transparent);
+        }
+    }
+
+    .map .marker {
+        .arrow {
+            border-top-color: #color_light;
+            &.arrow-shadow
+            {
+                border-top-color: #color_shadow;
+            }
+        }
+    }
+
+    .bubble-suggestions-gradient
+    {
+        &.gradient-left {
+            background: linear-gradient(to right, #color_light 20%, transparent);
+        }
+
+        &.gradient-right {
+            background: linear-gradient(to right, transparent, #color_light 80%);
+        }
+    }
+
+    .bubble-suggestions-content {
+        background-color: #color_light;
+    }
+
+    .bubble-suggestion-thumbnail-label {
+        background-color: #color_light;
+    }
+
+    .channel-bubbles-cards {
+        .bubble-card-infos
+        {
+            background-color: #color_darker;
+        }
+
+        .bubbles-cards-safe {
+            background-color: #color_dark;
+        }
+    }
+
+}
+
+.slide-summary-container.channel-theme-#name {
+    .btn {
+        background-color: #color_light;
+        border-bottom-color: #color_shadow;
+    }
+}

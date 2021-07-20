@@ -1,0 +1,106 @@
+.title-space
+{
+    display: table;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    .btn
+    {
+        height: auto;
+        font-size: 10px;
+        padding: 5px 10px;
+        border-bottom: 3px solid;
+        border-radius: 5px;
+
+        span:first-child
+        {
+            margin-right: 10px;
+        }
+
+        .icon
+        {
+            width: 10px;
+        }
+    }
+    
+    @include screen-small('both', true)
+    {
+        padding: 20px;
+        padding-bottom: 30px;
+
+        .btn
+        {
+            height: 40px;
+            padding: 0 14px;
+            font-size: 14px;
+
+            .icon
+            {
+                width: 14px;
+            }
+
+            span
+            {
+                &:first-child
+                {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+    @include screen-medium('both', true)
+    {
+        padding: 40px;
+
+        .btn
+        {
+            height: 50px;
+            font-size: 16px;
+
+            .icon
+            {
+                width: 16px;
+            }
+
+            span
+            {
+                &:first-child
+                {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+    @include screen-large('both', true)
+    {
+        padding: 60px 40px;
+        
+        .btn
+        {
+            height: 64px;
+            padding: 0 22px;
+            font-size:18px;
+
+            .icon
+            {
+                width: 20px;
+            }
+
+            span
+            {
+                &:first-child
+                {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    
+    @include screen-ultra('both', true)
+    {
+        
+    }
+}

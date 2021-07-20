@@ -1,0 +1,98 @@
+.slide-summary-container
+{
+    @extend %fullscreen;
+    background-color: $color_white;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: $color_black;
+    overflow: hidden;
+
+    .slide-summary
+    {
+        position: relative;
+        height: 100%;
+    }
+
+    .slide-summary-title
+    {
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    .slide-summary-description
+    {
+        overflow: hidden;// @TODO text-ellipsis
+    }
+
+    .slide-summary-button
+    {
+        padding-top: 5px;
+        color: $color_white;
+        
+        .btn {
+            font-size: 10px;
+            padding: 6px 10px;
+            border-radius: 4px;
+            
+            .icon {
+                display:none;
+            }
+        }
+    }
+    
+    @include screen-small('both', true)
+    {
+        padding: 20px;
+        font-size: 12px;
+        line-height: 1.4em;
+        
+        .slide-summary-button
+        {
+            .btn {
+                font-size: 12px;
+                padding: 6px 10px;
+                
+                .icon {
+                    display:inline-block;
+                }
+            }
+        }
+    }
+    
+    @include screen-medium('both', true)
+    {
+        padding: 30px;
+        font-size: 14px;
+        line-height: 1.4em;
+        
+        .slide-summary-title
+        {
+            padding-bottom: 15px;
+            
+            .btn {
+                font-size: 12px;
+                padding: 8px 16px;
+                border-radius: 8px;
+            }
+        }
+    }
+    
+    @include screen-large('both', true)
+    {
+        padding: 40px 38px;
+        font-size: 16px;
+        line-height: 1.4em;
+        
+        .slide-summary-title
+        {
+            padding-bottom: 20px;
+        }
+
+        .slide-summary-button
+        {
+            padding-top: 10px;
+        }
+    }
+}

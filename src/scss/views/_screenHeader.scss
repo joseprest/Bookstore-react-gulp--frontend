@@ -1,0 +1,82 @@
+.header-screen-container {
+    width: 100%;
+}
+
+.screen-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+
+    background: $color_black;
+    color: $color_white;
+
+    @include screen-small {
+        padding: 20px 40px;
+    }
+
+    @include screen-medium {
+        padding: 40px 60px;
+    }
+
+    @include screen-large {
+        padding: 60px;
+    }
+
+    @include screen-ultra {
+        padding: 60px;
+    }
+}
+
+.screen-header-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.screen-header-logo {
+    width: 100%;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    @include screen-small {
+        height: 40px;
+    }
+
+    @include screen-medium {
+        height: 100px;
+    }
+
+    @include screen-large {
+        height: 150px;
+    }
+
+    @include screen-ultra {
+        height: 150px;
+    }
+}
+
+.screen-header-title {
+    flex-grow: 1;
+    padding-right: 15%;
+    font-size: 2em;
+
+    @include screen-small {
+        font-size: 2em;
+    }
+
+    @include screen-medium {
+        font-size: 2em;
+    }
+
+    @include screen-large {
+        font-size: 3em;
+    }
+
+    @include screen-ultra {
+        font-size: 3em;
+    }
+}

@@ -1,0 +1,137 @@
+.btn-group {
+    text-align: center;
+
+    .btn {
+        font-size: 16px;
+        letter-spacing: 2px;
+        border-radius: 0;
+
+        &:first-child {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        &:not(:first-child) {
+            border-left: 2px solid rgba(0, 0, 0, 0.2);
+        }
+
+        &:last-child {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+    }
+}
+
+.btn {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 0;
+    border-bottom: 4px solid;
+    color: $color_white;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+    background-color: $color_btn;
+    border-bottom-color: $color_btn_shadow;
+
+    .btn-label {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: normal;
+    }
+
+    &:active {
+        /*border-color: transparent;
+        -webkit-transform: translate(0,2px);*/
+    }
+
+    .icon {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        vertical-align: middle;
+        width: 15px;
+        height: 15px;
+
+        &:first-child {
+            margin-right: 8px;
+        }
+
+        &:last-child {
+            margin-left: 8px;
+        }
+    }
+
+    .icon-home {
+        &.icon-vaudreuil {
+            background-image: url('#{$images-path}/themes/vaudreuil/ui-btn-icon-home.svg');
+        }
+    }
+
+    .icon-right,
+    .icon-next {
+        background-image: url('#{$images-path}/ui/btn/icon-right.svg');
+
+        &.icon-vaudreuil {
+            background-image: url('#{$images-path}/themes/vaudreuil/ui-btn-icon-right.svg');
+        }
+    }
+
+    .icon-left,
+    .icon-previous {
+        background-image: url('#{$images-path}/ui/btn/icon-left.svg');
+
+        &.icon-vaudreuil {
+            background-image: url('#{$images-path}/themes/vaudreuil/ui-btn-icon-left.svg');
+        }
+    }
+
+    .icon-send-bubble,
+    .icon-send-bubble-email {
+        background-image: url('#{$images-path}/ui/btn/icon-send.svg');
+
+        &.icon-vaudreuil {
+            background-image: url('#{$images-path}/themes/vaudreuil/ui-btn-icon-send.svg');
+        }
+    }
+
+    .icon-show-on-map {
+        background-image: url('#{$images-path}/ui/btn/icon-map.svg');
+
+        &.icon-vaudreuil {
+            background-image: url('#{$images-path}/themes/vaudreuil/ui-btn-icon-map.svg');
+        }
+    }
+
+    .icon-list {
+        background-image: url('#{$images-path}/ui/btn/icon-list.svg');
+    }
+
+    .icon-map {
+        background-image: url('#{$images-path}/ui/btn/icon-map.svg');
+
+        &.icon-vaudreuil {
+            background-image: url('#{$images-path}/themes/vaudreuil/ui-btn-icon-map.svg');
+        }
+    }
+
+    .icon-refresh {
+        background-image: url('#{$images-path}/ui/btn/icon-refresh.svg');
+    }
+
+    .icon-shift {
+        background-image: url('#{$images-path}/ui/btn/icon-shift.svg');
+    }
+
+    .icon-backspace {
+        background-image: url('#{$images-path}/ui/btn/icon-backspace.svg');
+    }
+
+    .icon-return {
+        background-image: url('#{$images-path}/ui/btn/icon-return.svg');
+    }
+}

@@ -1,0 +1,63 @@
+.list-alphabetic
+{
+    .list-item
+    {
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 90px;
+        max-width: 440px;
+
+        &:last-of-type
+        {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .list-items {
+            padding:0;
+            min-height:0px;
+        }
+
+        .list-item
+        {
+            display: table;
+            width: 100%;
+            box-sizing: border-box;
+            height: 50px;
+            cursor: pointer;
+            background-color: transparent;
+            margin: 0px;
+            padding: 0px;
+            max-width: none;
+
+            transition: background-color .4s, border-radius .4s;
+
+            &.active
+            {
+                border-radius: 8px;
+
+                .list-item-content
+                {
+                    padding: 0 20px;
+                }
+            }
+        }
+
+        .list-item-content
+        {
+            transition: padding .4s;
+            display: table-cell;
+            vertical-align: middle;
+            border-bottom: 1px solid rgba(240, 233, 219, 0.1);
+        }
+    }
+
+    .list-item-label
+    {
+        position: absolute;
+        left: -70px;
+        top: 10px;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,66 @@
+.menu {
+    @extend %fullscreen;
+
+    .title-space {
+        padding-top: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .channels-title-space {
+        padding-top: 30px;
+    }
+
+    .slides-container,
+    .channels-menu-container {
+        position: relative;
+    }
+
+    .menu-slides-container {
+        position: relative;
+    }
+
+    .channels-menu-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    @include screen-small('both') {
+        .title-space {
+            font-size: 24px;
+        }
+
+        .menu-slides-container {
+            position: relative;
+        }
+    }
+
+    @include screen-small('both', true) {
+
+    }
+
+    @include screen-medium('both', true) {
+        .title-space {
+            font-size: 24px;
+        }
+    }
+
+    @include screen-large('both', true) {
+        .title-space {
+            font-size: 36px;
+        }
+    }
+
+    @include screen-ultra('both', true) {
+    }
+
+    @include screen-large('vertical', true) {
+        .title-space {
+            padding-top: 40px;
+            font-size: 50px;
+        }
+    }
+}

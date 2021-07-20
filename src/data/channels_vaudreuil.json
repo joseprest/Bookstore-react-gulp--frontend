@@ -1,0 +1,867 @@
+[
+    {
+        "id": "11",
+        "type": "quizz",
+        "snippet": {
+            "title": "Mon quizz",
+            "description": "",
+            "summary": null,
+            "picture": {
+                "link": "http://cdn.stage.manivelle.io/assets/image/2019-08-19/11-045020.svg"
+            }
+        },
+        "fields": {
+            "theme": {
+                "color_light": "#71BDC4",
+                "color_medium": "#173d42",
+                "color_normal": "#1C494F",
+                "color_dark": "#153135",
+                "color_darker": "#0E2224",
+                "color_shadow": "#3D7C84",
+                "color_shadow_darker": "#3D7C84"
+            },
+            "settings": {
+                "channelView": "filters_cards",
+                "colorPalette": "vaudreuil",
+                "channelFilterName": "question_category",
+                "slideshowInfosView": null,
+                "slideshowImageMaxWidth": 0.3,
+                "slidesHeightRatio": 0.48,
+                "slidesMarginRatio": 0.04,
+                "slidesWidthRatio": 0.4,
+                "slidesSlideView": "with_basic_infos",
+                "slideMenuDestinationView": null,
+                "modalBubblesListView": null,
+                "modalSendBubbleHasMessage": false,
+                "modalSendBubbleDefaultMessage": null,
+                "bubbleDetailsShowTypeName": false,
+                "bubbleDetailsShowTitle": false,
+                "bubbleDetailsContentView": "question",
+                "bubbleDetailsExcludedButtons": ["send-bubble"],
+                "bubbleDetailsContentColumns": null,
+                "bubbleSuggestionView": null
+            }
+        },
+        "filters": [
+            {
+                "name": "question_category",
+                "type": "question",
+                "label": "Catégorie",
+                "values": [
+                    {
+                        "value": "Avenue Victoria",
+                        "label": "Avenue Victoria"
+                    },
+                    {
+                        "value": "Embellissement",
+                        "label": "Embellissement"
+                    },
+                    {
+                        "value": "Fleuve",
+                        "label": "Fleuve"
+                    },
+                    {
+                        "value": "Histoire de Vaudreuil-Dorion",
+                        "label": "Histoire de Vaudreuil-Dorion"
+                    },
+                    {
+                        "value": "Le pont Victoria et l’héritage ferroviaire",
+                        "label": "Le pont Victoria et l’héritage ferroviaire"
+                    },
+                    {
+                        "value": "Maison Marsil",
+                        "label": "Maison Marsil"
+                    },
+                    {
+                        "value": "Patrimoine religieux",
+                        "label": "Patrimoine religieux"
+                    },
+                    {
+                        "value": "Préville",
+                        "label": "Préville"
+                    },
+                    {
+                        "value": "Victoria Park",
+                        "label": "Victoria Park"
+                    },
+                    {
+                        "value": "Éducation",
+                        "label": "Éducation"
+                    }
+                ]
+            }
+        ],
+        "bubbles_ids": ["696384"]
+    },
+    {
+        "id": "12",
+        "type": "announcements",
+        "snippet": {
+            "title": "Mon journal",
+            "description": "",
+            "summary": null,
+            "picture": {
+                "link": "http://cdn.stage.manivelle.io/assets/image/2019-08-19/12-045020.svg"
+            }
+        },
+        "fields": {
+            "theme": {
+                "color_light": "#C61D22",
+                "color_medium": "#391316",
+                "color_normal": "#6A191D",
+                "color_dark": "#43171A",
+                "color_darker": "#311113",
+                "color_shadow": "#99131D",
+                "color_shadow_darker": "#550F13"
+            },
+            "settings": {
+                "channelView": "bubbles_cards",
+                "randomPositionCards": false,
+                "colorPalette": null,
+                "channelFilterName": null,
+                "slideshowInfosView": null,
+                "slideshowImageMaxWidth": null,
+                "slidesHeightRatio": null,
+                "slidesMarginRatio": null,
+                "slidesWidthRatio": null,
+                "slidesSlideView": null,
+                "slideMenuDestinationView": "channel:main",
+                "modalBubblesListView": null,
+                "modalSendBubbleHasMessage": false,
+                "modalSendBubbleDefaultMessage": null,
+                "bubbleDetailsShowTypeName": null,
+                "bubbleDetailsShowTitle": null,
+                "bubbleDetailsContentView": null,
+                "bubbleDetailsExcludedButtons": null,
+                "bubbleDetailsContentColumns": null,
+                "bubbleSuggestionView": null
+            }
+        },
+        "filters": [],
+        "bubbles_ids": ["1", "2", "3", "4", "5", "6", "7", "8"]
+    },
+    {
+        "id": "13",
+        "type": "locations",
+        "snippet": {
+            "title": "Mes lieux",
+            "description": "",
+            "summary": null,
+            "picture": {
+                "link": "http://cdn.stage.manivelle.io/assets/image/2019-08-19/13-045020.svg"
+            }
+        },
+        "fields": {
+            "theme": {
+                "color_light": "#C61D22",
+                "color_medium": "#391316",
+                "color_normal": "#6A191D",
+                "color_dark": "#43171A",
+                "color_darker": "#311113",
+                "color_shadow": "#99131D",
+                "color_shadow_darker": "#550F13"
+            },
+            "settings": {
+                "channelView": "bubbles_map",
+                "channelMarkerType": "icon",
+                "colorPalette": null,
+                "channelFilterName": null,
+                "slideshowInfosView": null,
+                "slideshowImageMaxWidth": null,
+                "slidesHeightRatio": null,
+                "slidesMarginRatio": null,
+                "slidesWidthRatio": null,
+                "slidesSlideView": null,
+                "slideMenuDestinationView": null,
+                "modalBubblesListView": null,
+                "modalSendBubbleHasMessage": false,
+                "modalSendBubbleDefaultMessage": null,
+                "bubbleDetailsShowTypeName": null,
+                "bubbleDetailsShowTitle": null,
+                "bubbleDetailsContentView": "columns",
+                "bubbleDetailsExcludedButtons": null,
+                "bubbleDetailsContentColumns": [
+                    {
+                        "column": 0,
+                        "type": "title",
+                        "value": "snippet.title"
+                    },
+                    {
+                        "column": 0,
+                        "type": "description",
+                        "value": "snippet.description"
+                    },
+                    {
+                        "column": 1,
+                        "type": "location",
+                        "value": "fields.location"
+                    },
+                    {
+                        "column": 1,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }
+                ],
+                "bubbleSuggestionView": null
+            }
+        },
+        "filters": [
+            {
+                "name": "location",
+                "type": "map",
+                "label": "Lieux",
+                "markerType": "icon",
+                "values": [
+                    {
+                        "value": "89",
+                        "label": "Bibliothèque de Vaudreuil-Dorion",
+                        "position": {
+                            "latitude": "45.3925700",
+                            "longitude": "-74.0330050"
+                        },
+                        "city": null,
+                        "region": null
+                    },
+                    {
+                        "value": "140",
+                        "label": "Centre d’archives de Vaudreuil-Soulanges",
+                        "position": {
+                            "latitude": "45.4002840",
+                            "longitude": "-74.0274660"
+                        },
+                        "city": null,
+                        "region": null
+                    },
+                    {
+                        "value": "20",
+                        "label": "Maison Felix Leclerc",
+                        "position": {
+                            "latitude": "45.420470",
+                            "longitude": "-74.055820"
+                        },
+                        "city": null,
+                        "region": null
+                    },
+                    {
+                        "value": "155",
+                        "label": "Maison Trestler",
+                        "position": {
+                            "latitude": "45.3883160",
+                            "longitude": "-74.0075260"
+                        },
+                        "city": null,
+                        "region": null
+                    },
+                    {
+                        "value": "37",
+                        "label": "Maison Valois de Vaudreuil-Dorion",
+                        "position": {
+                            "latitude": "45.3915930",
+                            "longitude": "-74.0184190"
+                        },
+                        "city": null,
+                        "region": null
+                    },
+                    {
+                        "value": "161",
+                        "label": "Musée régional de Vaudreuil-Soulanges",
+                        "position": {
+                            "latitude": "45.4002850",
+                            "longitude": "-74.0274690"
+                        },
+                        "city": null,
+                        "region": null
+                    },
+                    {
+                        "value": "36",
+                        "label": "Église Saint-Michel de Vaudreuil-Dorion",
+                        "position": {
+                            "latitude": "45.3982930",
+                            "longitude": "-74.0258640"
+                        },
+                        "city": null,
+                        "region": null
+                    }
+                ]
+            }
+        ],
+        "bubbles_ids": ["89", "90", "91", "92", "93", "94", "95"]
+    },
+    {
+        "id": "14",
+        "type": "events",
+        "snippet": {
+            "title": "Mon agenda",
+            "description": "",
+            "summary": null,
+            "picture": {
+                "link": "http://cdn.stage.manivelle.io/assets/image/2019-08-19/14-045021.svg"
+            }
+        },
+        "fields": {
+            "theme": {
+                "color_light": "#C61D22",
+                "color_medium": "#391316",
+                "color_normal": "#6A191D",
+                "color_dark": "#43171A",
+                "color_darker": "#391316",
+                "color_shadow": "#99131D",
+                "color_shadow_darker": "#550F13"
+            },
+            "settings": {
+                "channelView": "filters_tabs",
+                "colorPalette": null,
+                "channelFilterName": null,
+                "slideshowInfosView": null,
+                "slideshowImageMaxWidth": null,
+                "slidesHeightRatio": 0.5,
+                "slidesMarginRatio": 0.03,
+                "slidesWidthRatio": 0.6,
+                "slidesSlideView": "with_basic_infos",
+                "slideMenuDestinationView": null,
+                "modalBubblesListView": "events",
+                "modalSendBubbleHasMessage": false,
+                "modalSendBubbleDefaultMessage": null,
+                "bubbleDetailsShowTypeName": false,
+                "bubbleDetailsShowTitle": false,
+                "bubbleDetailsContentView": "columns",
+                "bubbleDetailsExcludedButtons": null,
+                "bubbleDetailsContentColumns": [
+                    {
+                        "column": 0,
+                        "type": "title",
+                        "value": "fields.category.value"
+                    },
+                    {
+                        "column": 0,
+                        "type": "description",
+                        "value": "snippet.description"
+                    },
+                    {
+                        "column": 1,
+                        "type": "fields",
+                        "value": "fields.date,fields.venue,fields.room,fields.category"
+                    },
+                    {
+                        "column": 1,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }
+                ],
+                "bubbleSuggestionView": "with_dates"
+            }
+        },
+        "filters": [
+            {
+                "name": "date",
+                "type": "list",
+                "label": "Calendrier",
+                "layout": "calendar",
+                "values": [
+                    {
+                        "value": "2020-02-20",
+                        "label": "20 février",
+                        "date": "2020-02-20"
+                    },
+                    {
+                        "value": "2020-02-21",
+                        "label": "21 février",
+                        "date": "2020-02-21"
+                    },
+                    {
+                        "value": "2020-02-22",
+                        "label": "22 février",
+                        "date": "2020-02-22"
+                    },
+                    {
+                        "value": "2020-02-23",
+                        "label": "23 février",
+                        "date": "2020-02-23"
+                    },
+                    {
+                        "value": "2020-02-24",
+                        "label": "24 février",
+                        "date": "2020-02-24"
+                    },
+                    {
+                        "value": "2020-02-25",
+                        "label": "25 février",
+                        "date": "2020-02-25"
+                    },
+                    {
+                        "value": "2020-03-01",
+                        "label": "1er mars",
+                        "date": "2020-03-01"
+                    },
+                    {
+                        "value": "2020-03-02",
+                        "label": "2 mars",
+                        "date": "2020-03-02"
+                    },
+                    {
+                        "value": "2020-03-03",
+                        "label": "3 mars",
+                        "date": "2020-03-03"
+                    },
+                    {
+                        "value": "2020-03-04",
+                        "label": "4 mars",
+                        "date": "2020-03-04"
+                    },
+                    {
+                        "value": "2020-03-05",
+                        "label": "5 mars",
+                        "date": "2020-03-05"
+                    },
+                    {
+                        "value": "2020-03-06",
+                        "label": "6 mars",
+                        "date": "2020-03-06"
+                    },
+                    {
+                        "value": "2020-03-07",
+                        "label": "7 mars",
+                        "date": "2020-03-07"
+                    },
+                    {
+                        "value": "2020-03-08",
+                        "label": "8 mars",
+                        "date": "2020-03-08"
+                    },
+                    {
+                        "value": "2020-03-09",
+                        "label": "9 mars",
+                        "date": "2020-03-09"
+                    }
+                ]
+            }
+        ],
+        "bubbles_ids": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88"
+        ]
+    },
+    {
+        "id": "16",
+        "type": "events",
+        "snippet": {
+            "title": "Activités",
+            "description": "",
+            "summary": null,
+            "picture": {
+                "link": "http://cdn.stage.manivelle.io/assets/image/2019-10-08/113-011129.svg"
+            }
+        },
+        "fields": {
+            "theme": {
+                "color_light": "#C61D22",
+                "color_medium": "#391316",
+                "color_normal": "#6A191D",
+                "color_dark": "#43171A",
+                "color_darker": "#391316",
+                "color_shadow": "#99131D",
+                "color_shadow_darker": "#550F13"
+            },
+            "settings": {
+                "channelView": "filters_tabs",
+                "channelMarkerType": null,
+                "colorPalette": null,
+                "randomPositionCards": true,
+                "channelFilterName": null,
+                "slideshowInfosView": null,
+                "slideshowImageMaxWidth": null,
+                "slidesHeightRatio": 0.5,
+                "slidesMarginRatio": 0.03,
+                "slidesWidthRatio": 0.6,
+                "slidesSlideView": "with_basic_infos",
+                "slideMenuDestinationView": null,
+                "modalBubblesListView": "events",
+                "modalSendBubbleHasMessage": false,
+                "modalSendBubbleDefaultMessage": null,
+                "bubbleDetailsShowTypeName": false,
+                "bubbleDetailsShowTitle": false,
+                "bubbleDetailsContentView": "columns",
+                "bubbleDetailsExcludedButtons": null,
+                "bubbleDetailsContentColumns": [
+                    {
+                        "column": 0,
+                        "type": "title",
+                        "value": "fields.category.value"
+                    },
+                    {
+                        "column": 0,
+                        "type": "description",
+                        "value": "snippet.description"
+                    },
+                    {
+                        "column": 1,
+                        "type": "fields",
+                        "value": "fields.date,fields.venue,fields.room,fields.category"
+                    },
+                    {
+                        "column": 1,
+                        "type": "buttons",
+                        "value": "send-bubble"
+                    }
+                ],
+                "bubbleSuggestionView": "with_dates"
+            }
+        },
+        "filters": [
+            {
+                "name": "date",
+                "type": "list",
+                "label": "Calendrier",
+                "layout": "calendar",
+                "values": [
+                    {
+                        "value": "2019-08-19",
+                        "label": "19 août",
+                        "date": "2019-08-19"
+                    },
+                    {
+                        "value": "2019-09-11",
+                        "label": "11 septembre",
+                        "date": "2019-09-11"
+                    },
+                    {
+                        "value": "2019-09-18",
+                        "label": "18 septembre",
+                        "date": "2019-09-18"
+                    },
+                    {
+                        "value": "2019-10-26",
+                        "label": "26 octobre",
+                        "date": "2019-10-26"
+                    },
+                    {
+                        "value": "2019-11-16",
+                        "label": "16 novembre",
+                        "date": "2019-11-16"
+                    },
+                    {
+                        "value": "2019-10-19",
+                        "label": "19 octobre",
+                        "date": "2019-10-19"
+                    },
+                    {
+                        "value": "2019-11-09",
+                        "label": "9 novembre",
+                        "date": "2019-11-09"
+                    },
+                    {
+                        "value": "2019-10-12",
+                        "label": "12 octobre",
+                        "date": "2019-10-12"
+                    },
+                    {
+                        "value": "2019-12-05",
+                        "label": "5 décembre",
+                        "date": "2019-12-05"
+                    },
+                    {
+                        "value": "2019-12-01",
+                        "label": "1 décembre",
+                        "date": "2019-12-01"
+                    },
+                    {
+                        "value": "2019-10-27",
+                        "label": "27 octobre",
+                        "date": "2019-10-27"
+                    },
+                    {
+                        "value": "2019-12-13",
+                        "label": "13 décembre",
+                        "date": "2019-12-13"
+                    },
+                    {
+                        "value": "2019-11-29",
+                        "label": "29 novembre",
+                        "date": "2019-11-29"
+                    },
+                    {
+                        "value": "2019-10-18",
+                        "label": "18 octobre",
+                        "date": "2019-10-18"
+                    },
+                    {
+                        "value": "2019-10-25",
+                        "label": "25 octobre",
+                        "date": "2019-10-25"
+                    },
+                    {
+                        "value": "2019-09-27",
+                        "label": "27 septembre",
+                        "date": "2019-09-27"
+                    },
+                    {
+                        "value": "2019-09-12",
+                        "label": "12 septembre",
+                        "date": "2019-09-12"
+                    },
+                    {
+                        "value": "2019-09-01",
+                        "label": "1 septembre",
+                        "date": "2019-09-01"
+                    },
+                    {
+                        "value": "2019-09-20",
+                        "label": "20 septembre",
+                        "date": "2019-09-20"
+                    },
+                    {
+                        "value": "2019-11-22",
+                        "label": "22 novembre",
+                        "date": "2019-11-22"
+                    },
+                    {
+                        "value": "2019-11-17",
+                        "label": "17 novembre",
+                        "date": "2019-11-17"
+                    },
+                    {
+                        "value": "2019-10-21",
+                        "label": "21 octobre",
+                        "date": "2019-10-21"
+                    },
+                    {
+                        "value": "2019-09-17",
+                        "label": "17 septembre",
+                        "date": "2019-09-17"
+                    },
+                    {
+                        "value": "2019-11-11",
+                        "label": "11 novembre",
+                        "date": "2019-11-11"
+                    },
+                    {
+                        "value": "2019-09-21",
+                        "label": "21 septembre",
+                        "date": "2019-09-21"
+                    },
+                    {
+                        "value": "2019-11-02",
+                        "label": "2 novembre",
+                        "date": "2019-11-02"
+                    },
+                    {
+                        "value": "2019-10-06",
+                        "label": "6 octobre",
+                        "date": "2019-10-06"
+                    },
+                    {
+                        "value": "2019-12-07",
+                        "label": "7 décembre",
+                        "date": "2019-12-07"
+                    },
+                    {
+                        "value": "2019-11-19",
+                        "label": "19 novembre",
+                        "date": "2019-11-19"
+                    },
+                    {
+                        "value": "2019-09-28",
+                        "label": "28 septembre",
+                        "date": "2019-09-28"
+                    },
+                    {
+                        "value": "2019-11-28",
+                        "label": "28 novembre",
+                        "date": "2019-11-28"
+                    },
+                    {
+                        "value": "2019-11-08",
+                        "label": "8 novembre",
+                        "date": "2019-11-08"
+                    },
+                    {
+                        "value": "2019-10-11",
+                        "label": "11 octobre",
+                        "date": "2019-10-11"
+                    },
+                    {
+                        "value": "2019-10-04",
+                        "label": "4 octobre",
+                        "date": "2019-10-04"
+                    },
+                    {
+                        "value": "2019-09-26",
+                        "label": "26 septembre",
+                        "date": "2019-09-26"
+                    },
+                    {
+                        "value": "2019-09-13",
+                        "label": "13 septembre",
+                        "date": "2019-09-13"
+                    },
+                    {
+                        "value": "2019-09-04",
+                        "label": "4 septembre",
+                        "date": "2019-09-04"
+                    },
+                    {
+                        "value": "2019-11-23",
+                        "label": "23 novembre",
+                        "date": "2019-11-23"
+                    },
+                    {
+                        "value": "2019-11-26",
+                        "label": "26 novembre",
+                        "date": "2019-11-26"
+                    },
+                    {
+                        "value": "2019-11-24",
+                        "label": "24 novembre",
+                        "date": "2019-11-24"
+                    },
+                    {
+                        "value": "2019-09-22",
+                        "label": "22 septembre",
+                        "date": "2019-09-22"
+                    },
+                    {
+                        "value": "2019-09-14",
+                        "label": "14 septembre",
+                        "date": "2019-09-14"
+                    },
+                    {
+                        "value": "2019-10-01",
+                        "label": "1 octobre",
+                        "date": "2019-10-01"
+                    },
+                    {
+                        "value": "2019-10-05",
+                        "label": "5 octobre",
+                        "date": "2019-10-05"
+                    },
+                    {
+                        "value": "2019-10-15",
+                        "label": "15 octobre",
+                        "date": "2019-10-15"
+                    },
+                    {
+                        "value": "2019-09-07",
+                        "label": "7 septembre",
+                        "date": "2019-09-07"
+                    },
+                    {
+                        "value": "2019-11-30",
+                        "label": "30 novembre",
+                        "date": "2019-11-30"
+                    },
+                    {
+                        "value": "2019-10-24",
+                        "label": "24 octobre",
+                        "date": "2019-10-24"
+                    },
+                    {
+                        "value": "2019-10-10",
+                        "label": "10 octobre",
+                        "date": "2019-10-10"
+                    },
+                    {
+                        "value": "2019-12-18",
+                        "label": "18 décembre",
+                        "date": "2019-12-18"
+                    },
+                    {
+                        "value": "2019-11-20",
+                        "label": "20 novembre",
+                        "date": "2019-11-20"
+                    },
+                    {
+                        "value": "2019-10-23",
+                        "label": "23 octobre",
+                        "date": "2019-10-23"
+                    },
+                    {
+                        "value": "2020-12-17",
+                        "label": "17 décembre",
+                        "date": "2020-12-17"
+                    },
+                    {
+                        "value": "-0001-11-30",
+                        "label": "30 novembre",
+                        "date": "-0001-11-30"
+                    }
+                ]
+            }
+        ],
+        "bubbles_ids": ["109", "110"]
+    }
+]

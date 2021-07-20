@@ -1,0 +1,54 @@
+[{
+    "start": 1471838400,
+    "end": 1471838450,
+    "items": [
+        {
+            "bubble_id": "2",
+            "duration": 10
+        },
+        {
+            "bubble_id": "3",
+            "duration": 10
+        },
+        {
+            "bubble_id": "4",
+            "duration": 10
+        },
+        {
+            "bubble_id": "5",
+            "duration": 10
+        },
+        {
+            "bubble_id": "6",
+            "duration": 10
+        }
+    ]
+},
+{
+    "start": 1471838450,
+    "end": 1471838500,
+    "items": [
+        {
+            "bubble_id": "2",
+            "duration": 10
+        },
+        {
+            "bubble_id": "3",
+            "duration": 10
+        },
+        {
+            "bubble_id": "4",
+            "duration": 10
+        },
+        {
+            "bubble_id": "5",
+            "duration": 10
+        },
+        {
+            "bubble_id": "7",
+            "duration": 10
+        }
+    ]
+}
+
+]

@@ -1,0 +1,80 @@
+.slide-cover-card {
+
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    .slide-cover-top-banner {
+        padding: 10px 20px;
+        font-size: 12px;
+        position: relative;
+    }
+
+    .slide-cover-image-container
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    .slide-cover-title {
+        position:absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+
+        min-height: 100px;
+        padding: 20px;
+        font-size: 18px;
+
+        font-weight: bold;
+        line-height: 1.4;
+    }
+
+    .slide-image {
+        background-size: contain;
+    }
+
+    @include screen-small('both', true)
+    {
+        .slide-cover-top-banner {
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+        .slide-cover-title {
+            min-height: 100px;
+            padding: 20px;
+            font-size: 18px;
+        }
+    }
+
+    @include screen-medium('both', true)
+    {
+        .slide-cover-top-banner {
+            padding: 12px 20px;
+            font-size: 18px;
+        }
+
+        .slide-cover-title {
+            min-height: 140px;
+            font-size: 22px;
+            padding: 24px 20px;
+        }
+    }
+
+    @include screen-large('both', true)
+    {
+        border-radius: 30px;
+
+        .slide-cover-top-banner {
+            padding: 20px 30px;
+            font-size: 20px;
+        }
+
+        .slide-cover-title {
+            min-height: 260px;
+            padding: 30px;
+            font-size: 32px;
+        }
+    }
+}

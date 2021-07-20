@@ -1,0 +1,67 @@
+.channel
+{
+    @extend %fullscreen;
+    overflow: hidden;
+
+    .channel-top-bar
+    {
+        z-index: 0;
+    }
+
+    .channel-content
+    {
+        @extend %fullscreen;
+    }
+
+    .title-space
+    {
+        position: absolute;
+        font-size: 16px;
+        z-index: 1;
+        padding:10px;
+
+        .btn-container
+        {
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+        }
+
+        &:after
+        {
+            content: '';
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    @include screen-small {
+        .title-space
+        {
+            font-size: 18px;
+            padding:20px;
+        }
+    }
+
+    @include screen-medium {
+        .title-space
+        {
+            font-size: 24px;
+        }
+    }
+
+    @include screen-large {
+        .title-space
+        {
+            font-size: 36px;
+        }
+    }
+
+    @include screen-ultra {
+        .title-space
+        {
+            font-size: 46px;
+        }
+    }
+}

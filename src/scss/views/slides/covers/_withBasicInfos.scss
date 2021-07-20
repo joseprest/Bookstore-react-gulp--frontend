@@ -1,0 +1,90 @@
+.slide-cover-with-basic-infos {
+
+    .slide-cover-gradient {
+        position:absolute;
+        width: 110%;
+        left: -5%;
+        top: 0;
+    }
+
+    .slide-cover-infos-container {
+        position:absolute;
+        width:100%;
+        left:0px;
+        bottom:0px;
+    }
+
+    .slide-cover-infos {
+        padding: 0px 40px 40px 40px;
+
+        @media screen and (max-height: $screen-height-large)
+        {
+            padding-bottom:30px;
+        }
+
+        @media screen and (max-height: $screen-height-medium)
+        {
+            padding-bottom:20px;
+        }
+    }
+
+    .slide-cover-type {
+        display:inline-block;
+        border:solid 1px #fff;
+        font-size:12px;
+        font-weight:bold;
+        text-transform: uppercase;
+        border-radius: 6px;
+        padding: 8px 10px;
+
+        /* Small devices */
+        @media screen and #{ $screen-horizontal-small }
+        {
+            font-size:14px;
+        }
+
+        /* Medium devices */
+        @media screen and #{ $screen-horizontal-medium }
+        {
+            border-radius: 8px;
+            padding: 12px;
+            font-size:16px;
+        }
+
+        /* Large devices */
+        @media screen and #{ $screen-horizontal-large }
+        {
+            border-radius: 10px;
+            padding: 15px;
+            font-size:18px;
+        }
+
+    }
+
+    .slide-cover-title
+    {
+        font-weight:bold;
+        padding-top: 10px;
+        font-size: 18px;
+
+        /* Small devices */
+        @media screen and #{ $screen-horizontal-small }
+        {
+            font-size: 20px;
+        }
+
+        /* Medium devices */
+        @media screen and #{ $screen-horizontal-medium }
+        {
+            padding-top: 15px;
+            font-size: 28px;
+        }
+
+        /* Large devices */
+        @media screen and #{ $screen-horizontal-large }
+        {
+            padding-top: 20px;
+            font-size: 30px;
+        }
+    }
+}
