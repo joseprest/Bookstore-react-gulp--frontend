@@ -110,7 +110,9 @@ class Browser extends Component {
         this.onChannelTransitionIn = this.onChannelTransitionIn.bind(this);
         this.onChannelTransitionOut = this.onChannelTransitionOut.bind(this);
         this.onChannelTransitionsComplete = this.onChannelTransitionsComplete.bind(this);
+        
         this.onCloseButtonClick = this.onCloseButtonClick.bind(this);
+
         this.onAutoCloseTimeout = this.onAutoCloseTimeout.bind(this);
 
         this.autoCloseTimeout = null;
